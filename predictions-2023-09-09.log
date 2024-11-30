@@ -1,0 +1,139 @@
+No female fighters
+NEW GRADIENT BOOSTED
+Fight:  Israel Adesanya  vs  Sean Strickland
+Winner:  Israel Adesanya Confidence:  ['0.989', '0.011', '0.000']
+Fight:  Tai Tuivasa  vs  Alexander Volkov
+Winner:  Tai Tuivasa Confidence:  ['0.952', '0.048', '0.000']
+Fight:  Justin Tafa  vs  Austen Lane
+Winner:  Austen Lane Confidence:  ['0.110', '0.889', '0.000']
+Fight:  Tyson Pedro  vs  Anton Turkalj
+Winner:  DRAW Confidence:  ['0.001', '0.002', '0.997']
+Fight:  Carlos Ulberg  vs  Da Woon Jung
+Winner:  Carlos Ulberg Confidence:  ['0.978', '0.022', '0.000']
+Fight:  Jack Jenkins  vs  Chepe Mariscal
+Winner:  Jack Jenkins Confidence:  ['0.851', '0.148', '0.000']
+Fight:  Jamie Mullarkey  vs  John Makdessi
+Winner:  John Makdessi Confidence:  ['0.440', '0.555', '0.006']
+Fight:  Shane Young  vs  Gabriel Miranda
+Winner:  Gabriel Miranda Confidence:  ['0.450', '0.549', '0.001']
+No female fighters
+No female fighters
+OLD GRADIENT BOOSTED
+Fight:  Israel Adesanya  vs  Sean Strickland
+Winner:  Israel Adesanya Confidence:  ['0.991', '0.009', '0.000']
+Fight:  Tai Tuivasa  vs  Alexander Volkov
+Winner:  Tai Tuivasa Confidence:  ['0.772', '0.228', '0.001']
+Fight:  Justin Tafa  vs  Austen Lane
+Winner:  Austen Lane Confidence:  ['0.035', '0.965', '0.000']
+Fight:  Tyson Pedro  vs  Anton Turkalj
+Winner:  DRAW Confidence:  ['0.016', '0.085', '0.898']
+Fight:  Carlos Ulberg  vs  Da Woon Jung
+Winner:  Carlos Ulberg Confidence:  ['0.984', '0.016', '0.000']
+Fight:  Jack Jenkins  vs  Chepe Mariscal
+Winner:  Jack Jenkins Confidence:  ['0.866', '0.134', '0.000']
+Fight:  Jamie Mullarkey  vs  John Makdessi
+Winner:  John Makdessi Confidence:  ['0.481', '0.513', '0.006']
+Fight:  Shane Young  vs  Gabriel Miranda
+Winner:  Gabriel Miranda Confidence:  ['0.389', '0.610', '0.001']
+No female fighters
+LESS OVERFIT GRADIENT BOOSTED
+Fight:  Israel Adesanya  vs  Sean Strickland
+Winner:  Israel Adesanya Confidence:  ['0.889', '0.105', '0.006']
+Fight:  Tai Tuivasa  vs  Alexander Volkov
+Winner:  Tai Tuivasa Confidence:  ['0.742', '0.247', '0.011']
+Fight:  Justin Tafa  vs  Austen Lane
+Winner:  Justin Tafa Confidence:  ['0.501', '0.490', '0.009']
+Fight:  Tyson Pedro  vs  Anton Turkalj
+Winner:  DRAW Confidence:  ['0.193', '0.142', '0.665']
+Fight:  Carlos Ulberg  vs  Da Woon Jung
+Winner:  Carlos Ulberg Confidence:  ['0.891', '0.103', '0.006']
+Fight:  Jack Jenkins  vs  Chepe Mariscal
+Winner:  Jack Jenkins Confidence:  ['0.694', '0.298', '0.008']
+Fight:  Jamie Mullarkey  vs  John Makdessi
+Winner:  Jamie Mullarkey Confidence:  ['0.561', '0.412', '0.027']
+Fight:  Shane Young  vs  Gabriel Miranda
+Winner:  Shane Young Confidence:  ['0.596', '0.394', '0.009']
+NO OVERTURNED GRADIENT BOOSTED
+Fight:  Israel Adesanya  vs  Sean Strickland
+        Winner:  Israel Adesanya Confidence:  ['0.900', '0.097', '0.003']
+Fight:  Tai Tuivasa  vs  Alexander Volkov
+        Winner:  Tai Tuivasa Confidence:  ['0.626', '0.370', '0.004']
+Fight:  Justin Tafa  vs  Austen Lane
+        Winner:  Austen Lane Confidence:  ['0.397', '0.598', '0.005']
+Fight:  Tyson Pedro  vs  Anton Turkalj
+        Winner:  DRAW Confidence:  ['0.212', '0.150', '0.638']
+Fight:  Carlos Ulberg  vs  Da Woon Jung
+        Winner:  Carlos Ulberg Confidence:  ['0.901', '0.096', '0.003']
+Fight:  Jack Jenkins  vs  Chepe Mariscal
+        Winner:  Jack Jenkins Confidence:  ['0.702', '0.293', '0.005']
+Fight:  Jamie Mullarkey  vs  John Makdessi
+        Winner:  Jamie Mullarkey Confidence:  ['0.579', '0.407', '0.014']
+Fight:  Shane Young  vs  Gabriel Miranda
+        Winner:  Shane Young Confidence:  ['0.631', '0.364', '0.005']
+NO DRAWS GRADIENT BOOSTED
+Fight:  Israel Adesanya  vs  Sean Strickland
+        Winner:  Israel Adesanya Confidence:  ['0.863', '0.137']
+Fight:  Tai Tuivasa  vs  Alexander Volkov
+        Winner:  Tai Tuivasa Confidence:  ['0.742', '0.258']
+Fight:  Justin Tafa  vs  Austen Lane
+        Winner:  Justin Tafa Confidence:  ['0.550', '0.450']
+Fight:  Tyson Pedro  vs  Anton Turkalj
+        Winner:  Anton Turkalj Confidence:  ['0.230', '0.770']
+Fight:  Carlos Ulberg  vs  Da Woon Jung
+        Winner:  Carlos Ulberg Confidence:  ['0.863', '0.137']
+Fight:  Jack Jenkins  vs  Chepe Mariscal
+        Winner:  Jack Jenkins Confidence:  ['0.704', '0.296']
+Fight:  Jamie Mullarkey  vs  John Makdessi
+        Winner:  John Makdessi Confidence:  ['0.230', '0.770']
+Fight:  Shane Young  vs  Gabriel Miranda
+        Winner:  Shane Young Confidence:  ['0.637', '0.363']
+TRAIN TEST SPLIT GRADIENT BOOSTED
+Fight:  Israel Adesanya  vs  Sean Strickland
+Winner: Israel Adesanya, Confidence: 93.9% 
+
+Fight:  Tai Tuivasa  vs  Alexander Volkov
+Winner: Tai Tuivasa, Confidence: 86.1% 
+
+Fight:  Justin Tafa  vs  Austen Lane
+Winner: Austen Lane, Confidence: 72.0% 
+
+Fight:  Tyson Pedro  vs  Anton Turkalj
+Winner: Anton Turkalj, Confidence: 71.5% 
+
+Fight:  Carlos Ulberg  vs  Da Woon Jung
+Winner: Carlos Ulberg, Confidence: 95.7% 
+
+Fight:  Jack Jenkins  vs  Chepe Mariscal
+Winner: Jack Jenkins, Confidence: 72.3% 
+
+Fight:  Jamie Mullarkey  vs  John Makdessi
+Winner: John Makdessi, Confidence: 64.1% 
+
+Fight:  Shane Young  vs  Gabriel Miranda
+Winner: Gabriel Miranda, Confidence: 67.5% 
+
+NEURAL NETWORK
+Fight: Israel Adesanya vs Sean Strickland
+Winner: Israel Adesanya, Confidence: 99.4% 
+
+Fight: Tai Tuivasa vs Alexander Volkov
+Winner: Tai Tuivasa, Confidence: 99.6% 
+
+Fight: Justin Tafa vs Austen Lane
+Winner: Austen Lane, Confidence: 98.3% 
+
+Fight: Tyson Pedro vs Anton Turkalj
+Winner: Tyson Pedro, Confidence: 99.9% 
+
+Fight: Carlos Ulberg vs Da Woon Jung
+Winner: Da Woon Jung, Confidence: 90.9% 
+
+Fight: Jack Jenkins vs Chepe Mariscal
+Winner: Jack Jenkins, Confidence: 90.1% 
+
+Fight: Jamie Mullarkey vs John Makdessi
+Winner: Jamie Mullarkey, Confidence: 100.0% 
+
+Fight: Shane Young vs Gabriel Miranda
+Winner: Shane Young, Confidence: 99.9% 
+

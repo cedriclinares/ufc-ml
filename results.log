@@ -1,0 +1,6 @@
+gbrt n_estimators: 500, max_depth: 8, learning_rate: 0.01
+Accuracy on training set: 1.000
+Accuracy on test set: 0.860
+betting_units_won:  -11.010213776886793
+correct:  1126
+incorrect:  183
