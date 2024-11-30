@@ -1,0 +1,8 @@
+SELECT id, name
+FROM fighters
+WHERE name IN (
+	SELECT name
+    FROM fighters
+    GROUP BY name
+    HAVING COUNT(*) >= 2
+)

@@ -1,0 +1,7 @@
+DELETE FROM fighters
+WHERE name != 'Bruno Silva' AND 
+	(id, name) NOT IN (
+	    SELECT MIN(id), name
+	    FROM fighters
+	    GROUP BY name
+);
