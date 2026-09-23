@@ -1,0 +1,1014 @@
+{
+  "metadata": {
+    "created_utc": "2026-09-22T23:47:35.993185+00:00",
+    "dataset": "/Users/cedriclinares/Documents/ufc-ml/final-dataset-names-and-ids.csv",
+    "dataset_sha256": "26dc6f7982f7eeeb6e49eef154a61c28f374e40ed068c2390c7368d4decc194d",
+    "python": "3.14.7",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "train_rows": 6430,
+    "test_rows": 1610,
+    "train_dates": [
+      "2002-11-22",
+      "2023-07-29"
+    ],
+    "test_dates": [
+      "2023-08-05",
+      "2026-09-19"
+    ],
+    "calibration_start": "2020-12-19",
+    "calibration_rows": 1294,
+    "feature_columns": [
+      "weight",
+      "gender",
+      "r_age",
+      "r_wins",
+      "r_losses",
+      "r_draws",
+      "r_stance",
+      "r_height",
+      "r_reach",
+      "r_opponent_wins",
+      "r_opponent_loses",
+      "r_championship_fights",
+      "r_sig_str_landed",
+      "r_sig_str_attempted",
+      "r_sig_str_absorbed",
+      "r_sig_str_evaded",
+      "r_head_landed",
+      "r_head_attempted",
+      "r_head_absorbed",
+      "r_head_evaded",
+      "r_body_landed",
+      "r_body_attempted",
+      "r_body_absorbed",
+      "r_body_evaded",
+      "r_legs_landed",
+      "r_legs_attempted",
+      "r_legs_absorbed",
+      "r_legs_evaded",
+      "r_distance_landed",
+      "r_distance_attempted",
+      "r_distance_absorbed",
+      "r_distance_evaded",
+      "r_clinch_landed",
+      "r_clinch_attempted",
+      "r_clinch_absorbed",
+      "r_clinch_evaded",
+      "r_ground_landed",
+      "r_ground_attempted",
+      "r_ground_absorbed",
+      "r_ground_evaded",
+      "r_total_str_landed",
+      "r_total_str_attempted",
+      "r_total_str_absorbed",
+      "r_total_str_evaded",
+      "r_td_landed",
+      "r_td_attempted",
+      "r_td_absorbed",
+      "r_td_evaded",
+      "r_kd_landed",
+      "r_kd_absorbed",
+      "r_subs_attempted",
+      "r_subs_evaded",
+      "r_ctrl_time",
+      "r_opponent_ctrl_time",
+      "r_round_1_sig_str_landed",
+      "r_round_1_sig_str_attempted",
+      "r_round_1_sig_str_absorbed",
+      "r_round_1_sig_str_evaded",
+      "r_round_2_sig_str_landed",
+      "r_round_2_sig_str_attempted",
+      "r_round_2_sig_str_absorbed",
+      "r_round_2_sig_str_evaded",
+      "r_round_3_sig_str_landed",
+      "r_round_3_sig_str_attempted",
+      "r_round_3_sig_str_absorbed",
+      "r_round_3_sig_str_evaded",
+      "r_round_4_sig_str_landed",
+      "r_round_4_sig_str_attempted",
+      "r_round_4_sig_str_absorbed",
+      "r_round_4_sig_str_evaded",
+      "r_round_5_sig_str_landed",
+      "r_round_5_sig_str_attempted",
+      "r_round_5_sig_str_absorbed",
+      "r_round_5_sig_str_evaded",
+      "r_fight_time",
+      "r_opponent_fight_time",
+      "r_reversals",
+      "b_age",
+      "b_wins",
+      "b_losses",
+      "b_draws",
+      "b_stance",
+      "b_height",
+      "b_reach",
+      "b_opponent_wins",
+      "b_opponent_loses",
+      "b_championship_fights",
+      "b_sig_str_landed",
+      "b_sig_str_attempted",
+      "b_sig_str_absorbed",
+      "b_sig_str_evaded",
+      "b_head_landed",
+      "b_head_attempted",
+      "b_head_absorbed",
+      "b_head_evaded",
+      "b_body_landed",
+      "b_body_attempted",
+      "b_body_absorbed",
+      "b_body_evaded",
+      "b_legs_landed",
+      "b_legs_attempted",
+      "b_legs_absorbed",
+      "b_legs_evaded",
+      "b_distance_landed",
+      "b_distance_attempted",
+      "b_distance_absorbed",
+      "b_distance_evaded",
+      "b_clinch_landed",
+      "b_clinch_attempted",
+      "b_clinch_absorbed",
+      "b_clinch_evaded",
+      "b_ground_landed",
+      "b_ground_attempted",
+      "b_ground_absorbed",
+      "b_ground_evaded",
+      "b_total_str_landed",
+      "b_total_str_attempted",
+      "b_total_str_absorbed",
+      "b_total_str_evaded",
+      "b_td_landed",
+      "b_td_attempted",
+      "b_td_absorbed",
+      "b_td_evaded",
+      "b_kd_landed",
+      "b_kd_absorbed",
+      "b_subs_attempted",
+      "b_subs_evaded",
+      "b_ctrl_time",
+      "b_opponent_ctrl_time",
+      "b_round_1_sig_str_landed",
+      "b_round_1_sig_str_attempted",
+      "b_round_1_sig_str_absorbed",
+      "b_round_1_sig_str_evaded",
+      "b_round_2_sig_str_landed",
+      "b_round_2_sig_str_attempted",
+      "b_round_2_sig_str_absorbed",
+      "b_round_2_sig_str_evaded",
+      "b_round_3_sig_str_landed",
+      "b_round_3_sig_str_attempted",
+      "b_round_3_sig_str_absorbed",
+      "b_round_3_sig_str_evaded",
+      "b_round_4_sig_str_landed",
+      "b_round_4_sig_str_attempted",
+      "b_round_4_sig_str_absorbed",
+      "b_round_4_sig_str_evaded",
+      "b_round_5_sig_str_landed",
+      "b_round_5_sig_str_attempted",
+      "b_round_5_sig_str_absorbed",
+      "b_round_5_sig_str_evaded",
+      "b_fight_time",
+      "b_opponent_fight_time",
+      "b_reversals",
+      "r_sig_str_accuracy",
+      "r_total_str_accuracy",
+      "r_td_accuracy",
+      "r_head_accuracy",
+      "r_body_accuracy",
+      "r_legs_accuracy",
+      "r_distance_accuracy",
+      "r_clinch_accuracy",
+      "r_ground_accuracy",
+      "r_days_since_last_fight",
+      "r_is_debut",
+      "b_sig_str_accuracy",
+      "b_total_str_accuracy",
+      "b_td_accuracy",
+      "b_head_accuracy",
+      "b_body_accuracy",
+      "b_legs_accuracy",
+      "b_distance_accuracy",
+      "b_clinch_accuracy",
+      "b_ground_accuracy",
+      "b_days_since_last_fight",
+      "b_is_debut",
+      "r_wins_diff",
+      "r_losses_diff",
+      "r_draws_diff",
+      "r_age_diff",
+      "r_height_diff",
+      "r_reach_diff",
+      "r_sig_str_landed_diff",
+      "r_sig_str_attempted_diff",
+      "r_total_str_landed_diff",
+      "r_total_str_attempted_diff",
+      "r_td_landed_diff",
+      "r_td_attempted_diff",
+      "r_kd_landed_diff",
+      "r_ctrl_time_diff",
+      "r_fight_time_diff"
+    ],
+    "parameters": {
+      "majority_class": {
+        "constant": null,
+        "random_state": null,
+        "strategy": "prior"
+      },
+      "odds_only": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 2000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 0,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "logistic_regression": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 2000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 0,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "random_forest": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 5,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 300,
+        "n_jobs": 1,
+        "oob_score": false,
+        "random_state": 0,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "gradient_boosting": {
+        "categorical_features": "from_dtype",
+        "class_weight": null,
+        "early_stopping": false,
+        "interaction_cst": null,
+        "l2_regularization": 1,
+        "learning_rate": 0.05,
+        "loss": "log_loss",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 200,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "random_state": 0,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "mlp": {
+        "activation": "relu",
+        "alpha": 1,
+        "batch_size": "auto",
+        "beta_1": 0.9,
+        "beta_2": 0.999,
+        "early_stopping": false,
+        "epsilon": 1e-08,
+        "hidden_layer_sizes": [
+          100
+        ],
+        "learning_rate": "constant",
+        "learning_rate_init": 0.001,
+        "max_fun": 15000,
+        "max_iter": 1000,
+        "momentum": 0.9,
+        "n_iter_no_change": 10,
+        "nesterovs_momentum": true,
+        "power_t": 0.5,
+        "random_state": 0,
+        "shuffle": true,
+        "solver": "adam",
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": false,
+        "warm_start": false
+      }
+    }
+  },
+  "results": {
+    "betting_favorite": {
+      "test_accuracy": 0.6993788819875777,
+      "confusion_matrix": [
+        [
+          695,
+          208
+        ],
+        [
+          276,
+          431
+        ]
+      ],
+      "brier_score": 0.19914191157711406,
+      "log_loss": 0.5836939636070058,
+      "ece": 0.03516171619950814,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "count": 6,
+          "mean_probability": 0.08625271706810063,
+          "blue_frequency": 0.16666666666666666
+        },
+        {
+          "lower": 0.1,
+          "count": 148,
+          "mean_probability": 0.15920092402725447,
+          "blue_frequency": 0.10135135135135136
+        },
+        {
+          "lower": 0.2,
+          "count": 235,
+          "mean_probability": 0.253873390215375,
+          "blue_frequency": 0.17446808510638298
+        },
+        {
+          "lower": 0.3,
+          "count": 310,
+          "mean_probability": 0.34924077583856183,
+          "blue_frequency": 0.34838709677419355
+        },
+        {
+          "lower": 0.4,
+          "count": 250,
+          "mean_probability": 0.44314308710289035,
+          "blue_frequency": 0.388
+        },
+        {
+          "lower": 0.5,
+          "count": 213,
+          "mean_probability": 0.5507230275431712,
+          "blue_frequency": 0.5868544600938967
+        },
+        {
+          "lower": 0.6,
+          "count": 240,
+          "mean_probability": 0.6499637709020987,
+          "blue_frequency": 0.6458333333333334
+        },
+        {
+          "lower": 0.7,
+          "count": 155,
+          "mean_probability": 0.7488860803829088,
+          "blue_frequency": 0.7741935483870968
+        },
+        {
+          "lower": 0.8,
+          "count": 51,
+          "mean_probability": 0.8348057944723675,
+          "blue_frequency": 0.8627450980392157
+        },
+        {
+          "lower": 0.9,
+          "count": 2,
+          "mean_probability": 0.9103107344632768,
+          "blue_frequency": 0.5
+        }
+      ],
+      "bets": 1610,
+      "betting_units": -3.048441530297266,
+      "roi": -0.0018934419442840163,
+      "train_accuracy": 0.6600311041990669
+    },
+    "majority_class": {
+      "test_accuracy": 0.5608695652173913,
+      "confusion_matrix": [
+        [
+          903,
+          0
+        ],
+        [
+          707,
+          0
+        ]
+      ],
+      "brier_score": 0.25131557049200226,
+      "log_loss": 0.6962669201338559,
+      "ece": 0.0708567178308202,
+      "calibration_bins": [
+        {
+          "lower": 0.3,
+          "count": 1610,
+          "mean_probability": 0.3682737169517885,
+          "blue_frequency": 0.4391304347826087
+        }
+      ],
+      "bets": 1610,
+      "betting_units": -36.17871472099209,
+      "roi": -0.022471251379498194,
+      "train_accuracy": 0.6317262830482115
+    },
+    "odds_only": {
+      "test_accuracy": 0.6881987577639752,
+      "confusion_matrix": [
+        [
+          757,
+          146
+        ],
+        [
+          356,
+          351
+        ]
+      ],
+      "brier_score": 0.20249586237428677,
+      "log_loss": 0.5904823415790377,
+      "ece": 0.061877693074280975,
+      "calibration_bins": [
+        {
+          "lower": 0.1,
+          "count": 269,
+          "mean_probability": 0.1597159296980301,
+          "blue_frequency": 0.12639405204460966
+        },
+        {
+          "lower": 0.2,
+          "count": 383,
+          "mean_probability": 0.25132313470151685,
+          "blue_frequency": 0.2924281984334204
+        },
+        {
+          "lower": 0.3,
+          "count": 274,
+          "mean_probability": 0.3470965769212781,
+          "blue_frequency": 0.3759124087591241
+        },
+        {
+          "lower": 0.4,
+          "count": 187,
+          "mean_probability": 0.4516980652362388,
+          "blue_frequency": 0.5721925133689839
+        },
+        {
+          "lower": 0.5,
+          "count": 227,
+          "mean_probability": 0.5522785206161717,
+          "blue_frequency": 0.6607929515418502
+        },
+        {
+          "lower": 0.6,
+          "count": 184,
+          "mean_probability": 0.6467008700752482,
+          "blue_frequency": 0.6956521739130435
+        },
+        {
+          "lower": 0.7,
+          "count": 84,
+          "mean_probability": 0.7352695369784517,
+          "blue_frequency": 0.8571428571428571
+        },
+        {
+          "lower": 0.8,
+          "count": 2,
+          "mean_probability": 0.8055435035083351,
+          "blue_frequency": 0.5
+        }
+      ],
+      "bets": 1610,
+      "betting_units": -13.502454028987428,
+      "roi": -0.00838661740930896,
+      "train_accuracy": 0.670139968895801
+    },
+    "logistic_regression": {
+      "test_accuracy": 0.6279503105590062,
+      "confusion_matrix": [
+        [
+          704,
+          199
+        ],
+        [
+          400,
+          307
+        ]
+      ],
+      "brier_score": 0.22890682985526642,
+      "log_loss": 0.6535332030215352,
+      "ece": 0.0404701076133088,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "count": 30,
+          "mean_probability": 0.05428000512856219,
+          "blue_frequency": 0.23333333333333334
+        },
+        {
+          "lower": 0.1,
+          "count": 105,
+          "mean_probability": 0.16469029257338386,
+          "blue_frequency": 0.20952380952380953
+        },
+        {
+          "lower": 0.2,
+          "count": 302,
+          "mean_probability": 0.2577987940156451,
+          "blue_frequency": 0.2682119205298013
+        },
+        {
+          "lower": 0.3,
+          "count": 397,
+          "mean_probability": 0.35077700078087615,
+          "blue_frequency": 0.40302267002518893
+        },
+        {
+          "lower": 0.4,
+          "count": 270,
+          "mean_probability": 0.4498095226744455,
+          "blue_frequency": 0.48148148148148145
+        },
+        {
+          "lower": 0.5,
+          "count": 220,
+          "mean_probability": 0.5440587777424751,
+          "blue_frequency": 0.5636363636363636
+        },
+        {
+          "lower": 0.6,
+          "count": 155,
+          "mean_probability": 0.6436790153782036,
+          "blue_frequency": 0.6258064516129033
+        },
+        {
+          "lower": 0.7,
+          "count": 91,
+          "mean_probability": 0.7434243172572941,
+          "blue_frequency": 0.6263736263736264
+        },
+        {
+          "lower": 0.8,
+          "count": 34,
+          "mean_probability": 0.8358054249413736,
+          "blue_frequency": 0.7352941176470589
+        },
+        {
+          "lower": 0.9,
+          "count": 6,
+          "mean_probability": 0.9156194596041342,
+          "blue_frequency": 0.6666666666666666
+        }
+      ],
+      "bets": 1610,
+      "betting_units": 1.0403591859326458,
+      "roi": 0.0006461858297718297,
+      "train_accuracy": 0.6726283048211509
+    },
+    "logistic_regression_calibrated": {
+      "test_accuracy": 0.6167701863354037,
+      "confusion_matrix": [
+        [
+          765,
+          138
+        ],
+        [
+          479,
+          228
+        ]
+      ],
+      "brier_score": 0.23231664944617073,
+      "log_loss": 0.6568270638544716,
+      "ece": 0.032414872916986824,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "count": 2,
+          "mean_probability": 0.08199736575226378,
+          "blue_frequency": 0.0
+        },
+        {
+          "lower": 0.1,
+          "count": 15,
+          "mean_probability": 0.16031646572936115,
+          "blue_frequency": 0.2
+        },
+        {
+          "lower": 0.2,
+          "count": 72,
+          "mean_probability": 0.2707697910222113,
+          "blue_frequency": 0.2777777777777778
+        },
+        {
+          "lower": 0.3,
+          "count": 535,
+          "mean_probability": 0.3591756183773984,
+          "blue_frequency": 0.3233644859813084
+        },
+        {
+          "lower": 0.4,
+          "count": 620,
+          "mean_probability": 0.44404693358577596,
+          "blue_frequency": 0.45645161290322583
+        },
+        {
+          "lower": 0.5,
+          "count": 274,
+          "mean_probability": 0.5410584717412403,
+          "blue_frequency": 0.6204379562043796
+        },
+        {
+          "lower": 0.6,
+          "count": 80,
+          "mean_probability": 0.6377153523906627,
+          "blue_frequency": 0.6125
+        },
+        {
+          "lower": 0.7,
+          "count": 11,
+          "mean_probability": 0.716584233223529,
+          "blue_frequency": 0.7272727272727273
+        },
+        {
+          "lower": 0.8,
+          "count": 1,
+          "mean_probability": 0.810514773037533,
+          "blue_frequency": 1.0
+        }
+      ],
+      "bets": 1610,
+      "betting_units": -2.0616090538046166,
+      "roi": -0.0012805025178910662,
+      "train_accuracy": 0.6590979782270606
+    },
+    "random_forest": {
+      "test_accuracy": 0.6111801242236025,
+      "confusion_matrix": [
+        [
+          784,
+          119
+        ],
+        [
+          507,
+          200
+        ]
+      ],
+      "brier_score": 0.23067169259877884,
+      "log_loss": 0.653294185816969,
+      "ece": 0.03943360789337948,
+      "calibration_bins": [
+        {
+          "lower": 0.1,
+          "count": 18,
+          "mean_probability": 0.1657517793320585,
+          "blue_frequency": 0.16666666666666666
+        },
+        {
+          "lower": 0.2,
+          "count": 192,
+          "mean_probability": 0.27125457835108113,
+          "blue_frequency": 0.2604166666666667
+        },
+        {
+          "lower": 0.3,
+          "count": 567,
+          "mean_probability": 0.35298397833299844,
+          "blue_frequency": 0.3403880070546737
+        },
+        {
+          "lower": 0.4,
+          "count": 514,
+          "mean_probability": 0.4448239108264319,
+          "blue_frequency": 0.5077821011673151
+        },
+        {
+          "lower": 0.5,
+          "count": 246,
+          "mean_probability": 0.5412835279835094,
+          "blue_frequency": 0.6097560975609756
+        },
+        {
+          "lower": 0.6,
+          "count": 72,
+          "mean_probability": 0.6343964001644347,
+          "blue_frequency": 0.6944444444444444
+        },
+        {
+          "lower": 0.7,
+          "count": 1,
+          "mean_probability": 0.7206248386689565,
+          "blue_frequency": 0.0
+        }
+      ],
+      "bets": 1610,
+      "betting_units": -31.92855644867444,
+      "roi": -0.0198314015209158,
+      "train_accuracy": 0.9639191290824262
+    },
+    "random_forest_calibrated": {
+      "test_accuracy": 0.6149068322981367,
+      "confusion_matrix": [
+        [
+          760,
+          143
+        ],
+        [
+          477,
+          230
+        ]
+      ],
+      "brier_score": 0.23147640027151423,
+      "log_loss": 0.655139967340954,
+      "ece": 0.026855549760523043,
+      "calibration_bins": [
+        {
+          "lower": 0.1,
+          "count": 4,
+          "mean_probability": 0.17847628929053455,
+          "blue_frequency": 0.0
+        },
+        {
+          "lower": 0.2,
+          "count": 119,
+          "mean_probability": 0.27174549860933117,
+          "blue_frequency": 0.31092436974789917
+        },
+        {
+          "lower": 0.3,
+          "count": 577,
+          "mean_probability": 0.35431087007666656,
+          "blue_frequency": 0.3292894280762565
+        },
+        {
+          "lower": 0.4,
+          "count": 537,
+          "mean_probability": 0.4469991211833781,
+          "blue_frequency": 0.4655493482309125
+        },
+        {
+          "lower": 0.5,
+          "count": 242,
+          "mean_probability": 0.5431007122060502,
+          "blue_frequency": 0.5867768595041323
+        },
+        {
+          "lower": 0.6,
+          "count": 115,
+          "mean_probability": 0.640319462615898,
+          "blue_frequency": 0.6434782608695652
+        },
+        {
+          "lower": 0.7,
+          "count": 16,
+          "mean_probability": 0.7169055695174877,
+          "blue_frequency": 0.875
+        }
+      ],
+      "bets": 1610,
+      "betting_units": -4.23950046593632,
+      "roi": -0.0026332301030660373,
+      "train_accuracy": 0.8898911353032659
+    },
+    "gradient_boosting": {
+      "test_accuracy": 0.6316770186335404,
+      "confusion_matrix": [
+        [
+          735,
+          168
+        ],
+        [
+          425,
+          282
+        ]
+      ],
+      "brier_score": 0.22656310443461553,
+      "log_loss": 0.6449758913828905,
+      "ece": 0.025217672667268567,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "count": 2,
+          "mean_probability": 0.09766115777518067,
+          "blue_frequency": 0.0
+        },
+        {
+          "lower": 0.1,
+          "count": 83,
+          "mean_probability": 0.16753991766845103,
+          "blue_frequency": 0.21686746987951808
+        },
+        {
+          "lower": 0.2,
+          "count": 297,
+          "mean_probability": 0.2554783242345792,
+          "blue_frequency": 0.2996632996632997
+        },
+        {
+          "lower": 0.3,
+          "count": 449,
+          "mean_probability": 0.35128275018039495,
+          "blue_frequency": 0.36525612472160357
+        },
+        {
+          "lower": 0.4,
+          "count": 329,
+          "mean_probability": 0.446659027645814,
+          "blue_frequency": 0.46808510638297873
+        },
+        {
+          "lower": 0.5,
+          "count": 239,
+          "mean_probability": 0.5495652694737092,
+          "blue_frequency": 0.5774058577405857
+        },
+        {
+          "lower": 0.6,
+          "count": 145,
+          "mean_probability": 0.6450656765724123,
+          "blue_frequency": 0.6413793103448275
+        },
+        {
+          "lower": 0.7,
+          "count": 58,
+          "mean_probability": 0.7388786572901281,
+          "blue_frequency": 0.7758620689655172
+        },
+        {
+          "lower": 0.8,
+          "count": 8,
+          "mean_probability": 0.8164149366772218,
+          "blue_frequency": 0.75
+        }
+      ],
+      "bets": 1610,
+      "betting_units": 1.9090983428683899,
+      "roi": 0.001185775368241236,
+      "train_accuracy": 0.8188180404354588
+    },
+    "gradient_boosting_calibrated": {
+      "test_accuracy": 0.6192546583850932,
+      "confusion_matrix": [
+        [
+          748,
+          155
+        ],
+        [
+          458,
+          249
+        ]
+      ],
+      "brier_score": 0.23135946713627642,
+      "log_loss": 0.6550278504556282,
+      "ece": 0.02179609643740901,
+      "calibration_bins": [
+        {
+          "lower": 0.1,
+          "count": 12,
+          "mean_probability": 0.18586589373347107,
+          "blue_frequency": 0.3333333333333333
+        },
+        {
+          "lower": 0.2,
+          "count": 161,
+          "mean_probability": 0.26317149273613966,
+          "blue_frequency": 0.2360248447204969
+        },
+        {
+          "lower": 0.3,
+          "count": 551,
+          "mean_probability": 0.3553128647638876,
+          "blue_frequency": 0.3502722323049002
+        },
+        {
+          "lower": 0.4,
+          "count": 482,
+          "mean_probability": 0.44616108228158396,
+          "blue_frequency": 0.46265560165975106
+        },
+        {
+          "lower": 0.5,
+          "count": 293,
+          "mean_probability": 0.5448476891857991,
+          "blue_frequency": 0.5938566552901023
+        },
+        {
+          "lower": 0.6,
+          "count": 107,
+          "mean_probability": 0.637619811219696,
+          "blue_frequency": 0.6728971962616822
+        },
+        {
+          "lower": 0.7,
+          "count": 4,
+          "mean_probability": 0.7276396086800831,
+          "blue_frequency": 0.75
+        }
+      ],
+      "bets": 1610,
+      "betting_units": -15.518509918892946,
+      "roi": -0.00963882603657947,
+      "train_accuracy": 0.7824261275272162
+    },
+    "mlp": {
+      "test_accuracy": 0.6012422360248447,
+      "confusion_matrix": [
+        [
+          647,
+          256
+        ],
+        [
+          386,
+          321
+        ]
+      ],
+      "brier_score": 0.24721004914515765,
+      "log_loss": 0.7116438608827199,
+      "ece": 0.10204589932660606,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "count": 71,
+          "mean_probability": 0.06807006082424223,
+          "blue_frequency": 0.2535211267605634
+        },
+        {
+          "lower": 0.1,
+          "count": 214,
+          "mean_probability": 0.15510174224479165,
+          "blue_frequency": 0.2897196261682243
+        },
+        {
+          "lower": 0.2,
+          "count": 264,
+          "mean_probability": 0.2498768154662331,
+          "blue_frequency": 0.3522727272727273
+        },
+        {
+          "lower": 0.3,
+          "count": 259,
+          "mean_probability": 0.34722397946990413,
+          "blue_frequency": 0.39768339768339767
+        },
+        {
+          "lower": 0.4,
+          "count": 225,
+          "mean_probability": 0.450215905680358,
+          "blue_frequency": 0.4888888888888889
+        },
+        {
+          "lower": 0.5,
+          "count": 191,
+          "mean_probability": 0.5481738595165487,
+          "blue_frequency": 0.49214659685863876
+        },
+        {
+          "lower": 0.6,
+          "count": 150,
+          "mean_probability": 0.652853919600217,
+          "blue_frequency": 0.52
+        },
+        {
+          "lower": 0.7,
+          "count": 117,
+          "mean_probability": 0.7484442052142075,
+          "blue_frequency": 0.5982905982905983
+        },
+        {
+          "lower": 0.8,
+          "count": 85,
+          "mean_probability": 0.8437792073359943,
+          "blue_frequency": 0.6588235294117647
+        },
+        {
+          "lower": 0.9,
+          "count": 34,
+          "mean_probability": 0.958741590508779,
+          "blue_frequency": 0.6764705882352942
+        }
+      ],
+      "bets": 1610,
+      "betting_units": -12.723720494696183,
+      "roi": -0.007902931984283343,
+      "train_accuracy": 0.8006220839813375
+    }
+  }
+}

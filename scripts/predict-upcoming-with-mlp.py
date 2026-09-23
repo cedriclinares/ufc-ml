@@ -1,3 +1,10 @@
+try:
+    from .fight_history import latest_post_snapshot_id
+    from .combine_tables import connect_database
+except ImportError:
+    from fight_history import latest_post_snapshot_id
+    from combine_tables import connect_database
+
 import psycopg2
 from unidecode import unidecode
 from gazpacho import get, Soup
@@ -13,9 +20,7 @@ def get_soup(url):
 def get_fighter_ids(r_fighter_name, b_fighter_name):
     try:
         # Replace the connection parameters with your actual database credentials
-        conn = psycopg2.connect(
-            database="ufc-data", user='cedriclinares', password='funkmaster123', host='127.0.0.1', port='5432'
-        )
+        conn = connect_database()
         cursor = conn.cursor()
         # Construct the SQL query with dynamic values
         query1 = """
@@ -44,43 +49,14 @@ def get_fighter_ids(r_fighter_name, b_fighter_name):
         if conn is not None:
             conn.close()
 
-def get_last_total_stats(fighter_id):
-    try:
-        # Replace the connection parameters with your actual database credentials
-        conn = psycopg2.connect(
-            database="ufc-data", user='cedriclinares', password='funkmaster123', host='127.0.0.1', port='5432'
-        )
-        cursor = conn.cursor()
-        # Construct the SQL query with dynamic values
-        query = """
-            SELECT *
-            FROM total_fight_stats
-            WHERE fighter_id = %(fighter_id)s
-            ORDER BY id DESC
-            LIMIT 1;
-        """
+def get_last_total_stats(fighter_id, before=None):
+    return latest_post_snapshot_id(fighter_id, before)
 
-        # Execute the query with the provided data
-        cursor.execute(query, { 'fighter_id': fighter_id })
-        total_stats = cursor.fetchone()
-        conn.commit()
-        # print("last total stats fetched successfully")
-        return total_stats[0]
-    except (Exception, psycopg2.Error) as error:
-        print("Error while fetching row:", error)
-    finally:
-        # Close the cursor and connection
-        if cursor is not None:
-            cursor.close()
-        if conn is not None:
-            conn.close()
 
 def join_tables(r_fighter_id, b_fighter_id, r_total_stats_id, b_total_stats_id):
     try:
         # Replace the connection parameters with your actual database credentials
-        conn = psycopg2.connect(
-            database="ufc-data", user='cedriclinares', password='funkmaster123', host='127.0.0.1', port='5432'
-        )
+        conn = connect_database()
         cursor = conn.cursor()
         # Construct the SQL query with dynamic values
         query = """
@@ -420,11 +396,12 @@ def predict_upcoming_fights():
     for i, fight in enumerate(predictable_fights):
         print(f"Fight: {fight['r_fighter_name']} vs {fight['b_fighter_name']}")
         winner = fight['r_fighter_name']
-        if results[i-1] == 1:
+        if results[i] == 1:
             winner = fight['b_fighter_name']
 
-        formatted_numbers = ["{:.3f}".format(x) for x in confidence_levels[i-1]]
+        formatted_numbers = ["{:.3f}".format(x) for x in confidence_levels[i]]
         print(f"Winner: {winner}, Confidence: {float(max(formatted_numbers)) * 100:.1f}% \n") 
 
-predict_upcoming_fights()
+if __name__ == "__main__":
+    predict_upcoming_fights()
 

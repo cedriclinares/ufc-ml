@@ -1,0 +1,6685 @@
+{
+  "database": "cedriclinares",
+  "applied": false,
+  "odds_corrections": [
+    {
+      "fight_id": 388,
+      "odds_id": 554,
+      "red": "Derrick Lewis",
+      "blue": "Marcos Rogerio de Lima",
+      "before": [
+        -225,
+        180
+      ],
+      "after": [
+        180,
+        -225
+      ]
+    },
+    {
+      "fight_id": 400,
+      "odds_id": 566,
+      "red": "Paul Craig",
+      "blue": "Andre Muniz",
+      "before": [
+        -220,
+        185
+      ],
+      "after": [
+        185,
+        -220
+      ]
+    },
+    {
+      "fight_id": 421,
+      "odds_id": 587,
+      "red": "Evan Elder",
+      "blue": "Genaro Valdez",
+      "before": [
+        240,
+        -300
+      ],
+      "after": [
+        -300,
+        240
+      ]
+    },
+    {
+      "fight_id": 431,
+      "odds_id": 597,
+      "red": "Tatsuro Taira",
+      "blue": "Edgar Chairez",
+      "before": [
+        600,
+        -900
+      ],
+      "after": [
+        -900,
+        600
+      ]
+    },
+    {
+      "fight_id": 457,
+      "odds_id": 623,
+      "red": "Mateusz Rebecki",
+      "blue": "Loik Radzhabov",
+      "before": [
+        125,
+        -155
+      ],
+      "after": [
+        -155,
+        125
+      ]
+    },
+    {
+      "fight_id": 470,
+      "odds_id": 636,
+      "red": "Kyung Ho Kang",
+      "blue": "Cristian Quinonez",
+      "before": [
+        -150,
+        125
+      ],
+      "after": [
+        125,
+        -150
+      ]
+    },
+    {
+      "fight_id": 472,
+      "odds_id": 638,
+      "red": "Tereza Bleda",
+      "blue": "Gabriella Fernandes",
+      "before": [
+        185,
+        -230
+      ],
+      "after": [
+        -230,
+        185
+      ]
+    },
+    {
+      "fight_id": 479,
+      "odds_id": 645,
+      "red": "Marc-Andre Barriault",
+      "blue": "Eryk Anders",
+      "before": [
+        115,
+        -145
+      ],
+      "after": [
+        -145,
+        115
+      ]
+    },
+    {
+      "fight_id": 485,
+      "odds_id": 651,
+      "red": "Diana Belbita",
+      "blue": "Maria Oliveira",
+      "before": [
+        115,
+        -140
+      ],
+      "after": [
+        -140,
+        115
+      ]
+    },
+    {
+      "fight_id": 494,
+      "odds_id": 660,
+      "red": "John Castaneda",
+      "blue": "Muin Gafurov",
+      "before": [
+        115,
+        -140
+      ],
+      "after": [
+        -140,
+        115
+      ]
+    },
+    {
+      "fight_id": 509,
+      "odds_id": 675,
+      "red": "Natalia Silva",
+      "blue": "Victoria Leonardo",
+      "before": [
+        600,
+        -1000
+      ],
+      "after": [
+        -1000,
+        600
+      ]
+    },
+    {
+      "fight_id": 534,
+      "odds_id": 700,
+      "red": "Song Yadong",
+      "blue": "Ricky Simon",
+      "before": [
+        -125,
+        105
+      ],
+      "after": [
+        105,
+        -125
+      ]
+    },
+    {
+      "fight_id": 535,
+      "odds_id": 701,
+      "red": "Caio Borralho",
+      "blue": "Michal Oleksiejczuk",
+      "before": [
+        290,
+        -375
+      ],
+      "after": [
+        -375,
+        290
+      ]
+    },
+    {
+      "fight_id": 538,
+      "odds_id": 704,
+      "red": "Marcos Rogerio de Lima",
+      "blue": "Waldo Cortes-Acosta",
+      "before": [
+        150,
+        -185
+      ],
+      "after": [
+        -185,
+        150
+      ]
+    },
+    {
+      "fight_id": 569,
+      "odds_id": 735,
+      "red": "Joselyne Edwards",
+      "blue": "Lucie Pudilova",
+      "before": [
+        -135,
+        115
+      ],
+      "after": [
+        115,
+        -135
+      ]
+    },
+    {
+      "fight_id": 602,
+      "odds_id": 768,
+      "red": "Christian Leroy Duncan",
+      "blue": "Dusko Todorovic",
+      "before": [
+        185,
+        -225
+      ],
+      "after": [
+        -225,
+        185
+      ]
+    },
+    {
+      "fight_id": 605,
+      "odds_id": 771,
+      "red": "Jai Herbert",
+      "blue": "Ludovit Klein",
+      "before": [
+        -210,
+        170
+      ],
+      "after": [
+        170,
+        -210
+      ]
+    },
+    {
+      "fight_id": 613,
+      "odds_id": 779,
+      "red": "Karl Williams",
+      "blue": "Lukasz Brzeski",
+      "before": [
+        200,
+        -250
+      ],
+      "after": [
+        -250,
+        200
+      ]
+    },
+    {
+      "fight_id": 686,
+      "odds_id": 852,
+      "red": "Thiago Moises",
+      "blue": "Melquizael Costa",
+      "before": [
+        300,
+        -380
+      ],
+      "after": [
+        -380,
+        300
+      ]
+    },
+    {
+      "fight_id": 699,
+      "odds_id": 865,
+      "red": "Javid Basharat",
+      "blue": "Mateus Mendonca",
+      "before": [
+        270,
+        -340
+      ],
+      "after": [
+        -340,
+        270
+      ]
+    },
+    {
+      "fight_id": 701,
+      "odds_id": 867,
+      "red": "Mateusz Rebecki",
+      "blue": "Nick Fiore",
+      "before": [
+        550,
+        -800
+      ],
+      "after": [
+        -800,
+        550
+      ]
+    },
+    {
+      "fight_id": 718,
+      "odds_id": 884,
+      "red": "Jan Blachowicz",
+      "blue": "Magomed Ankalaev",
+      "before": [
+        -360,
+        280
+      ],
+      "after": [
+        280,
+        -360
+      ]
+    },
+    {
+      "fight_id": 741,
+      "odds_id": 907,
+      "red": "Natan Levy",
+      "blue": "Genaro Valdez",
+      "before": [
+        170,
+        -200
+      ],
+      "after": [
+        -200,
+        170
+      ]
+    },
+    {
+      "fight_id": 754,
+      "odds_id": 920,
+      "red": "Natalia Silva",
+      "blue": "Tereza Bleda",
+      "before": [
+        140,
+        -165
+      ],
+      "after": [
+        -165,
+        140
+      ]
+    },
+    {
+      "fight_id": 802,
+      "odds_id": 968,
+      "red": "Karol Rosa",
+      "blue": "Lina Lansberg",
+      "before": [
+        310,
+        -400
+      ],
+      "after": [
+        -400,
+        310
+      ]
+    },
+    {
+      "fight_id": 806,
+      "odds_id": 972,
+      "red": "Raphael Assuncao",
+      "blue": "Victor Henry",
+      "before": [
+        -400,
+        310
+      ],
+      "after": [
+        310,
+        -400
+      ]
+    },
+    {
+      "fight_id": 830,
+      "odds_id": 996,
+      "red": "Anthony Hernandez",
+      "blue": "Marc-Andre Barriault",
+      "before": [
+        180,
+        -220
+      ],
+      "after": [
+        -220,
+        180
+      ]
+    },
+    {
+      "fight_id": 860,
+      "odds_id": 1026,
+      "red": "Benoit Saint Denis",
+      "blue": "Gabriel Miranda",
+      "before": [
+        230,
+        -285
+      ],
+      "after": [
+        -285,
+        230
+      ]
+    },
+    {
+      "fight_id": 870,
+      "odds_id": 1036,
+      "red": "Sean Woodson",
+      "blue": "Luis Saldana",
+      "before": [
+        290,
+        -375
+      ],
+      "after": [
+        -375,
+        290
+      ]
+    },
+    {
+      "fight_id": 882,
+      "odds_id": 1048,
+      "red": "Martin Buday",
+      "blue": "Lukasz Brzeski",
+      "before": [
+        240,
+        -300
+      ],
+      "after": [
+        -300,
+        240
+      ]
+    },
+    {
+      "fight_id": 884,
+      "odds_id": 1050,
+      "red": "Gabriel Benitez",
+      "blue": "Charlie Ontiveros",
+      "before": [
+        275,
+        -350
+      ],
+      "after": [
+        -350,
+        275
+      ]
+    },
+    {
+      "fight_id": 906,
+      "odds_id": 1072,
+      "red": "Drakkar Klose",
+      "blue": "Rafa Garcia",
+      "before": [
+        165,
+        -195
+      ],
+      "after": [
+        -195,
+        165
+      ]
+    },
+    {
+      "fight_id": 918,
+      "odds_id": 1084,
+      "red": "Marc Diakiese",
+      "blue": "Damir Hadzovic",
+      "before": [
+        280,
+        -360
+      ],
+      "after": [
+        -360,
+        280
+      ]
+    },
+    {
+      "fight_id": 932,
+      "odds_id": 1098,
+      "red": "Ricky Simon",
+      "blue": "Jack Shore",
+      "before": [
+        -170,
+        145
+      ],
+      "after": [
+        145,
+        -170
+      ]
+    },
+    {
+      "fight_id": 963,
+      "odds_id": 1129,
+      "red": "Thiago Moises",
+      "blue": "Christos Giagos",
+      "before": [
+        200,
+        -240
+      ],
+      "after": [
+        -240,
+        200
+      ]
+    },
+    {
+      "fight_id": 987,
+      "odds_id": 1153,
+      "red": "Zhang Weili",
+      "blue": "Joanna Jedrzejczyk",
+      "before": [
+        145,
+        -165
+      ],
+      "after": [
+        -165,
+        145
+      ]
+    },
+    {
+      "fight_id": 1012,
+      "odds_id": 1178,
+      "red": "Chidi Njokuani",
+      "blue": "Dusko Todorovic",
+      "before": [
+        220,
+        -275
+      ],
+      "after": [
+        -275,
+        220
+      ]
+    },
+    {
+      "fight_id": 1021,
+      "odds_id": 1187,
+      "red": "Jan Blachowicz",
+      "blue": "Aleksandar Rakic",
+      "before": [
+        -200,
+        170
+      ],
+      "after": [
+        170,
+        -200
+      ]
+    },
+    {
+      "fight_id": 1040,
+      "odds_id": 1206,
+      "red": "Blagoy Ivanov",
+      "blue": "Marcos Rogerio de Lima",
+      "before": [
+        125,
+        -150
+      ],
+      "after": [
+        -150,
+        125
+      ]
+    },
+    {
+      "fight_id": 1077,
+      "odds_id": 1243,
+      "red": "Rafa Garcia",
+      "blue": "Jesse Ronson",
+      "before": [
+        -140,
+        115
+      ],
+      "after": [
+        115,
+        -140
+      ]
+    },
+    {
+      "fight_id": 1104,
+      "odds_id": 1270,
+      "red": "Matheus Nicolau",
+      "blue": "David Dvorak",
+      "before": [
+        -125,
+        105
+      ],
+      "after": [
+        105,
+        -125
+      ]
+    },
+    {
+      "fight_id": 1105,
+      "odds_id": 1271,
+      "red": "Luis Saldana",
+      "blue": "Bruno Souza",
+      "before": [
+        -135,
+        115
+      ],
+      "after": [
+        115,
+        -135
+      ]
+    },
+    {
+      "fight_id": 1144,
+      "odds_id": 1743,
+      "red": "Dustin Jacoby",
+      "blue": "Michal Oleksiejczuk",
+      "before": [
+        170,
+        -200
+      ],
+      "after": [
+        -200,
+        170
+      ]
+    },
+    {
+      "fight_id": 1190,
+      "odds_id": 1789,
+      "red": "Chidi Njokuani",
+      "blue": "Marc-Andre Barriault",
+      "before": [
+        -105,
+        -115
+      ],
+      "after": [
+        -115,
+        -105
+      ]
+    },
+    {
+      "fight_id": 1203,
+      "odds_id": 1802,
+      "red": "Matt Frevola",
+      "blue": "Genaro Valdez",
+      "before": [
+        170,
+        -200
+      ],
+      "after": [
+        -200,
+        170
+      ]
+    },
+    {
+      "fight_id": 1208,
+      "odds_id": 1807,
+      "red": "Brandon Royval",
+      "blue": "Rogerio Bontorin",
+      "before": [
+        135,
+        -160
+      ],
+      "after": [
+        -160,
+        135
+      ]
+    },
+    {
+      "fight_id": 1238,
+      "odds_id": 1837,
+      "red": "Andre Muniz",
+      "blue": "Eryk Anders",
+      "before": [
+        165,
+        -195
+      ],
+      "after": [
+        -195,
+        165
+      ]
+    },
+    {
+      "fight_id": 1262,
+      "odds_id": 1861,
+      "red": "Rafa Garcia",
+      "blue": "Natan Levy",
+      "before": [
+        -105,
+        -115
+      ],
+      "after": [
+        -115,
+        -105
+      ]
+    },
+    {
+      "fight_id": 1324,
+      "odds_id": 1923,
+      "red": "Nate Landwehr",
+      "blue": "Ludovit Klein",
+      "before": [
+        -390,
+        300
+      ],
+      "after": [
+        300,
+        -390
+      ]
+    },
+    {
+      "fight_id": 1337,
+      "odds_id": 1936,
+      "red": "Loopy Godinez",
+      "blue": "Silvana Gomez Juarez",
+      "before": [
+        250,
+        -310
+      ],
+      "after": [
+        -310,
+        250
+      ]
+    },
+    {
+      "fight_id": 1355,
+      "odds_id": 1954,
+      "red": "Jessica Andrade",
+      "blue": "Cynthia Calvillo",
+      "before": [
+        185,
+        -225
+      ],
+      "after": [
+        -225,
+        185
+      ]
+    },
+    {
+      "fight_id": 1366,
+      "odds_id": 1965,
+      "red": "Ariane Lipski",
+      "blue": "Mandy Bohm",
+      "before": [
+        110,
+        -130
+      ],
+      "after": [
+        -130,
+        110
+      ]
+    },
+    {
+      "fight_id": 1369,
+      "odds_id": 1968,
+      "red": "Joaquin Buckley",
+      "blue": "Antonio Arroyo",
+      "before": [
+        160,
+        -190
+      ],
+      "after": [
+        -190,
+        160
+      ]
+    },
+    {
+      "fight_id": 1405,
+      "odds_id": 2004,
+      "red": "Austin Lingo",
+      "blue": "Luis Saldana",
+      "before": [
+        -120,
+        100
+      ],
+      "after": [
+        100,
+        -120
+      ]
+    },
+    {
+      "fight_id": 1412,
+      "odds_id": 2011,
+      "red": "Jose Aldo",
+      "blue": "Pedro Munhoz",
+      "before": [
+        100,
+        -115
+      ],
+      "after": [
+        -115,
+        100
+      ]
+    },
+    {
+      "fight_id": 1429,
+      "odds_id": 2028,
+      "red": "Chris Gruetzemacher",
+      "blue": "Rafa Garcia",
+      "before": [
+        -330,
+        265
+      ],
+      "after": [
+        265,
+        -330
+      ]
+    },
+    {
+      "fight_id": 1445,
+      "odds_id": 2044,
+      "red": "Islam Makhachev",
+      "blue": "Thiago Moises",
+      "before": [
+        550,
+        -800
+      ],
+      "after": [
+        -800,
+        550
+      ]
+    },
+    {
+      "fight_id": 1529,
+      "odds_id": 2128,
+      "red": "David Dvorak",
+      "blue": "Juancamilo Ronderos",
+      "before": [
+        390,
+        -470
+      ],
+      "after": [
+        -470,
+        390
+      ]
+    },
+    {
+      "fight_id": 1565,
+      "odds_id": 2164,
+      "red": "Valentina Shevchenko",
+      "blue": "Jessica Andrade",
+      "before": [
+        360,
+        -450
+      ],
+      "after": [
+        -450,
+        360
+      ]
+    },
+    {
+      "fight_id": 1569,
+      "odds_id": 2168,
+      "red": "Dwight Grant",
+      "blue": "Stefan Sekulic",
+      "before": [
+        165,
+        -200
+      ],
+      "after": [
+        -200,
+        165
+      ]
+    },
+    {
+      "fight_id": 1596,
+      "odds_id": 2195,
+      "red": "Luis Saldana",
+      "blue": "Jordan Griffin",
+      "before": [
+        110,
+        -135
+      ],
+      "after": [
+        -135,
+        110
+      ]
+    },
+    {
+      "fight_id": 1608,
+      "odds_id": 2207,
+      "red": "Marc-Andre Barriault",
+      "blue": "Abu Azaitar",
+      "before": [
+        100,
+        -115
+      ],
+      "after": [
+        -115,
+        100
+      ]
+    },
+    {
+      "fight_id": 1628,
+      "odds_id": 2227,
+      "red": "Nasrat Haqparast",
+      "blue": "Rafa Garcia",
+      "before": [
+        410,
+        -500
+      ],
+      "after": [
+        -500,
+        410
+      ]
+    },
+    {
+      "fight_id": 1632,
+      "odds_id": 2231,
+      "red": "Jan Blachowicz",
+      "blue": "Israel Adesanya",
+      "before": [
+        -260,
+        215
+      ],
+      "after": [
+        215,
+        -260
+      ]
+    },
+    {
+      "fight_id": 1671,
+      "odds_id": 2270,
+      "red": "Ricky Simon",
+      "blue": "Brian Kelleher",
+      "before": [
+        200,
+        -245
+      ],
+      "after": [
+        -245,
+        200
+      ]
+    },
+    {
+      "fight_id": 1733,
+      "odds_id": 2295,
+      "red": "Brad Tavares",
+      "blue": "Antonio Carlos Junior",
+      "before": [
+        -125,
+        105
+      ],
+      "after": [
+        105,
+        -125
+      ]
+    },
+    {
+      "fight_id": 1734,
+      "odds_id": 2296,
+      "red": "Julianna Pena",
+      "blue": "Sara McMann",
+      "before": [
+        -125,
+        100
+      ],
+      "after": [
+        100,
+        -125
+      ]
+    },
+    {
+      "fight_id": 1745,
+      "odds_id": 2307,
+      "red": "Ricky Simon",
+      "blue": "Gaetano Pirrello",
+      "before": [
+        380,
+        -485
+      ],
+      "after": [
+        -485,
+        380
+      ]
+    },
+    {
+      "fight_id": 1756,
+      "odds_id": 2318,
+      "red": "Punahele Soriano",
+      "blue": "Dusko Todorovic",
+      "before": [
+        -165,
+        140
+      ],
+      "after": [
+        140,
+        -165
+      ]
+    },
+    {
+      "fight_id": 1763,
+      "odds_id": 2325,
+      "red": "Jose Aldo",
+      "blue": "Marlon Vera",
+      "before": [
+        130,
+        -145
+      ],
+      "after": [
+        -145,
+        130
+      ]
+    },
+    {
+      "fight_id": 1769,
+      "odds_id": 2331,
+      "red": "Deron Winn",
+      "blue": "Antonio Arroyo",
+      "before": [
+        -180,
+        150
+      ],
+      "after": [
+        150,
+        -180
+      ]
+    },
+    {
+      "fight_id": 1786,
+      "odds_id": 2348,
+      "red": "Gabriel Benitez",
+      "blue": "Justin Jaynes",
+      "before": [
+        190,
+        -220
+      ],
+      "after": [
+        -220,
+        190
+      ]
+    },
+    {
+      "fight_id": 1829,
+      "odds_id": 2391,
+      "red": "Alexandr Romanov",
+      "blue": "Marcos Rogerio de Lima",
+      "before": [
+        430,
+        -550
+      ],
+      "after": [
+        -550,
+        430
+      ]
+    },
+    {
+      "fight_id": 1882,
+      "odds_id": 2444,
+      "red": "Germaine de Randamie",
+      "blue": "Julianna Pena",
+      "before": [
+        140,
+        -160
+      ],
+      "after": [
+        -160,
+        140
+      ]
+    },
+    {
+      "fight_id": 1931,
+      "odds_id": 2493,
+      "red": "Andre Muniz",
+      "blue": "Bartosz Fabinski",
+      "before": [
+        -150,
+        125
+      ],
+      "after": [
+        125,
+        -150
+      ]
+    },
+    {
+      "fight_id": 1987,
+      "odds_id": 2549,
+      "red": "Fabricio Werdum",
+      "blue": "Alexander Gustafsson",
+      "before": [
+        -300,
+        230
+      ],
+      "after": [
+        230,
+        -300
+      ]
+    },
+    {
+      "fight_id": 1999,
+      "odds_id": 2561,
+      "red": "Nathaniel Wood",
+      "blue": "John Castaneda",
+      "before": [
+        330,
+        -410
+      ],
+      "after": [
+        -410,
+        330
+      ]
+    },
+    {
+      "fight_id": 2025,
+      "odds_id": 2591,
+      "red": "Petr Yan",
+      "blue": "Jose Aldo",
+      "before": [
+        200,
+        -260
+      ],
+      "after": [
+        -260,
+        200
+      ]
+    },
+    {
+      "fight_id": 2053,
+      "odds_id": 2619,
+      "red": "Marc-Andre Barriault",
+      "blue": "Oskar Piechota",
+      "before": [
+        105,
+        -135
+      ],
+      "after": [
+        -135,
+        105
+      ]
+    },
+    {
+      "fight_id": 2092,
+      "odds_id": 2658,
+      "red": "Claudia Gadelha",
+      "blue": "Angela Hill",
+      "before": [
+        195,
+        -250
+      ],
+      "after": [
+        -250,
+        195
+      ]
+    },
+    {
+      "fight_id": 2105,
+      "odds_id": 2671,
+      "red": "Ricky Simon",
+      "blue": "Ray Borg",
+      "before": [
+        130,
+        -160
+      ],
+      "after": [
+        -160,
+        130
+      ]
+    },
+    {
+      "fight_id": 2118,
+      "odds_id": 2684,
+      "red": "Aleksei Oleinik",
+      "blue": "Fabricio Werdum",
+      "before": [
+        -325,
+        250
+      ],
+      "after": [
+        250,
+        -325
+      ]
+    },
+    {
+      "fight_id": 2125,
+      "odds_id": 2691,
+      "red": "Renato Moicano",
+      "blue": "Damir Hadzovic",
+      "before": [
+        330,
+        -420
+      ],
+      "after": [
+        -420,
+        330
+      ]
+    },
+    {
+      "fight_id": 2136,
+      "odds_id": 2702,
+      "red": "Zhang Weili",
+      "blue": "Joanna Jedrzejczyk",
+      "before": [
+        165,
+        -195
+      ],
+      "after": [
+        -195,
+        165
+      ]
+    },
+    {
+      "fight_id": 2159,
+      "odds_id": 2725,
+      "red": "Jimmy Crute",
+      "blue": "Michal Oleksiejczuk",
+      "before": [
+        -125,
+        105
+      ],
+      "after": [
+        105,
+        -125
+      ]
+    },
+    {
+      "fight_id": 2199,
+      "odds_id": 2765,
+      "red": "Jamahal Hill",
+      "blue": "Darko Stosic",
+      "before": [
+        115,
+        -145
+      ],
+      "after": [
+        -145,
+        115
+      ]
+    },
+    {
+      "fight_id": 2202,
+      "odds_id": 2768,
+      "red": "Justine Kish",
+      "blue": "Lucie Pudilova",
+      "before": [
+        -185,
+        150
+      ],
+      "after": [
+        150,
+        -185
+      ]
+    },
+    {
+      "fight_id": 2204,
+      "odds_id": 2770,
+      "red": "Sara McMann",
+      "blue": "Lina Lansberg",
+      "before": [
+        105,
+        -135
+      ],
+      "after": [
+        -135,
+        105
+      ]
+    },
+    {
+      "fight_id": 2219,
+      "odds_id": 2785,
+      "red": "Volkan Oezdemir",
+      "blue": "Aleksandar Rakic",
+      "before": [
+        -160,
+        130
+      ],
+      "after": [
+        130,
+        -160
+      ]
+    },
+    {
+      "fight_id": 2222,
+      "odds_id": 2788,
+      "red": "JunYong Park",
+      "blue": "Marc-Andre Barriault",
+      "before": [
+        -130,
+        100
+      ],
+      "after": [
+        100,
+        -130
+      ]
+    },
+    {
+      "fight_id": 2234,
+      "odds_id": 2800,
+      "red": "Marlon Moraes",
+      "blue": "Jose Aldo",
+      "before": [
+        145,
+        -175
+      ],
+      "after": [
+        -175,
+        145
+      ]
+    },
+    {
+      "fight_id": 2249,
+      "odds_id": 2815,
+      "red": "Rob Font",
+      "blue": "Ricky Simon",
+      "before": [
+        120,
+        -150
+      ],
+      "after": [
+        -150,
+        120
+      ]
+    },
+    {
+      "fight_id": 2256,
+      "odds_id": 2822,
+      "red": "Jan Blachowicz",
+      "blue": "Jacare Souza",
+      "before": [
+        130,
+        -160
+      ],
+      "after": [
+        -160,
+        130
+      ]
+    },
+    {
+      "fight_id": 2257,
+      "odds_id": 2823,
+      "red": "Mauricio Rua",
+      "blue": "Paul Craig",
+      "before": [
+        200,
+        -260
+      ],
+      "after": [
+        -260,
+        200
+      ]
+    },
+    {
+      "fight_id": 2265,
+      "odds_id": 2831,
+      "red": "Douglas Silva de Andrade",
+      "blue": "Renan Barao",
+      "before": [
+        195,
+        -250
+      ],
+      "after": [
+        -250,
+        195
+      ]
+    },
+    {
+      "fight_id": 2266,
+      "odds_id": 2832,
+      "red": "Ariane Lipski",
+      "blue": "Isabela de Padua",
+      "before": [
+        225,
+        -285
+      ],
+      "after": [
+        -285,
+        225
+      ]
+    },
+    {
+      "fight_id": 2311,
+      "odds_id": 2877,
+      "red": "Molly McCann",
+      "blue": "Diana Belbita",
+      "before": [
+        425,
+        -650
+      ],
+      "after": [
+        -650,
+        425
+      ]
+    },
+    {
+      "fight_id": 2317,
+      "odds_id": 2883,
+      "red": "Joanna Jedrzejczyk",
+      "blue": "Michelle Waterson-Gomez",
+      "before": [
+        260,
+        -340
+      ],
+      "after": [
+        -340,
+        260
+      ]
+    },
+    {
+      "fight_id": 2371,
+      "odds_id": 2937,
+      "red": "Uriah Hall",
+      "blue": "Antonio Carlos Junior",
+      "before": [
+        -270,
+        210
+      ],
+      "after": [
+        210,
+        -270
+      ]
+    },
+    {
+      "fight_id": 2387,
+      "odds_id": 2953,
+      "red": "Ottman Azaitar",
+      "blue": "Teemu Packalen",
+      "before": [
+        155,
+        -190
+      ],
+      "after": [
+        -190,
+        155
+      ]
+    },
+    {
+      "fight_id": 2400,
+      "odds_id": 2966,
+      "red": "Damir Ismagulov",
+      "blue": "Thiago Moises",
+      "before": [
+        175,
+        -225
+      ],
+      "after": [
+        -225,
+        175
+      ]
+    },
+    {
+      "fight_id": 2435,
+      "odds_id": 3001,
+      "red": "Antonina Shevchenko",
+      "blue": "Lucie Pudilova",
+      "before": [
+        120,
+        -150
+      ],
+      "after": [
+        -150,
+        120
+      ]
+    },
+    {
+      "fight_id": 2465,
+      "odds_id": 3031,
+      "red": "Urijah Faber",
+      "blue": "Ricky Simon",
+      "before": [
+        -370,
+        280
+      ],
+      "after": [
+        280,
+        -370
+      ]
+    },
+    {
+      "fight_id": 2466,
+      "odds_id": 3032,
+      "red": "Josh Emmett",
+      "blue": "Mirsad Bektic",
+      "before": [
+        -170,
+        140
+      ],
+      "after": [
+        140,
+        -170
+      ]
+    },
+    {
+      "fight_id": 2471,
+      "odds_id": 3037,
+      "red": "Julianna Pena",
+      "blue": "Nicco Montano",
+      "before": [
+        195,
+        -250
+      ],
+      "after": [
+        -250,
+        195
+      ]
+    },
+    {
+      "fight_id": 2479,
+      "odds_id": 3045,
+      "red": "Jan Blachowicz",
+      "blue": "Luke Rockhold",
+      "before": [
+        -250,
+        195
+      ],
+      "after": [
+        195,
+        -250
+      ]
+    },
+    {
+      "fight_id": 2483,
+      "odds_id": 3049,
+      "red": "Claudia Gadelha",
+      "blue": "Randa Markos",
+      "before": [
+        160,
+        -200
+      ],
+      "after": [
+        -200,
+        160
+      ]
+    },
+    {
+      "fight_id": 2555,
+      "odds_id": 3246,
+      "red": "Thiago Moises",
+      "blue": "Kurt Holobaugh",
+      "before": [
+        105,
+        -125
+      ],
+      "after": [
+        -125,
+        105
+      ]
+    },
+    {
+      "fight_id": 2556,
+      "odds_id": 3247,
+      "red": "Warlley Alves",
+      "blue": "Sergio Moraes",
+      "before": [
+        115,
+        -140
+      ],
+      "after": [
+        -140,
+        115
+      ]
+    },
+    {
+      "fight_id": 2653,
+      "odds_id": 3344,
+      "red": "Anthony Rocco Martin",
+      "blue": "Sergio Moraes",
+      "before": [
+        185,
+        -235
+      ],
+      "after": [
+        -235,
+        185
+      ]
+    },
+    {
+      "fight_id": 2673,
+      "odds_id": 3364,
+      "red": "Stefan Struve",
+      "blue": "Marcos Rogerio de Lima",
+      "before": [
+        -105,
+        -120
+      ],
+      "after": [
+        -120,
+        -105
+      ]
+    },
+    {
+      "fight_id": 2675,
+      "odds_id": 3366,
+      "red": "Liz Carmouche",
+      "blue": "Lucie Pudilova",
+      "before": [
+        120,
+        -140
+      ],
+      "after": [
+        -140,
+        120
+      ]
+    },
+    {
+      "fight_id": 2681,
+      "odds_id": 3372,
+      "red": "Damir Hadzovic",
+      "blue": "Marco Polo Reyes",
+      "before": [
+        110,
+        -130
+      ],
+      "after": [
+        -130,
+        110
+      ]
+    },
+    {
+      "fight_id": 2709,
+      "odds_id": 3400,
+      "red": "Jose Aldo",
+      "blue": "Renato Moicano",
+      "before": [
+        -110,
+        -120
+      ],
+      "after": [
+        -120,
+        -110
+      ]
+    },
+    {
+      "fight_id": 2760,
+      "odds_id": 3451,
+      "red": "Valentina Shevchenko",
+      "blue": "Joanna Jedrzejczyk",
+      "before": [
+        255,
+        -320
+      ],
+      "after": [
+        -320,
+        255
+      ]
+    },
+    {
+      "fight_id": 2773,
+      "odds_id": 3464,
+      "red": "Mauricio Rua",
+      "blue": "Tyson Pedro",
+      "before": [
+        -565,
+        415
+      ],
+      "after": [
+        415,
+        -565
+      ]
+    },
+    {
+      "fight_id": 2815,
+      "odds_id": 3506,
+      "red": "Michel Prazeres",
+      "blue": "Bartosz Fabinski",
+      "before": [
+        110,
+        -140
+      ],
+      "after": [
+        -140,
+        110
+      ]
+    },
+    {
+      "fight_id": 2824,
+      "odds_id": 3515,
+      "red": "Beneil Dariush",
+      "blue": "Thiago Moises",
+      "before": [
+        140,
+        -170
+      ],
+      "after": [
+        -170,
+        140
+      ]
+    },
+    {
+      "fight_id": 2879,
+      "odds_id": 3570,
+      "red": "Sergio Moraes",
+      "blue": "Ben Saunders",
+      "before": [
+        235,
+        -285
+      ],
+      "after": [
+        -285,
+        235
+      ]
+    },
+    {
+      "fight_id": 2885,
+      "odds_id": 3576,
+      "red": "Jan Blachowicz",
+      "blue": "Nikita Krylov",
+      "before": [
+        -155,
+        130
+      ],
+      "after": [
+        130,
+        -155
+      ]
+    },
+    {
+      "fight_id": 2894,
+      "odds_id": 3585,
+      "red": "Ramazan Emeev",
+      "blue": "Stefan Sekulic",
+      "before": [
+        500,
+        -700
+      ],
+      "after": [
+        -700,
+        500
+      ]
+    },
+    {
+      "fight_id": 2897,
+      "odds_id": 3588,
+      "red": "Jessica Andrade",
+      "blue": "Karolina Kowalkiewicz",
+      "before": [
+        365,
+        -475
+      ],
+      "after": [
+        -475,
+        365
+      ]
+    },
+    {
+      "fight_id": 2907,
+      "odds_id": 3598,
+      "red": "Irene Aldana",
+      "blue": "Lucie Pudilova",
+      "before": [
+        -105,
+        -120
+      ],
+      "after": [
+        -120,
+        -105
+      ]
+    },
+    {
+      "fight_id": 2916,
+      "odds_id": 3607,
+      "red": "Cory Sandhagen",
+      "blue": "Iuri Alcantara",
+      "before": [
+        185,
+        -220
+      ],
+      "after": [
+        -220,
+        185
+      ]
+    },
+    {
+      "fight_id": 2928,
+      "odds_id": 3619,
+      "red": "Ricky Simon",
+      "blue": "Montel Jackson",
+      "before": [
+        -120,
+        100
+      ],
+      "after": [
+        100,
+        -120
+      ]
+    },
+    {
+      "fight_id": 2935,
+      "odds_id": 3626,
+      "red": "Jose Aldo",
+      "blue": "Jeremy Stephens",
+      "before": [
+        -120,
+        105
+      ],
+      "after": [
+        105,
+        -120
+      ]
+    },
+    {
+      "fight_id": 2936,
+      "odds_id": 3627,
+      "red": "Joanna Jedrzejczyk",
+      "blue": "Tecia Torres",
+      "before": [
+        230,
+        -285
+      ],
+      "after": [
+        -285,
+        230
+      ]
+    },
+    {
+      "fight_id": 2979,
+      "odds_id": 3670,
+      "red": "Raphael Assuncao",
+      "blue": "Rob Font",
+      "before": [
+        120,
+        -140
+      ],
+      "after": [
+        -140,
+        120
+      ]
+    },
+    {
+      "fight_id": 2987,
+      "odds_id": 3678,
+      "red": "Alex Caceres",
+      "blue": "Martin Bravo",
+      "before": [
+        110,
+        -135
+      ],
+      "after": [
+        -135,
+        110
+      ]
+    },
+    {
+      "fight_id": 2992,
+      "odds_id": 3683,
+      "red": "John Gunther",
+      "blue": "Allan Zuniga",
+      "before": [
+        115,
+        -135
+      ],
+      "after": [
+        -135,
+        115
+      ]
+    },
+    {
+      "fight_id": 3008,
+      "odds_id": 3699,
+      "red": "Ji Yeon Kim",
+      "blue": "Melinda Fabian",
+      "before": [
+        150,
+        -180
+      ],
+      "after": [
+        -180,
+        150
+      ]
+    },
+    {
+      "fight_id": 3015,
+      "odds_id": 3706,
+      "red": "Claudia Gadelha",
+      "blue": "Carla Esparza",
+      "before": [
+        330,
+        -410
+      ],
+      "after": [
+        -410,
+        330
+      ]
+    },
+    {
+      "fight_id": 3041,
+      "odds_id": 3732,
+      "red": "Lina Lansberg",
+      "blue": "Gina Mazany",
+      "before": [
+        -160,
+        135
+      ],
+      "after": [
+        135,
+        -160
+      ]
+    },
+    {
+      "fight_id": 3054,
+      "odds_id": 3745,
+      "red": "Gabriel Benitez",
+      "blue": "Humberto Bandenay",
+      "before": [
+        135,
+        -165
+      ],
+      "after": [
+        -165,
+        135
+      ]
+    },
+    {
+      "fight_id": 3064,
+      "odds_id": 3755,
+      "red": "Aleksei Oleinik",
+      "blue": "Junior Albini",
+      "before": [
+        -160,
+        130
+      ],
+      "after": [
+        130,
+        -160
+      ]
+    },
+    {
+      "fight_id": 3097,
+      "odds_id": 3788,
+      "red": "Rose Namajunas",
+      "blue": "Joanna Jedrzejczyk",
+      "before": [
+        -110,
+        -115
+      ],
+      "after": [
+        -115,
+        -110
+      ]
+    },
+    {
+      "fight_id": 3128,
+      "odds_id": 3819,
+      "red": "Jessica Andrade",
+      "blue": "Tecia Torres",
+      "before": [
+        250,
+        -300
+      ],
+      "after": [
+        -300,
+        250
+      ]
+    },
+    {
+      "fight_id": 3169,
+      "odds_id": 3917,
+      "red": "Sergio Moraes",
+      "blue": "Tim Means",
+      "before": [
+        -200,
+        170
+      ],
+      "after": [
+        170,
+        -200
+      ]
+    },
+    {
+      "fight_id": 3170,
+      "odds_id": 3918,
+      "red": "Alan Patrick",
+      "blue": "Damir Hadzovic",
+      "before": [
+        200,
+        -250
+      ],
+      "after": [
+        -250,
+        200
+      ]
+    },
+    {
+      "fight_id": 3179,
+      "odds_id": 3927,
+      "red": "Mirsad Bektic",
+      "blue": "Godofredo Pepey",
+      "before": [
+        450,
+        -600
+      ],
+      "after": [
+        -600,
+        450
+      ]
+    },
+    {
+      "fight_id": 3213,
+      "odds_id": 3961,
+      "red": "Khalil Rountree Jr.",
+      "blue": "Michal Oleksiejczuk",
+      "before": [
+        300,
+        -400
+      ],
+      "after": [
+        -400,
+        300
+      ]
+    },
+    {
+      "fight_id": 3239,
+      "odds_id": 3987,
+      "red": "Alejandro Perez",
+      "blue": "Iuri Alcantara",
+      "before": [
+        -180,
+        150
+      ],
+      "after": [
+        150,
+        -180
+      ]
+    },
+    {
+      "fight_id": 3242,
+      "odds_id": 3990,
+      "red": "Max Holloway",
+      "blue": "Jose Aldo",
+      "before": [
+        240,
+        -280
+      ],
+      "after": [
+        -280,
+        240
+      ]
+    },
+    {
+      "fight_id": 3255,
+      "odds_id": 4003,
+      "red": "Nicco Montano",
+      "blue": "Roxanne Modafferi",
+      "before": [
+        170,
+        -200
+      ],
+      "after": [
+        -200,
+        170
+      ]
+    },
+    {
+      "fight_id": 3259,
+      "odds_id": 4007,
+      "red": "DeAnna Bennett",
+      "blue": "Melinda Fabian",
+      "before": [
+        370,
+        -480
+      ],
+      "after": [
+        -480,
+        370
+      ]
+    },
+    {
+      "fight_id": 3278,
+      "odds_id": 4026,
+      "red": "Fabricio Werdum",
+      "blue": "Marcin Tybura",
+      "before": [
+        270,
+        -330
+      ],
+      "after": [
+        -330,
+        270
+      ]
+    },
+    {
+      "fight_id": 3281,
+      "odds_id": 4029,
+      "red": "Jake Matthews",
+      "blue": "Bojan Velickovic",
+      "before": [
+        125,
+        -145
+      ],
+      "after": [
+        -145,
+        125
+      ]
+    },
+    {
+      "fight_id": 3295,
+      "odds_id": 4043,
+      "red": "Raphael Assuncao",
+      "blue": "Matthew Lopez",
+      "before": [
+        285,
+        -340
+      ],
+      "after": [
+        -340,
+        285
+      ]
+    },
+    {
+      "fight_id": 3299,
+      "odds_id": 4047,
+      "red": "Sage Northcutt",
+      "blue": "Michel Quinones",
+      "before": [
+        150,
+        -175
+      ],
+      "after": [
+        -175,
+        150
+      ]
+    },
+    {
+      "fight_id": 3322,
+      "odds_id": 4070,
+      "red": "Antonio Carlos Junior",
+      "blue": "Jack Marshman",
+      "before": [
+        325,
+        -425
+      ],
+      "after": [
+        -425,
+        325
+      ]
+    },
+    {
+      "fight_id": 3329,
+      "odds_id": 4077,
+      "red": "Jan Blachowicz",
+      "blue": "Devin Clark",
+      "before": [
+        -155,
+        135
+      ],
+      "after": [
+        135,
+        -155
+      ]
+    },
+    {
+      "fight_id": 3340,
+      "odds_id": 4088,
+      "red": "Fabricio Werdum",
+      "blue": "Walt Harris",
+      "before": [
+        200,
+        -240
+      ],
+      "after": [
+        -240,
+        200
+      ]
+    },
+    {
+      "fight_id": 3352,
+      "odds_id": 4100,
+      "red": "Gokhan Saki",
+      "blue": "Henrique da Silva",
+      "before": [
+        160,
+        -185
+      ],
+      "after": [
+        -185,
+        160
+      ]
+    },
+    {
+      "fight_id": 3363,
+      "odds_id": 4111,
+      "red": "Kamaru Usman",
+      "blue": "Sergio Moraes",
+      "before": [
+        500,
+        -800
+      ],
+      "after": [
+        -800,
+        500
+      ]
+    },
+    {
+      "fight_id": 3384,
+      "odds_id": 4132,
+      "red": "Darren Till",
+      "blue": "Bojan Velickovic",
+      "before": [
+        170,
+        -200
+      ],
+      "after": [
+        -200,
+        170
+      ]
+    },
+    {
+      "fight_id": 3410,
+      "odds_id": 4158,
+      "red": "Aljamain Sterling",
+      "blue": "Renan Barao",
+      "before": [
+        -140,
+        110
+      ],
+      "after": [
+        110,
+        -140
+      ]
+    },
+    {
+      "fight_id": 3473,
+      "odds_id": 4221,
+      "red": "Jared Gordon",
+      "blue": "Michel Quinones",
+      "before": [
+        125,
+        -150
+      ],
+      "after": [
+        -150,
+        125
+      ]
+    },
+    {
+      "fight_id": 3500,
+      "odds_id": 4248,
+      "red": "Claudia Gadelha",
+      "blue": "Karolina Kowalkiewicz",
+      "before": [
+        280,
+        -350
+      ],
+      "after": [
+        -350,
+        280
+      ]
+    },
+    {
+      "fight_id": 3504,
+      "odds_id": 4252,
+      "red": "Raphael Assuncao",
+      "blue": "Marlon Moraes",
+      "before": [
+        -225,
+        185
+      ],
+      "after": [
+        185,
+        -225
+      ]
+    },
+    {
+      "fight_id": 3505,
+      "odds_id": 4253,
+      "red": "Antonio Carlos Junior",
+      "blue": "Eric Spicely",
+      "before": [
+        230,
+        -280
+      ],
+      "after": [
+        -280,
+        230
+      ]
+    },
+    {
+      "fight_id": 3524,
+      "odds_id": 4272,
+      "red": "Joanna Jedrzejczyk",
+      "blue": "Jessica Andrade",
+      "before": [
+        185,
+        -220
+      ],
+      "after": [
+        -220,
+        185
+      ]
+    },
+    {
+      "fight_id": 3537,
+      "odds_id": 4285,
+      "red": "Ovince Saint Preux",
+      "blue": "Marcos Rogerio de Lima",
+      "before": [
+        140,
+        -170
+      ],
+      "after": [
+        -170,
+        140
+      ]
+    },
+    {
+      "fight_id": 3569,
+      "odds_id": 4317,
+      "red": "Patrick Cummins",
+      "blue": "Jan Blachowicz",
+      "before": [
+        -120,
+        100
+      ],
+      "after": [
+        100,
+        -120
+      ]
+    },
+    {
+      "fight_id": 3582,
+      "odds_id": 4330,
+      "red": "Marc Diakiese",
+      "blue": "Teemu Packalen",
+      "before": [
+        155,
+        -180
+      ],
+      "after": [
+        -180,
+        155
+      ]
+    },
+    {
+      "fight_id": 3584,
+      "odds_id": 4332,
+      "red": "Lina Lansberg",
+      "blue": "Lucie Pudilova",
+      "before": [
+        285,
+        -345
+      ],
+      "after": [
+        -345,
+        285
+      ]
+    },
+    {
+      "fight_id": 3586,
+      "odds_id": 4334,
+      "red": "Mauricio Rua",
+      "blue": "Gian Villante",
+      "before": [
+        135,
+        -155
+      ],
+      "after": [
+        -155,
+        135
+      ]
+    },
+    {
+      "fight_id": 3592,
+      "odds_id": 4340,
+      "red": "Sergio Moraes",
+      "blue": "Davi Ramos",
+      "before": [
+        170,
+        -200
+      ],
+      "after": [
+        -200,
+        170
+      ]
+    },
+    {
+      "fight_id": 3604,
+      "odds_id": 4352,
+      "red": "Iuri Alcantara",
+      "blue": "Luke Sanders",
+      "before": [
+        -150,
+        130
+      ],
+      "after": [
+        130,
+        -150
+      ]
+    },
+    {
+      "fight_id": 3634,
+      "odds_id": 4382,
+      "red": "Jessica Andrade",
+      "blue": "Angela Hill",
+      "before": [
+        475,
+        -650
+      ],
+      "after": [
+        -650,
+        475
+      ]
+    },
+    {
+      "fight_id": 3641,
+      "odds_id": 4389,
+      "red": "Valentina Shevchenko",
+      "blue": "Julianna Pena",
+      "before": [
+        150,
+        -180
+      ],
+      "after": [
+        -180,
+        150
+      ]
+    },
+    {
+      "fight_id": 3646,
+      "odds_id": 4394,
+      "red": "Raphael Assuncao",
+      "blue": "Aljamain Sterling",
+      "before": [
+        125,
+        -145
+      ],
+      "after": [
+        -145,
+        125
+      ]
+    },
+    {
+      "fight_id": 3650,
+      "odds_id": 4398,
+      "red": "Marcos Rogerio de Lima",
+      "blue": "Jeremy Kimball",
+      "before": [
+        120,
+        -140
+      ],
+      "after": [
+        -140,
+        120
+      ]
+    },
+    {
+      "fight_id": 3659,
+      "odds_id": 4407,
+      "red": "Aleksei Oleinik",
+      "blue": "Viktor Pesta",
+      "before": [
+        120,
+        -140
+      ],
+      "after": [
+        -140,
+        120
+      ]
+    },
+    {
+      "fight_id": 3671,
+      "odds_id": 4419,
+      "red": "Antonio Carlos Junior",
+      "blue": "Marvin Vettori",
+      "before": [
+        105,
+        -125
+      ],
+      "after": [
+        -125,
+        105
+      ]
+    },
+    {
+      "fight_id": 3739,
+      "odds_id": 4582,
+      "red": "Claudia Gadelha",
+      "blue": "Cortney Casey",
+      "before": [
+        365,
+        -500
+      ],
+      "after": [
+        -500,
+        365
+      ]
+    },
+    {
+      "fight_id": 3742,
+      "odds_id": 4585,
+      "red": "Sergio Moraes",
+      "blue": "Zak Ottow",
+      "before": [
+        135,
+        -155
+      ],
+      "after": [
+        -155,
+        135
+      ]
+    },
+    {
+      "fight_id": 3764,
+      "odds_id": 4607,
+      "red": "Joanna Jedrzejczyk",
+      "blue": "Karolina Kowalkiewicz",
+      "before": [
+        300,
+        -400
+      ],
+      "after": [
+        -400,
+        300
+      ]
+    },
+    {
+      "fight_id": 3776,
+      "odds_id": 4619,
+      "red": "Martin Bravo",
+      "blue": "Claudio Puelles",
+      "before": [
+        -115,
+        -105
+      ],
+      "after": [
+        -105,
+        -115
+      ]
+    },
+    {
+      "fight_id": 3789,
+      "odds_id": 4632,
+      "red": "Stefan Struve",
+      "blue": "Daniel Omielanczuk",
+      "before": [
+        165,
+        -185
+      ],
+      "after": [
+        -185,
+        165
+      ]
+    },
+    {
+      "fight_id": 3790,
+      "odds_id": 4633,
+      "red": "Mirsad Bektic",
+      "blue": "Russell Doane",
+      "before": [
+        425,
+        -600
+      ],
+      "after": [
+        -600,
+        425
+      ]
+    },
+    {
+      "fight_id": 3809,
+      "odds_id": 4652,
+      "red": "Cristiane Justino",
+      "blue": "Lina Lansberg",
+      "before": [
+        700,
+        -1000
+      ],
+      "after": [
+        -1000,
+        700
+      ]
+    },
+    {
+      "fight_id": 3810,
+      "odds_id": 4653,
+      "red": "Renan Barao",
+      "blue": "Phillipe Nover",
+      "before": [
+        400,
+        -600
+      ],
+      "after": [
+        -600,
+        400
+      ]
+    },
+    {
+      "fight_id": 3811,
+      "odds_id": 4654,
+      "red": "Roy Nelson",
+      "blue": "Antonio Silva",
+      "before": [
+        300,
+        -400
+      ],
+      "after": [
+        -400,
+        300
+      ]
+    },
+    {
+      "fight_id": 3828,
+      "odds_id": 4671,
+      "red": "Gabriel Benitez",
+      "blue": "Sam Sicilia",
+      "before": [
+        -130,
+        100
+      ],
+      "after": [
+        100,
+        -130
+      ]
+    },
+    {
+      "fight_id": 3830,
+      "odds_id": 4673,
+      "red": "Antonio Carlos Junior",
+      "blue": "Leonardo Guimaraes",
+      "before": [
+        215,
+        -265
+      ],
+      "after": [
+        -265,
+        215
+      ]
+    },
+    {
+      "fight_id": 3835,
+      "odds_id": 4678,
+      "red": "Fabricio Werdum",
+      "blue": "Travis Browne",
+      "before": [
+        175,
+        -205
+      ],
+      "after": [
+        -205,
+        175
+      ]
+    },
+    {
+      "fight_id": 3838,
+      "odds_id": 4681,
+      "red": "Jessica Andrade",
+      "blue": "Joanne Wood",
+      "before": [
+        120,
+        -140
+      ],
+      "after": [
+        -140,
+        120
+      ]
+    },
+    {
+      "fight_id": 3840,
+      "odds_id": 4683,
+      "red": "Brad Tavares",
+      "blue": "Caio Magalhaes",
+      "before": [
+        170,
+        -195
+      ],
+      "after": [
+        -195,
+        170
+      ]
+    },
+    {
+      "fight_id": 3845,
+      "odds_id": 4688,
+      "red": "Alexander Gustafsson",
+      "blue": "Jan Blachowicz",
+      "before": [
+        500,
+        -700
+      ],
+      "after": [
+        -700,
+        500
+      ]
+    },
+    {
+      "fight_id": 3886,
+      "odds_id": 4729,
+      "red": "Teruto Ishihara",
+      "blue": "Horacio Gutierrez",
+      "before": [
+        195,
+        -225
+      ],
+      "after": [
+        -225,
+        195
+      ]
+    },
+    {
+      "fight_id": 3902,
+      "odds_id": 4745,
+      "red": "Francis Ngannou",
+      "blue": "Bojan Mihajlovic",
+      "before": [
+        400,
+        -600
+      ],
+      "after": [
+        -600,
+        400
+      ]
+    },
+    {
+      "fight_id": 3926,
+      "odds_id": 4769,
+      "red": "Jose Aldo",
+      "blue": "Frankie Edgar",
+      "before": [
+        -125,
+        105
+      ],
+      "after": [
+        105,
+        -125
+      ]
+    },
+    {
+      "fight_id": 3930,
+      "odds_id": 4773,
+      "red": "TJ Dillashaw",
+      "blue": "Raphael Assuncao",
+      "before": [
+        325,
+        -400
+      ],
+      "after": [
+        -400,
+        325
+      ]
+    },
+    {
+      "fight_id": 3931,
+      "odds_id": 4774,
+      "red": "Sage Northcutt",
+      "blue": "Enrique Marin",
+      "before": [
+        365,
+        -465
+      ],
+      "after": [
+        -465,
+        365
+      ]
+    },
+    {
+      "fight_id": 3935,
+      "odds_id": 4778,
+      "red": "Joanna Jedrzejczyk",
+      "blue": "Claudia Gadelha",
+      "before": [
+        110,
+        -120
+      ],
+      "after": [
+        -120,
+        110
+      ]
+    },
+    {
+      "fight_id": 3956,
+      "odds_id": 4799,
+      "red": "Gilbert Burns",
+      "blue": "Lukasz Sajewski",
+      "before": [
+        215,
+        -255
+      ],
+      "after": [
+        -255,
+        215
+      ]
+    },
+    {
+      "fight_id": 3961,
+      "odds_id": 4804,
+      "red": "Steve Bosse",
+      "blue": "Sean O'Connell",
+      "before": [
+        110,
+        -150
+      ],
+      "after": [
+        -150,
+        110
+      ]
+    },
+    {
+      "fight_id": 3983,
+      "odds_id": 4826,
+      "red": "Kevin Casey",
+      "blue": "Elvis Mutapcic",
+      "before": [
+        -145,
+        125
+      ],
+      "after": [
+        125,
+        -145
+      ]
+    },
+    {
+      "fight_id": 4000,
+      "odds_id": 5070,
+      "red": "Mauricio Rua",
+      "blue": "Corey Anderson",
+      "before": [
+        -150,
+        130
+      ],
+      "after": [
+        130,
+        -150
+      ]
+    },
+    {
+      "fight_id": 4007,
+      "odds_id": 5077,
+      "red": "Sergio Moraes",
+      "blue": "Luan Chagas",
+      "before": [
+        335,
+        -415
+      ],
+      "after": [
+        -415,
+        335
+      ]
+    },
+    {
+      "fight_id": 4032,
+      "odds_id": 5102,
+      "red": "Marcos Rogerio de Lima",
+      "blue": "Clint Hester",
+      "before": [
+        -110,
+        -120
+      ],
+      "after": [
+        -120,
+        -110
+      ]
+    },
+    {
+      "fight_id": 4053,
+      "odds_id": 5123,
+      "red": "Mairbek Taisumov",
+      "blue": "Damir Hadzovic",
+      "before": [
+        265,
+        -315
+      ],
+      "after": [
+        -315,
+        265
+      ]
+    },
+    {
+      "fight_id": 4061,
+      "odds_id": 5131,
+      "red": "Daniel Kelly",
+      "blue": "Antonio Carlos Junior",
+      "before": [
+        -500,
+        400
+      ],
+      "after": [
+        400,
+        -500
+      ]
+    },
+    {
+      "fight_id": 4077,
+      "odds_id": 5147,
+      "red": "Vitor Miranda",
+      "blue": "Marcelo Guimaraes",
+      "before": [
+        265,
+        -310
+      ],
+      "after": [
+        -310,
+        265
+      ]
+    },
+    {
+      "fight_id": 4092,
+      "odds_id": 5162,
+      "red": "Daniel Omielanczuk",
+      "blue": "Jarjis Danho",
+      "before": [
+        110,
+        -120
+      ],
+      "after": [
+        -120,
+        110
+      ]
+    },
+    {
+      "fight_id": 4093,
+      "odds_id": 5163,
+      "red": "Teemu Packalen",
+      "blue": "Thibault Gouti",
+      "before": [
+        -115,
+        -105
+      ],
+      "after": [
+        -105,
+        -115
+      ]
+    },
+    {
+      "fight_id": 4103,
+      "odds_id": 5173,
+      "red": "Anthony Smith",
+      "blue": "Leonardo Guimaraes",
+      "before": [
+        120,
+        -140
+      ],
+      "after": [
+        -140,
+        120
+      ]
+    },
+    {
+      "fight_id": 4145,
+      "odds_id": 5226,
+      "red": "Francimar Barroso",
+      "blue": "Elvis Mutapcic",
+      "before": [
+        -160,
+        135
+      ],
+      "after": [
+        135,
+        -160
+      ]
+    },
+    {
+      "fight_id": 4219,
+      "odds_id": 5300,
+      "red": "Erick Montano",
+      "blue": "Enrique Marin",
+      "before": [
+        -200,
+        170
+      ],
+      "after": [
+        170,
+        -200
+      ]
+    },
+    {
+      "fight_id": 4230,
+      "odds_id": 5311,
+      "red": "Joanna Jedrzejczyk",
+      "blue": "Valerie Letourneau",
+      "before": [
+        900,
+        -1600
+      ],
+      "after": [
+        -1600,
+        900
+      ]
+    },
+    {
+      "fight_id": 4231,
+      "odds_id": 5312,
+      "red": "Mark Hunt",
+      "blue": "Antonio Silva",
+      "before": [
+        200,
+        -240
+      ],
+      "after": [
+        -240,
+        200
+      ]
+    },
+    {
+      "fight_id": 4276,
+      "odds_id": 5357,
+      "red": "Derrick Lewis",
+      "blue": "Viktor Pesta",
+      "before": [
+        -170,
+        150
+      ],
+      "after": [
+        150,
+        -170
+      ]
+    },
+    {
+      "fight_id": 4308,
+      "odds_id": 5389,
+      "red": "Shane Campbell",
+      "blue": "Elias Silverio",
+      "before": [
+        -265,
+        225
+      ],
+      "after": [
+        225,
+        -265
+      ]
+    },
+    {
+      "fight_id": 4327,
+      "odds_id": 5408,
+      "red": "Stefan Struve",
+      "blue": "Antonio Rodrigo Nogueira",
+      "before": [
+        150,
+        -170
+      ],
+      "after": [
+        -170,
+        150
+      ]
+    },
+    {
+      "fight_id": 4328,
+      "odds_id": 5409,
+      "red": "Antonio Silva",
+      "blue": "Soa Palelei",
+      "before": [
+        -170,
+        145
+      ],
+      "after": [
+        145,
+        -170
+      ]
+    },
+    {
+      "fight_id": 4329,
+      "odds_id": 5410,
+      "red": "Claudia Gadelha",
+      "blue": "Jessica Aguilar",
+      "before": [
+        330,
+        -425
+      ],
+      "after": [
+        -425,
+        330
+      ]
+    },
+    {
+      "fight_id": 4333,
+      "odds_id": 5414,
+      "red": "Iuri Alcantara",
+      "blue": "Leandro Issa",
+      "before": [
+        205,
+        -240
+      ],
+      "after": [
+        -240,
+        205
+      ]
+    },
+    {
+      "fight_id": 4336,
+      "odds_id": 5417,
+      "red": "TJ Dillashaw",
+      "blue": "Renan Barao",
+      "before": [
+        175,
+        -225
+      ],
+      "after": [
+        -225,
+        175
+      ]
+    },
+    {
+      "fight_id": 4352,
+      "odds_id": 5433,
+      "red": "Leon Edwards",
+      "blue": "Pawel Pawlak",
+      "before": [
+        300,
+        -400
+      ],
+      "after": [
+        -400,
+        300
+      ]
+    },
+    {
+      "fight_id": 4356,
+      "odds_id": 5437,
+      "red": "Mickael Lebout",
+      "blue": "Teemu Packalen",
+      "before": [
+        -140,
+        120
+      ],
+      "after": [
+        120,
+        -140
+      ]
+    },
+    {
+      "fight_id": 4359,
+      "odds_id": 5440,
+      "red": "Daniel Omielanczuk",
+      "blue": "Chris de la Rocha",
+      "before": [
+        120,
+        -140
+      ],
+      "after": [
+        -140,
+        120
+      ]
+    },
+    {
+      "fight_id": 4367,
+      "odds_id": 5448,
+      "red": "Jessica Andrade",
+      "blue": "Sarah Moras",
+      "before": [
+        350,
+        -450
+      ],
+      "after": [
+        -450,
+        350
+      ]
+    },
+    {
+      "fight_id": 4370,
+      "odds_id": 5451,
+      "red": "Kevin Casey",
+      "blue": "Ildemar Alcantara",
+      "before": [
+        -130,
+        110
+      ],
+      "after": [
+        110,
+        -130
+      ]
+    },
+    {
+      "fight_id": 4378,
+      "odds_id": 5459,
+      "red": "Josh Samman",
+      "blue": "Caio Magalhaes",
+      "before": [
+        -120,
+        100
+      ],
+      "after": [
+        100,
+        -120
+      ]
+    },
+    {
+      "fight_id": 4396,
+      "odds_id": 5477,
+      "red": "Antonio Carlos Junior",
+      "blue": "Eddie Gordon",
+      "before": [
+        150,
+        -170
+      ],
+      "after": [
+        -170,
+        150
+      ]
+    },
+    {
+      "fight_id": 4397,
+      "odds_id": 5478,
+      "red": "Thiago Santos",
+      "blue": "Steve Bosse",
+      "before": [
+        160,
+        -190
+      ],
+      "after": [
+        -190,
+        160
+      ]
+    },
+    {
+      "fight_id": 4403,
+      "odds_id": 5484,
+      "red": "Joanna Jedrzejczyk",
+      "blue": "Jessica Penne",
+      "before": [
+        500,
+        -800
+      ],
+      "after": [
+        -800,
+        500
+      ]
+    },
+    {
+      "fight_id": 4406,
+      "odds_id": 5487,
+      "red": "Nick Hein",
+      "blue": "Lukasz Sajewski",
+      "before": [
+        135,
+        -160
+      ],
+      "after": [
+        -160,
+        135
+      ]
+    },
+    {
+      "fight_id": 4424,
+      "odds_id": 5505,
+      "red": "Gabriel Benitez",
+      "blue": "Clay Collard",
+      "before": [
+        -250,
+        210
+      ],
+      "after": [
+        210,
+        -250
+      ]
+    },
+    {
+      "fight_id": 4462,
+      "odds_id": 5543,
+      "red": "Mark Munoz",
+      "blue": "Luke Barnatt",
+      "before": [
+        -135,
+        115
+      ],
+      "after": [
+        115,
+        -135
+      ]
+    },
+    {
+      "fight_id": 4485,
+      "odds_id": 5566,
+      "red": "Quinton Jackson",
+      "blue": "Fabio Maldonado",
+      "before": [
+        145,
+        -170
+      ],
+      "after": [
+        -170,
+        145
+      ]
+    },
+    {
+      "fight_id": 4505,
+      "odds_id": 5586,
+      "red": "Diego Brandao",
+      "blue": "Jimy Hettes",
+      "before": [
+        125,
+        -135
+      ],
+      "after": [
+        -135,
+        125
+      ]
+    },
+    {
+      "fight_id": 4509,
+      "odds_id": 5590,
+      "red": "Pawel Pawlak",
+      "blue": "Sheldon Westcott",
+      "before": [
+        -220,
+        180
+      ],
+      "after": [
+        180,
+        -220
+      ]
+    },
+    {
+      "fight_id": 4512,
+      "odds_id": 5593,
+      "red": "Bartosz Fabinski",
+      "blue": "Garreth McLellan",
+      "before": [
+        110,
+        -130
+      ],
+      "after": [
+        -130,
+        110
+      ]
+    },
+    {
+      "fight_id": 4513,
+      "odds_id": 5594,
+      "red": "Sergio Moraes",
+      "blue": "Mickael Lebout",
+      "before": [
+        390,
+        -510
+      ],
+      "after": [
+        -510,
+        390
+      ]
+    },
+    {
+      "fight_id": 4522,
+      "odds_id": 5603,
+      "red": "Julianna Pena",
+      "blue": "Milana Dudieva",
+      "before": [
+        325,
+        -400
+      ],
+      "after": [
+        -400,
+        325
+      ]
+    },
+    {
+      "fight_id": 4605,
+      "odds_id": 5686,
+      "red": "Mirsad Bektic",
+      "blue": "Paul Redmond",
+      "before": [
+        600,
+        -900
+      ],
+      "after": [
+        -900,
+        600
+      ]
+    },
+    {
+      "fight_id": 4606,
+      "odds_id": 5687,
+      "red": "Viktor Pesta",
+      "blue": "Konstantin Erokhin",
+      "before": [
+        -800,
+        600
+      ],
+      "after": [
+        600,
+        -800
+      ]
+    },
+    {
+      "fight_id": 4632,
+      "odds_id": 5713,
+      "red": "Renan Barao",
+      "blue": "Mitch Gagnon",
+      "before": [
+        625,
+        -1000
+      ],
+      "after": [
+        -1000,
+        625
+      ]
+    },
+    {
+      "fight_id": 4637,
+      "odds_id": 5718,
+      "red": "Marcos Rogerio de Lima",
+      "blue": "Igor Pokrajac",
+      "before": [
+        335,
+        -415
+      ],
+      "after": [
+        -415,
+        335
+      ]
+    },
+    {
+      "fight_id": 4689,
+      "odds_id": 5770,
+      "red": "Fabricio Werdum",
+      "blue": "Mark Hunt",
+      "before": [
+        345,
+        -420
+      ],
+      "after": [
+        -420,
+        345
+      ]
+    },
+    {
+      "fight_id": 4692,
+      "odds_id": 5773,
+      "red": "Augusto Montano",
+      "blue": "Chris Heatherly",
+      "before": [
+        190,
+        -240
+      ],
+      "after": [
+        -240,
+        190
+      ]
+    },
+    {
+      "fight_id": 4697,
+      "odds_id": 5778,
+      "red": "Gabriel Benitez",
+      "blue": "Humberto Brown Morrison",
+      "before": [
+        275,
+        -350
+      ],
+      "after": [
+        -350,
+        275
+      ]
+    },
+    {
+      "fight_id": 4706,
+      "odds_id": 5787,
+      "red": "Caio Magalhaes",
+      "blue": "Trevor Smith",
+      "before": [
+        210,
+        -260
+      ],
+      "after": [
+        -260,
+        210
+      ]
+    },
+    {
+      "fight_id": 4721,
+      "odds_id": 5802,
+      "red": "Jose Aldo",
+      "blue": "Chad Mendes",
+      "before": [
+        180,
+        -210
+      ],
+      "after": [
+        -210,
+        180
+      ]
+    },
+    {
+      "fight_id": 4723,
+      "odds_id": 5804,
+      "red": "Fabio Maldonado",
+      "blue": "Hans Stringer",
+      "before": [
+        100,
+        -125
+      ],
+      "after": [
+        -125,
+        100
+      ]
+    },
+    {
+      "fight_id": 4733,
+      "odds_id": 5814,
+      "red": "Raphael Assuncao",
+      "blue": "Bryan Caraway",
+      "before": [
+        350,
+        -450
+      ],
+      "after": [
+        -450,
+        350
+      ]
+    },
+    {
+      "fight_id": 4782,
+      "odds_id": 5872,
+      "red": "Iuri Alcantara",
+      "blue": "Russell Doane",
+      "before": [
+        275,
+        -325
+      ],
+      "after": [
+        -325,
+        275
+      ]
+    },
+    {
+      "fight_id": 4783,
+      "odds_id": 5873,
+      "red": "Jessica Andrade",
+      "blue": "Larissa Pacheco",
+      "before": [
+        -105,
+        -110
+      ],
+      "after": [
+        -110,
+        -105
+      ]
+    },
+    {
+      "fight_id": 4810,
+      "odds_id": 5900,
+      "red": "James Vick",
+      "blue": "Valmir Lazaro",
+      "before": [
+        120,
+        -140
+      ],
+      "after": [
+        -140,
+        120
+      ]
+    },
+    {
+      "fight_id": 4849,
+      "odds_id": 5939,
+      "red": "Conor McGregor",
+      "blue": "Diego Brandao",
+      "before": [
+        450,
+        -600
+      ],
+      "after": [
+        -600,
+        450
+      ]
+    },
+    {
+      "fight_id": 4869,
+      "odds_id": 5959,
+      "red": "Claudia Gadelha",
+      "blue": "Tina Lahdemaki",
+      "before": [
+        430,
+        -560
+      ],
+      "after": [
+        -560,
+        430
+      ]
+    },
+    {
+      "fight_id": 4886,
+      "odds_id": 5976,
+      "red": "Kenny Robertson",
+      "blue": "Ildemar Alcantara",
+      "before": [
+        -135,
+        115
+      ],
+      "after": [
+        115,
+        -135
+      ]
+    },
+    {
+      "fight_id": 4895,
+      "odds_id": 5985,
+      "red": "Clint Hester",
+      "blue": "Antonio Braga Neto",
+      "before": [
+        -155,
+        135
+      ],
+      "after": [
+        135,
+        -155
+      ]
+    },
+    {
+      "fight_id": 4899,
+      "odds_id": 5989,
+      "red": "Marcelo Guimaraes",
+      "blue": "Andy Enz",
+      "before": [
+        -180,
+        155
+      ],
+      "after": [
+        155,
+        -180
+      ]
+    },
+    {
+      "fight_id": 4918,
+      "odds_id": 6008,
+      "red": "Valerie Letourneau",
+      "blue": "Elizabeth Phillips",
+      "before": [
+        -125,
+        105
+      ],
+      "after": [
+        105,
+        -125
+      ]
+    },
+    {
+      "fight_id": 4934,
+      "odds_id": 6024,
+      "red": "Stipe Miocic",
+      "blue": "Fabio Maldonado",
+      "before": [
+        500,
+        -675
+      ],
+      "after": [
+        -675,
+        500
+      ]
+    },
+    {
+      "fight_id": 4940,
+      "odds_id": 6030,
+      "red": "Elias Silverio",
+      "blue": "Ernest Chavez",
+      "before": [
+        375,
+        -475
+      ],
+      "after": [
+        -475,
+        375
+      ]
+    },
+    {
+      "fight_id": 4944,
+      "odds_id": 6034,
+      "red": "Marcos Rogerio de Lima",
+      "blue": "Richardson Moreira",
+      "before": [
+        140,
+        -160
+      ],
+      "after": [
+        -160,
+        140
+      ]
+    },
+    {
+      "fight_id": 4953,
+      "odds_id": 6043,
+      "red": "Peter Sobotta",
+      "blue": "Pawel Pawlak",
+      "before": [
+        -160,
+        140
+      ],
+      "after": [
+        140,
+        -160
+      ]
+    },
+    {
+      "fight_id": 4991,
+      "odds_id": 6081,
+      "red": "Fabricio Werdum",
+      "blue": "Travis Browne",
+      "before": [
+        -230,
+        190
+      ],
+      "after": [
+        190,
+        -230
+      ]
+    },
+    {
+      "fight_id": 4999,
+      "odds_id": 6089,
+      "red": "Caio Magalhaes",
+      "blue": "Luke Zachrich",
+      "before": [
+        265,
+        -315
+      ],
+      "after": [
+        -315,
+        265
+      ]
+    },
+    {
+      "fight_id": 5000,
+      "odds_id": 6090,
+      "red": "Jordan Mein",
+      "blue": "Hernani Perpetuo",
+      "before": [
+        335,
+        -425
+      ],
+      "after": [
+        -425,
+        335
+      ]
+    },
+    {
+      "fight_id": 5002,
+      "odds_id": 6092,
+      "red": "Mirsad Bektic",
+      "blue": "Chas Skelly",
+      "before": [
+        125,
+        -145
+      ],
+      "after": [
+        -145,
+        125
+      ]
+    },
+    {
+      "fight_id": 5021,
+      "odds_id": 6111,
+      "red": "Jared Rosholt",
+      "blue": "Daniel Omielanczuk",
+      "before": [
+        240,
+        -280
+      ],
+      "after": [
+        -280,
+        240
+      ]
+    },
+    {
+      "fight_id": 5028,
+      "odds_id": 6118,
+      "red": "Fabio Maldonado",
+      "blue": "Gian Villante",
+      "before": [
+        -250,
+        210
+      ],
+      "after": [
+        210,
+        -250
+      ]
+    },
+    {
+      "fight_id": 5056,
+      "odds_id": 6146,
+      "red": "Igor Araujo",
+      "blue": "Danny Mitchell",
+      "before": [
+        225,
+        -265
+      ],
+      "after": [
+        -265,
+        225
+      ]
+    },
+    {
+      "fight_id": 5072,
+      "odds_id": 6162,
+      "red": "Raphael Assuncao",
+      "blue": "Pedro Munhoz",
+      "before": [
+        240,
+        -290
+      ],
+      "after": [
+        -290,
+        240
+      ]
+    },
+    {
+      "fight_id": 5085,
+      "odds_id": 6175,
+      "red": "Iuri Alcantara",
+      "blue": "Wilson Reis",
+      "before": [
+        185,
+        -220
+      ],
+      "after": [
+        -220,
+        185
+      ]
+    },
+    {
+      "fight_id": 5087,
+      "odds_id": 6177,
+      "red": "Ildemar Alcantara",
+      "blue": "Albert Tumenov",
+      "before": [
+        -225,
+        185
+      ],
+      "after": [
+        185,
+        -225
+      ]
+    },
+    {
+      "fight_id": 5089,
+      "odds_id": 6179,
+      "red": "Renan Barao",
+      "blue": "Urijah Faber",
+      "before": [
+        280,
+        -350
+      ],
+      "after": [
+        -350,
+        280
+      ]
+    },
+    {
+      "fight_id": 5090,
+      "odds_id": 6180,
+      "red": "Jose Aldo",
+      "blue": "Ricardo Lamas",
+      "before": [
+        550,
+        -800
+      ],
+      "after": [
+        -800,
+        550
+      ]
+    },
+    {
+      "fight_id": 5137,
+      "odds_id": 6227,
+      "red": "Jim Miller",
+      "blue": "Fabricio Camoes",
+      "before": [
+        315,
+        -420
+      ],
+      "after": [
+        -420,
+        315
+      ]
+    },
+    {
+      "fight_id": 5138,
+      "odds_id": 6228,
+      "red": "Dustin Poirier",
+      "blue": "Diego Brandao",
+      "before": [
+        205,
+        -250
+      ],
+      "after": [
+        -250,
+        205
+      ]
+    },
+    {
+      "fight_id": 5143,
+      "odds_id": 6233,
+      "red": "William Macario",
+      "blue": "Bobby Voelker",
+      "before": [
+        -145,
+        125
+      ],
+      "after": [
+        125,
+        -145
+      ]
+    },
+    {
+      "fight_id": 5156,
+      "odds_id": 6246,
+      "red": "Mark Hunt",
+      "blue": "Antonio Silva",
+      "before": [
+        -150,
+        130
+      ],
+      "after": [
+        130,
+        -150
+      ]
+    },
+    {
+      "fight_id": 5157,
+      "odds_id": 6247,
+      "red": "Mauricio Rua",
+      "blue": "James Te Huna",
+      "before": [
+        -135,
+        125
+      ],
+      "after": [
+        125,
+        -135
+      ]
+    },
+    {
+      "fight_id": 5168,
+      "odds_id": 6258,
+      "red": "Julianna Pena",
+      "blue": "Jessica Rakoczy",
+      "before": [
+        200,
+        -250
+      ],
+      "after": [
+        -250,
+        200
+      ]
+    },
+    {
+      "fight_id": 5213,
+      "odds_id": 6303,
+      "red": "Lyoto Machida",
+      "blue": "Mark Munoz",
+      "before": [
+        300,
+        -400
+      ],
+      "after": [
+        -400,
+        300
+      ]
+    },
+    {
+      "fight_id": 5241,
+      "odds_id": 6331,
+      "red": "Fabio Maldonado",
+      "blue": "Joey Beltran",
+      "before": [
+        145,
+        -170
+      ],
+      "after": [
+        -170,
+        145
+      ]
+    },
+    {
+      "fight_id": 5243,
+      "odds_id": 6333,
+      "red": "Raphael Assuncao",
+      "blue": "TJ Dillashaw",
+      "before": [
+        -220,
+        180
+      ],
+      "after": [
+        180,
+        -220
+      ]
+    },
+    {
+      "fight_id": 5249,
+      "odds_id": 6339,
+      "red": "Renan Barao",
+      "blue": "Eddie Wineland",
+      "before": [
+        500,
+        -700
+      ],
+      "after": [
+        -700,
+        500
+      ]
+    },
+    {
+      "fight_id": 5265,
+      "odds_id": 6355,
+      "red": "Rafael Natal",
+      "blue": "Tor Troeng",
+      "before": [
+        220,
+        -265
+      ],
+      "after": [
+        -265,
+        220
+      ]
+    },
+    {
+      "fight_id": 5298,
+      "odds_id": 6388,
+      "red": "Urijah Faber",
+      "blue": "Iuri Alcantara",
+      "before": [
+        195,
+        -235
+      ],
+      "after": [
+        -235,
+        195
+      ]
+    },
+    {
+      "fight_id": 5305,
+      "odds_id": 6395,
+      "red": "Diego Brandao",
+      "blue": "Daniel Pineda",
+      "before": [
+        165,
+        -190
+      ],
+      "after": [
+        -190,
+        165
+      ]
+    },
+    {
+      "fight_id": 5309,
+      "odds_id": 6399,
+      "red": "Jose Aldo",
+      "blue": "Chan Sung Jung",
+      "before": [
+        650,
+        -900
+      ],
+      "after": [
+        -900,
+        650
+      ]
+    },
+    {
+      "fight_id": 5316,
+      "odds_id": 6406,
+      "red": "Sergio Moraes",
+      "blue": "Neil Magny",
+      "before": [
+        145,
+        -160
+      ],
+      "after": [
+        -160,
+        145
+      ]
+    },
+    {
+      "fight_id": 5324,
+      "odds_id": 6414,
+      "red": "Liz Carmouche",
+      "blue": "Jessica Andrade",
+      "before": [
+        435,
+        -600
+      ],
+      "after": [
+        -600,
+        435
+      ]
+    },
+    {
+      "fight_id": 5336,
+      "odds_id": 6426,
+      "red": "Mark Munoz",
+      "blue": "Tim Boetsch",
+      "before": [
+        -125,
+        105
+      ],
+      "after": [
+        105,
+        -125
+      ]
+    },
+    {
+      "fight_id": 5361,
+      "odds_id": 6451,
+      "red": "Raphael Assuncao",
+      "blue": "Vaughan Lee",
+      "before": [
+        350,
+        -430
+      ],
+      "after": [
+        -430,
+        350
+      ]
+    },
+    {
+      "fight_id": 5363,
+      "odds_id": 6453,
+      "red": "Ildemar Alcantara",
+      "blue": "Leandro Silva",
+      "before": [
+        150,
+        -175
+      ],
+      "after": [
+        -175,
+        150
+      ]
+    },
+    {
+      "fight_id": 5365,
+      "odds_id": 6455,
+      "red": "Caio Magalhaes",
+      "blue": "Karlos Vemola",
+      "before": [
+        -125,
+        105
+      ],
+      "after": [
+        105,
+        -125
+      ]
+    },
+    {
+      "fight_id": 5366,
+      "odds_id": 6456,
+      "red": "Antonio Braga Neto",
+      "blue": "Anthony Smith",
+      "before": [
+        200,
+        -250
+      ],
+      "after": [
+        -250,
+        200
+      ]
+    },
+    {
+      "fight_id": 5367,
+      "odds_id": 6457,
+      "red": "Cain Velasquez",
+      "blue": "Antonio Silva",
+      "before": [
+        550,
+        -700
+      ],
+      "after": [
+        -700,
+        550
+      ]
+    },
+    {
+      "fight_id": 5382,
+      "odds_id": 6472,
+      "red": "Rafael Natal",
+      "blue": "Joao Zeferino",
+      "before": [
+        270,
+        -315
+      ],
+      "after": [
+        -315,
+        270
+      ]
+    },
+    {
+      "fight_id": 5387,
+      "odds_id": 6477,
+      "red": "Iuri Alcantara",
+      "blue": "Iliarde Santos",
+      "before": [
+        450,
+        -575
+      ],
+      "after": [
+        -575,
+        450
+      ]
+    },
+    {
+      "fight_id": 5388,
+      "odds_id": 6478,
+      "red": "Fabio Maldonado",
+      "blue": "Roger Hollett",
+      "before": [
+        225,
+        -275
+      ],
+      "after": [
+        -275,
+        225
+      ]
+    },
+    {
+      "fight_id": 5395,
+      "odds_id": 6485,
+      "red": "Phil Davis",
+      "blue": "Vinny Magalhaes",
+      "before": [
+        250,
+        -300
+      ],
+      "after": [
+        -300,
+        250
+      ]
+    },
+    {
+      "fight_id": 5431,
+      "odds_id": 6522,
+      "red": "Diego Brandao",
+      "blue": "Pablo Garza",
+      "before": [
+        170,
+        -220
+      ],
+      "after": [
+        -220,
+        170
+      ]
+    },
+    {
+      "fight_id": 5434,
+      "odds_id": 6525,
+      "red": "Tor Troeng",
+      "blue": "Adam Cella",
+      "before": [
+        210,
+        -250
+      ],
+      "after": [
+        -250,
+        210
+      ]
+    },
+    {
+      "fight_id": 5475,
+      "odds_id": 6566,
+      "red": "Renan Barao",
+      "blue": "Michael McDonald",
+      "before": [
+        265,
+        -300
+      ],
+      "after": [
+        -300,
+        265
+      ]
+    },
+    {
+      "fight_id": 5487,
+      "odds_id": 6578,
+      "red": "Jose Aldo",
+      "blue": "Frankie Edgar",
+      "before": [
+        165,
+        -175
+      ],
+      "after": [
+        -175,
+        165
+      ]
+    },
+    {
+      "fight_id": 5517,
+      "odds_id": 6608,
+      "red": "Iuri Alcantara",
+      "blue": "Pedro Nobre",
+      "before": [
+        475,
+        -600
+      ],
+      "after": [
+        -600,
+        475
+      ]
+    },
+    {
+      "fight_id": 5558,
+      "odds_id": 6649,
+      "red": "Raphael Assuncao",
+      "blue": "Mike Easton",
+      "before": [
+        -295,
+        240
+      ],
+      "after": [
+        240,
+        -295
+      ]
+    },
+    {
+      "fight_id": 5586,
+      "odds_id": 6677,
+      "red": "Antonio Rodrigo Nogueira",
+      "blue": "Dave Herman",
+      "before": [
+        190,
+        -230
+      ],
+      "after": [
+        -230,
+        190
+      ]
+    },
+    {
+      "fight_id": 5587,
+      "odds_id": 6678,
+      "red": "Glover Teixeira",
+      "blue": "Fabio Maldonado",
+      "before": [
+        380,
+        -490
+      ],
+      "after": [
+        -490,
+        380
+      ]
+    },
+    {
+      "fight_id": 5593,
+      "odds_id": 6684,
+      "red": "Diego Brandao",
+      "blue": "Joey Gambino",
+      "before": [
+        200,
+        -250
+      ],
+      "after": [
+        -250,
+        200
+      ]
+    },
+    {
+      "fight_id": 5594,
+      "odds_id": 6685,
+      "red": "Sergio Moraes",
+      "blue": "Renee Forte",
+      "before": [
+        185,
+        -225
+      ],
+      "after": [
+        -225,
+        185
+      ]
+    },
+    {
+      "fight_id": 5640,
+      "odds_id": 6731,
+      "red": "Mauricio Rua",
+      "blue": "Brandon Vera",
+      "before": [
+        350,
+        -425
+      ],
+      "after": [
+        -425,
+        350
+      ]
+    },
+    {
+      "fight_id": 5670,
+      "odds_id": 6761,
+      "red": "Marcelo Guimaraes",
+      "blue": "Dan Stittgen",
+      "before": [
+        310,
+        -400
+      ],
+      "after": [
+        -400,
+        310
+      ]
+    },
+    {
+      "fight_id": 5671,
+      "odds_id": 6762,
+      "red": "Raphael Assuncao",
+      "blue": "Issei Tamura",
+      "before": [
+        160,
+        -190
+      ],
+      "after": [
+        -190,
+        160
+      ]
+    },
+    {
+      "fight_id": 5678,
+      "odds_id": 6769,
+      "red": "Melvin Guillard",
+      "blue": "Fabricio Camoes",
+      "before": [
+        245,
+        -295
+      ],
+      "after": [
+        -295,
+        245
+      ]
+    },
+    {
+      "fight_id": 5684,
+      "odds_id": 6775,
+      "red": "Cezar Ferreira",
+      "blue": "Sergio Moraes",
+      "before": [
+        260,
+        -320
+      ],
+      "after": [
+        -320,
+        260
+      ]
+    },
+    {
+      "fight_id": 5686,
+      "odds_id": 6777,
+      "red": "Fabricio Werdum",
+      "blue": "Mike Russow",
+      "before": [
+        380,
+        -500
+      ],
+      "after": [
+        -500,
+        380
+      ]
+    },
+    {
+      "fight_id": 5691,
+      "odds_id": 6782,
+      "red": "Thiago Perpetuo",
+      "blue": "Leonardo Mafra",
+      "before": [
+        105,
+        -130
+      ],
+      "after": [
+        -130,
+        105
+      ]
+    },
+    {
+      "fight_id": 5715,
+      "odds_id": 6806,
+      "red": "Buddy Roberts",
+      "blue": "Caio Magalhaes",
+      "before": [
+        110,
+        -135
+      ],
+      "after": [
+        -135,
+        110
+      ]
+    },
+    {
+      "fight_id": 5716,
+      "odds_id": 6807,
+      "red": "Henry Martinez",
+      "blue": "Bernardo Magalhaes",
+      "before": [
+        200,
+        -240
+      ],
+      "after": [
+        -240,
+        200
+      ]
+    },
+    {
+      "fight_id": 5729,
+      "odds_id": 6820,
+      "red": "Cain Velasquez",
+      "blue": "Antonio Silva",
+      "before": [
+        320,
+        -400
+      ],
+      "after": [
+        -400,
+        320
+      ]
+    },
+    {
+      "fight_id": 5744,
+      "odds_id": 6835,
+      "red": "Igor Pokrajac",
+      "blue": "Fabio Maldonado",
+      "before": [
+        -150,
+        125
+      ],
+      "after": [
+        125,
+        -150
+      ]
+    },
+    {
+      "fight_id": 5819,
+      "odds_id": 6910,
+      "red": "Tim Means",
+      "blue": "Bernardo Magalhaes",
+      "before": [
+        -130,
+        105
+      ],
+      "after": [
+        105,
+        -130
+      ]
+    },
+    {
+      "fight_id": 5823,
+      "odds_id": 6914,
+      "red": "Renan Barao",
+      "blue": "Scott Jorgensen",
+      "before": [
+        190,
+        -225
+      ],
+      "after": [
+        -225,
+        190
+      ]
+    },
+    {
+      "fight_id": 5848,
+      "odds_id": 6939,
+      "red": "Fabricio Camoes",
+      "blue": "Tommy Hayden",
+      "before": [
+        270,
+        -325
+      ],
+      "after": [
+        -325,
+        270
+      ]
+    },
+    {
+      "fight_id": 5851,
+      "odds_id": 6942,
+      "red": "Jose Aldo",
+      "blue": "Chad Mendes",
+      "before": [
+        220,
+        -260
+      ],
+      "after": [
+        -260,
+        220
+      ]
+    },
+    {
+      "fight_id": 5858,
+      "odds_id": 6949,
+      "red": "Iuri Alcantara",
+      "blue": "Michihiro Omigawa",
+      "before": [
+        170,
+        -200
+      ],
+      "after": [
+        -200,
+        170
+      ]
+    },
+    {
+      "fight_id": 5866,
+      "odds_id": 6957,
+      "red": "Ross Pearson",
+      "blue": "Junior Assuncao",
+      "before": [
+        270,
+        -330
+      ],
+      "after": [
+        -330,
+        270
+      ]
+    },
+    {
+      "fight_id": 5872,
+      "odds_id": 6963,
+      "red": "Frank Mir",
+      "blue": "Antonio Rodrigo Nogueira",
+      "before": [
+        180,
+        -220
+      ],
+      "after": [
+        -220,
+        180
+      ]
+    },
+    {
+      "fight_id": 5884,
+      "odds_id": 6975,
+      "red": "Diego Brandao",
+      "blue": "Dennis Bermudez",
+      "before": [
+        275,
+        -335
+      ],
+      "after": [
+        -335,
+        275
+      ]
+    },
+    {
+      "fight_id": 5937,
+      "odds_id": 7028,
+      "red": "Jose Aldo",
+      "blue": "Kenny Florian",
+      "before": [
+        310,
+        -420
+      ],
+      "after": [
+        -420,
+        310
+      ]
+    },
+    {
+      "fight_id": 5964,
+      "odds_id": 7055,
+      "red": "Junior Assuncao",
+      "blue": "Eddie Yagin",
+      "before": [
+        -150,
+        125
+      ],
+      "after": [
+        125,
+        -150
+      ]
+    },
+    {
+      "fight_id": 5980,
+      "odds_id": 7071,
+      "red": "Mauricio Rua",
+      "blue": "Forrest Griffin",
+      "before": [
+        185,
+        -225
+      ],
+      "after": [
+        -225,
+        185
+      ]
+    },
+    {
+      "fight_id": 5982,
+      "odds_id": 7073,
+      "red": "Antonio Rodrigo Nogueira",
+      "blue": "Brendan Schaub",
+      "before": [
+        -255,
+        215
+      ],
+      "after": [
+        215,
+        -255
+      ]
+    },
+    {
+      "fight_id": 5987,
+      "odds_id": 7078,
+      "red": "Raphael Assuncao",
+      "blue": "Johnny Eduardo",
+      "before": [
+        135,
+        -160
+      ],
+      "after": [
+        -160,
+        135
+      ]
+    },
+    {
+      "fight_id": 5989,
+      "odds_id": 7080,
+      "red": "Iuri Alcantara",
+      "blue": "Felipe Arantes",
+      "before": [
+        390,
+        -500
+      ],
+      "after": [
+        -500,
+        390
+      ]
+    },
+    {
+      "fight_id": 5998,
+      "odds_id": 7089,
+      "red": "Ronny Markes",
+      "blue": "Karlos Vemola",
+      "before": [
+        -235,
+        190
+      ],
+      "after": [
+        190,
+        -235
+      ]
+    },
+    {
+      "fight_id": 6065,
+      "odds_id": 7129,
+      "red": "Mark Munoz",
+      "blue": "Demian Maia",
+      "before": [
+        125,
+        -150
+      ],
+      "after": [
+        -150,
+        125
+      ]
+    },
+    {
+      "fight_id": 6097,
+      "odds_id": 7161,
+      "red": "Jose Aldo",
+      "blue": "Mark Hominick",
+      "before": [
+        450,
+        -600
+      ],
+      "after": [
+        -600,
+        450
+      ]
+    },
+    {
+      "fight_id": 6125,
+      "odds_id": 7189,
+      "red": "Luiz Cane",
+      "blue": "Eliot Marshall",
+      "before": [
+        160,
+        -190
+      ],
+      "after": [
+        -190,
+        160
+      ]
+    },
+    {
+      "fight_id": 6131,
+      "odds_id": 7195,
+      "red": "Erik Koch",
+      "blue": "Raphael Assuncao",
+      "before": [
+        135,
+        -165
+      ],
+      "after": [
+        -165,
+        135
+      ]
+    },
+    {
+      "fight_id": 6252,
+      "odds_id": 7316,
+      "red": "Frank Mir",
+      "blue": "Mirko Filipovic",
+      "before": [
+        185,
+        -225
+      ],
+      "after": [
+        -225,
+        185
+      ]
+    },
+    {
+      "fight_id": 6311,
+      "odds_id": 7375,
+      "red": "Kendall Grove",
+      "blue": "Goran Reljic",
+      "before": [
+        -140,
+        120
+      ],
+      "after": [
+        120,
+        -140
+      ]
+    },
+    {
+      "fight_id": 6314,
+      "odds_id": 7378,
+      "red": "Jon Madsen",
+      "blue": "Karlos Vemola",
+      "before": [
+        -155,
+        130
+      ],
+      "after": [
+        130,
+        -155
+      ]
+    },
+    {
+      "fight_id": 6326,
+      "odds_id": 7390,
+      "red": "Mirko Filipovic",
+      "blue": "Pat Barry",
+      "before": [
+        -170,
+        150
+      ],
+      "after": [
+        150,
+        -170
+      ]
+    },
+    {
+      "fight_id": 6381,
+      "odds_id": 7445,
+      "red": "Kurt Pellegrino",
+      "blue": "Fabricio Camoes",
+      "before": [
+        185,
+        -206
+      ],
+      "after": [
+        -206,
+        185
+      ]
+    },
+    {
+      "fight_id": 6400,
+      "odds_id": 7464,
+      "red": "Cain Velasquez",
+      "blue": "Antonio Rodrigo Nogueira",
+      "before": [
+        -112,
+        101
+      ],
+      "after": [
+        101,
+        -112
+      ]
+    },
+    {
+      "fight_id": 6404,
+      "odds_id": 7468,
+      "red": "Mirko Filipovic",
+      "blue": "Anthony Perosh",
+      "before": [
+        425,
+        -575
+      ],
+      "after": [
+        -575,
+        425
+      ]
+    },
+    {
+      "fight_id": 6407,
+      "odds_id": 7471,
+      "red": "CB Dollaway",
+      "blue": "Goran Reljic",
+      "before": [
+        -208,
+        178
+      ],
+      "after": [
+        178,
+        -208
+      ]
+    },
+    {
+      "fight_id": 6438,
+      "odds_id": 7502,
+      "red": "Mark Munoz",
+      "blue": "Ryan Jensen",
+      "before": [
+        283,
+        -373
+      ],
+      "after": [
+        -373,
+        283
+      ]
+    },
+    {
+      "fight_id": 6465,
+      "odds_id": 7529,
+      "red": "Rogerio Nogueira",
+      "blue": "Luiz Cane",
+      "before": [
+        -108,
+        -118
+      ],
+      "after": [
+        -118,
+        -108
+      ]
+    },
+    {
+      "fight_id": 6470,
+      "odds_id": 7534,
+      "red": "Caol Uno",
+      "blue": "Fabricio Camoes",
+      "before": [
+        140,
+        -165
+      ],
+      "after": [
+        -165,
+        140
+      ]
+    },
+    {
+      "fight_id": 6483,
+      "odds_id": 7547,
+      "red": "Lyoto Machida",
+      "blue": "Mauricio Rua",
+      "before": [
+        353,
+        -428
+      ],
+      "after": [
+        -428,
+        353
+      ]
+    },
+    {
+      "fight_id": 6495,
+      "odds_id": 7559,
+      "red": "Junior Dos Santos",
+      "blue": "Mirko Filipovic",
+      "before": [
+        145,
+        -165
+      ],
+      "after": [
+        -165,
+        145
+      ]
+    },
+    {
+      "fight_id": 6498,
+      "odds_id": 7562,
+      "red": "Tyson Griffin",
+      "blue": "Hermes Franca",
+      "before": [
+        270,
+        -323
+      ],
+      "after": [
+        -323,
+        270
+      ]
+    },
+    {
+      "fight_id": 6517,
+      "odds_id": 7581,
+      "red": "Antonio Rodrigo Nogueira",
+      "blue": "Randy Couture",
+      "before": [
+        -198,
+        153
+      ],
+      "after": [
+        153,
+        -198
+      ]
+    },
+    {
+      "fight_id": 6526,
+      "odds_id": 7590,
+      "red": "Mark Munoz",
+      "blue": "Nick Catone",
+      "before": [
+        193,
+        -231
+      ],
+      "after": [
+        -231,
+        193
+      ]
+    },
+    {
+      "fight_id": 6570,
+      "odds_id": 7634,
+      "red": "Stefan Struve",
+      "blue": "Denis Stojnic",
+      "before": [
+        140,
+        -175
+      ],
+      "after": [
+        -175,
+        140
+      ]
+    },
+    {
+      "fight_id": 6585,
+      "odds_id": 7649,
+      "red": "Mauricio Rua",
+      "blue": "Chuck Liddell",
+      "before": [
+        -168,
+        148
+      ],
+      "after": [
+        148,
+        -168
+      ]
+    },
+    {
+      "fight_id": 6588,
+      "odds_id": 7652,
+      "red": "Luiz Cane",
+      "blue": "Steve Cantwell",
+      "before": [
+        208,
+        -260
+      ],
+      "after": [
+        -260,
+        208
+      ]
+    },
+    {
+      "fight_id": 6594,
+      "odds_id": 7658,
+      "red": "Eliot Marshall",
+      "blue": "Vinny Magalhaes",
+      "before": [
+        -143,
+        118
+      ],
+      "after": [
+        118,
+        -143
+      ]
+    },
+    {
+      "fight_id": 6609,
+      "odds_id": 7673,
+      "red": "Matt Hamill",
+      "blue": "Mark Munoz",
+      "before": [
+        148,
+        -173
+      ],
+      "after": [
+        -173,
+        148
+      ]
+    },
+    {
+      "fight_id": 6627,
+      "odds_id": 7691,
+      "red": "Cain Velasquez",
+      "blue": "Denis Stojnic",
+      "before": [
+        500,
+        -700
+      ],
+      "after": [
+        -700,
+        500
+      ]
+    },
+    {
+      "fight_id": 6647,
+      "odds_id": 7711,
+      "red": "Mauricio Rua",
+      "blue": "Mark Coleman",
+      "before": [
+        326,
+        -386
+      ],
+      "after": [
+        -386,
+        326
+      ]
+    },
+    {
+      "fight_id": 6657,
+      "odds_id": 7721,
+      "red": "Frank Mir",
+      "blue": "Antonio Rodrigo Nogueira",
+      "before": [
+        -345,
+        278
+      ],
+      "after": [
+        278,
+        -345
+      ]
+    },
+    {
+      "fight_id": 6667,
+      "odds_id": 7731,
+      "red": "Ryan Bader",
+      "blue": "Vinny Magalhaes",
+      "before": [
+        -238,
+        188
+      ],
+      "after": [
+        188,
+        -238
+      ]
+    },
+    {
+      "fight_id": 6698,
+      "odds_id": 7762,
+      "red": "Junior Dos Santos",
+      "blue": "Fabricio Werdum",
+      "before": [
+        -650,
+        450
+      ],
+      "after": [
+        450,
+        -650
+      ]
+    },
+    {
+      "fight_id": 6703,
+      "odds_id": 7767,
+      "red": "Hermes Franca",
+      "blue": "Marcus Aurelio",
+      "before": [
+        163,
+        -188
+      ],
+      "after": [
+        -188,
+        163
+      ]
+    },
+    {
+      "fight_id": 6707,
+      "odds_id": 7771,
+      "red": "Luiz Cane",
+      "blue": "Rameau Thierry Sokoudjou",
+      "before": [
+        -116,
+        106
+      ],
+      "after": [
+        106,
+        -116
+      ]
+    },
+    {
+      "fight_id": 6747,
+      "odds_id": 7811,
+      "red": "Frankie Edgar",
+      "blue": "Hermes Franca",
+      "before": [
+        148,
+        -158
+      ],
+      "after": [
+        -158,
+        148
+      ]
+    },
+    {
+      "fight_id": 6779,
+      "odds_id": 7843,
+      "red": "Fabricio Werdum",
+      "blue": "Brandon Vera",
+      "before": [
+        -183,
+        163
+      ],
+      "after": [
+        163,
+        -183
+      ]
+    },
+    {
+      "fight_id": 6783,
+      "odds_id": 7847,
+      "red": "Luiz Cane",
+      "blue": "Jason Lambert",
+      "before": [
+        -153,
+        123
+      ],
+      "after": [
+        123,
+        -153
+      ]
+    },
+    {
+      "fight_id": 6788,
+      "odds_id": 7852,
+      "red": "Goran Reljic",
+      "blue": "Wilson Gouveia",
+      "before": [
+        -147,
+        127
+      ],
+      "after": [
+        127,
+        -147
+      ]
+    },
+    {
+      "fight_id": 6830,
+      "odds_id": 7894,
+      "red": "Antonio Rodrigo Nogueira",
+      "blue": "Tim Sylvia",
+      "before": [
+        140,
+        -168
+      ],
+      "after": [
+        -168,
+        140
+      ]
+    },
+    {
+      "fight_id": 6849,
+      "odds_id": 7912,
+      "red": "Fabricio Werdum",
+      "blue": "Gabriel Gonzaga",
+      "before": [
+        -240,
+        200
+      ],
+      "after": [
+        200,
+        -240
+      ]
+    },
+    {
+      "fight_id": 6862,
+      "odds_id": 7925,
+      "red": "James Irvin",
+      "blue": "Luiz Cane",
+      "before": [
+        -173,
+        158
+      ],
+      "after": [
+        158,
+        -173
+      ]
+    },
+    {
+      "fight_id": 6895,
+      "odds_id": 7958,
+      "red": "Forrest Griffin",
+      "blue": "Mauricio Rua",
+      "before": [
+        -293,
+        233
+      ],
+      "after": [
+        233,
+        -293
+      ]
+    },
+    {
+      "fight_id": 6905,
+      "odds_id": 7968,
+      "red": "Nate Diaz",
+      "blue": "Junior Assuncao",
+      "before": [
+        165,
+        -198
+      ],
+      "after": [
+        -198,
+        165
+      ]
+    },
+    {
+      "fight_id": 6914,
+      "odds_id": 7978,
+      "red": "Cheick Kongo",
+      "blue": "Mirko Filipovic",
+      "before": [
+        -380,
+        315
+      ],
+      "after": [
+        315,
+        -380
+      ]
+    },
+    {
+      "fight_id": 6933,
+      "odds_id": 7996,
+      "red": "Sean Sherk",
+      "blue": "Hermes Franca",
+      "before": [
+        208,
+        -253
+      ],
+      "after": [
+        -253,
+        208
+      ]
+    },
+    {
+      "fight_id": 6934,
+      "odds_id": 7997,
+      "red": "Antonio Rodrigo Nogueira",
+      "blue": "Heath Herring",
+      "before": [
+        450,
+        -625
+      ],
+      "after": [
+        -625,
+        450
+      ]
+    },
+    {
+      "fight_id": 6974,
+      "odds_id": 8032,
+      "red": "Gabriel Gonzaga",
+      "blue": "Mirko Filipovic",
+      "before": [
+        -500,
+        400
+      ],
+      "after": [
+        400,
+        -500
+      ]
+    },
+    {
+      "fight_id": 6975,
+      "odds_id": 8033,
+      "red": "Andrei Arlovski",
+      "blue": "Fabricio Werdum",
+      "before": [
+        -110,
+        -120
+      ],
+      "after": [
+        -120,
+        -110
+      ]
+    },
+    {
+      "fight_id": 6978,
+      "odds_id": 8036,
+      "red": "Cheick Kongo",
+      "blue": "Assuerio Silva",
+      "before": [
+        -245,
+        195
+      ],
+      "after": [
+        195,
+        -245
+      ]
+    },
+    {
+      "fight_id": 6980,
+      "odds_id": 8038,
+      "red": "Junior Assuncao",
+      "blue": "David Lee",
+      "before": [
+        160,
+        -200
+      ],
+      "after": [
+        -200,
+        160
+      ]
+    },
+    {
+      "fight_id": 7012,
+      "odds_id": 8065,
+      "red": "Mirko Filipovic",
+      "blue": "Eddie Sanchez",
+      "before": [
+        900,
+        -1400
+      ],
+      "after": [
+        -1400,
+        900
+      ]
+    },
+    {
+      "fight_id": 7022,
+      "odds_id": 8075,
+      "red": "Hermes Franca",
+      "blue": "Spencer Fisher",
+      "before": [
+        140,
+        -170
+      ],
+      "after": [
+        -170,
+        140
+      ]
+    },
+    {
+      "fight_id": 7070,
+      "odds_id": 8113,
+      "red": "Kurt Pellegrino",
+      "blue": "Junior Assuncao",
+      "before": [
+        220,
+        -280
+      ],
+      "after": [
+        -280,
+        220
+      ]
+    },
+    {
+      "fight_id": 7093,
+      "odds_id": 8130,
+      "red": "Hermes Franca",
+      "blue": "Jamie Varner",
+      "before": [
+        400,
+        -550
+      ],
+      "after": [
+        -550,
+        400
+      ]
+    },
+    {
+      "fight_id": 7137,
+      "odds_id": 8171,
+      "red": "Brandon Vera",
+      "blue": "Assuerio Silva",
+      "before": [
+        190,
+        -240
+      ],
+      "after": [
+        -240,
+        190
+      ]
+    },
+    {
+      "fight_id": 7178,
+      "odds_id": 8208,
+      "red": "Tim Sylvia",
+      "blue": "Assuerio Silva",
+      "before": [
+        250,
+        -325
+      ],
+      "after": [
+        -325,
+        250
+      ]
+    },
+    {
+      "fight_id": 7291,
+      "odds_id": 8269,
+      "red": "Yves Edwards",
+      "blue": "Hermes Franca",
+      "before": [
+        -140,
+        100
+      ],
+      "after": [
+        100,
+        -140
+      ]
+    },
+    {
+      "fight_id": 7336,
+      "odds_id": 8296,
+      "red": "Hermes Franca",
+      "blue": "Richard Crunkilton",
+      "before": [
+        -340,
+        260
+      ],
+      "after": [
+        260,
+        -340
+      ]
+    },
+    {
+      "fight_id": 7599,
+      "odds_id": 8315,
+      "red": "Benoit Saint Denis",
+      "blue": "Thiago Moises",
+      "before": [
+        135,
+        -165
+      ],
+      "after": [
+        -165,
+        135
+      ]
+    },
+    {
+      "fight_id": 7603,
+      "odds_id": 8319,
+      "red": "Taylor Lapilus",
+      "blue": "Caolan Loughran",
+      "before": [
+        145,
+        -175
+      ],
+      "after": [
+        -175,
+        145
+      ]
+    },
+    {
+      "fight_id": 7614,
+      "odds_id": 8330,
+      "red": "Waldo Cortes-Acosta",
+      "blue": "Lukasz Brzeski",
+      "before": [
+        185,
+        -225
+      ],
+      "after": [
+        -225,
+        185
+      ]
+    },
+    {
+      "fight_id": 7617,
+      "odds_id": 8333,
+      "red": "Song Kenan",
+      "blue": "Rolando Bedoya",
+      "before": [
+        -325,
+        260
+      ],
+      "after": [
+        260,
+        -325
+      ]
+    },
+    {
+      "fight_id": 7620,
+      "odds_id": 8336,
+      "red": "SeungWoo Choi",
+      "blue": "Jarno Errens",
+      "before": [
+        130,
+        -155
+      ],
+      "after": [
+        -155,
+        130
+      ]
+    },
+    {
+      "fight_id": 7622,
+      "odds_id": 8338,
+      "red": "Zhang Weili",
+      "blue": "Amanda Lemos",
+      "before": [
+        260,
+        -330
+      ],
+      "after": [
+        -330,
+        260
+      ]
+    },
+    {
+      "fight_id": 7633,
+      "odds_id": 8349,
+      "red": "Vicente Luque",
+      "blue": "Rafael Dos Anjos",
+      "before": [
+        -125,
+        105
+      ],
+      "after": [
+        105,
+        -125
+      ]
+    },
+    {
+      "fight_id": 7635,
+      "odds_id": 8351,
+      "red": "Khalil Rountree Jr.",
+      "blue": "Chris Daukaus",
+      "before": [
+        150,
+        -175
+      ],
+      "after": [
+        -175,
+        150
+      ]
+    },
+    {
+      "fight_id": 7643,
+      "odds_id": 8359,
+      "red": "Jaqueline Amorim",
+      "blue": "Montserrat Conejo Ruiz",
+      "before": [
+        200,
+        -240
+      ],
+      "after": [
+        -240,
+        200
+      ]
+    },
+    {
+      "fight_id": 7663,
+      "odds_id": 8379,
+      "red": "Karolina Kowalkiewicz",
+      "blue": "Diana Belbita",
+      "before": [
+        130,
+        -155
+      ],
+      "after": [
+        -155,
+        130
+      ]
+    },
+    {
+      "fight_id": 7664,
+      "odds_id": 8380,
+      "red": "Nate Maness",
+      "blue": "Mateus Mendonca",
+      "before": [
+        -240,
+        195
+      ],
+      "after": [
+        195,
+        -240
+      ]
+    },
+    {
+      "fight_id": 7677,
+      "odds_id": 8393,
+      "red": "Mizuki",
+      "blue": "Hannah Goldy",
+      "before": [
+        265,
+        -340
+      ],
+      "after": [
+        -340,
+        265
+      ]
+    },
+    {
+      "fight_id": 7684,
+      "odds_id": 8400,
+      "red": "Loopy Godinez",
+      "blue": "Elise Reed",
+      "before": [
+        330,
+        -440
+      ],
+      "after": [
+        -440,
+        330
+      ]
+    },
+    {
+      "fight_id": 7686,
+      "odds_id": 8402,
+      "red": "Edgar Chairez",
+      "blue": "Daniel Lacerda",
+      "before": [
+        185,
+        -225
+      ],
+      "after": [
+        -225,
+        185
+      ]
+    },
+    {
+      "fight_id": 7695,
+      "odds_id": 8411,
+      "red": "Carlos Ulberg",
+      "blue": "Da Woon Jung",
+      "before": [
+        230,
+        -280
+      ],
+      "after": [
+        -280,
+        230
+      ]
+    },
+    {
+      "fight_id": 7698,
+      "odds_id": 8414,
+      "red": "Nasrat Haqparast",
+      "blue": "Landon Quinones",
+      "before": [
+        360,
+        -475
+      ],
+      "after": [
+        -475,
+        360
+      ]
+    },
+    {
+      "fight_id": 7702,
+      "odds_id": 8418,
+      "red": "Song Yadong",
+      "blue": "Chris Gutierrez",
+      "before": [
+        290,
+        -375
+      ],
+      "after": [
+        -375,
+        290
+      ]
+    },
+    {
+      "fight_id": 7708,
+      "odds_id": 8424,
+      "red": "HyunSung Park",
+      "blue": "Shannon Ross",
+      "before": [
+        440,
+        -600
+      ],
+      "after": [
+        -600,
+        440
+      ]
+    },
+    {
+      "fight_id": 7741,
+      "odds_id": 8457,
+      "red": "Jessica Andrade",
+      "blue": "Mackenzie Dern",
+      "before": [
+        -205,
+        170
+      ],
+      "after": [
+        170,
+        -205
+      ]
+    },
+    {
+      "fight_id": 7746,
+      "odds_id": 8462,
+      "red": "Mateusz Rebecki",
+      "blue": "Roosevelt Roberts",
+      "before": [
+        440,
+        -625
+      ],
+      "after": [
+        -625,
+        440
+      ]
+    },
+    {
+      "fight_id": 7749,
+      "odds_id": 8465,
+      "red": "John Castaneda",
+      "blue": "Kyung Ho Kang",
+      "before": [
+        110,
+        -135
+      ],
+      "after": [
+        -135,
+        110
+      ]
+    },
+    {
+      "fight_id": 7773,
+      "odds_id": 8489,
+      "red": "Viktoriia Dudakova",
+      "blue": "Jinh Yu Frey",
+      "before": [
+        400,
+        -535
+      ],
+      "after": [
+        -535,
+        400
+      ]
+    }
+  ],
+  "odds_skipped": [
+    {
+      "fight_id": 7265,
+      "odds_id": 8247,
+      "reason": "missing_or_invalid_odds"
+    }
+  ],
+  "totals": {
+    "snapshots": 34668,
+    "inserted": 20494,
+    "updated": 4847,
+    "relinked_fights": 8667,
+    "identity_issues": [
+      {
+        "fight_id": 7462,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Tyrone Roberts",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7464,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Amaury Bitetti",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7465,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Marcelo Aguiar",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7467,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Nate Schroeder",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7468,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Adrian Serrano",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7460,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Brad Gumm",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7460,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "CJ Fernandes",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7450,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "John Lewis",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7451,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Alex Stiebling",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7452,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Ben Earwood",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7436,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Mark Robinson",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7422,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Paul Rodriguez",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7398,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Keith Rockel",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7339,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "David Abbott",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7323,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "David Abbott",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7307,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "David Abbott",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7311,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Keith Rockel",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7311,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Chris Liguori",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7202,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Sean Gannon",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7207,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Keigo Kunihara",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7142,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Rick Davis",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7096,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Cory Walmsley",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7086,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Mario Neto",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7088,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "David Lee",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7041,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Victor Valimaki",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7045,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Steve Byrnes",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7007,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Rex Holman",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7010,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jason Gilliam",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6980,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "David Lee",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6981,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Victor Valimaki",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6982,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Jess Liaudin",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6953,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jason Tan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6955,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Stevie Lynch",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6937,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jason Gilliam",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6920,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Jess Liaudin",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6850,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jess Liaudin",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6856,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Per Eklund",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6795,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jason Tan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6784,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jess Liaudin",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6732,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Michael Patt",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6720,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Joe Vedepo",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6711,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Neil Wain",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6712,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jess Liaudin",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6715,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Per Eklund",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6651,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Tom Egan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6654,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Ivan Serati",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6621,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Brian Cobb",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6623,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Per Eklund",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6611,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Ryan Madigan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6614,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Michael Patt",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6601,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jesse Sanders",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6604,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Joe Vedepo",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6513,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jay Silva",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6493,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Chase Gormley",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6424,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jay Silva",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6397,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Chase Gormley",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6248,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Vinicius Queiroz",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6250,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Curt Warburton",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6227,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Mark Scanlon",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6204,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Aaron Wilkinson",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6206,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Sako Chivitchian",
+        "resolved_fighter_id": 2964
+      },
+      {
+        "fight_id": 6174,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Willamy Freire",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6151,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Tom Blackledge",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6154,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Curt Warburton",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6079,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Chuck O'Neil",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6082,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Ryan McGillivray",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6058,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Curt Warburton",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6062,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Edward Faaloloto",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6051,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Donny Walker",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5974,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Donny Walker",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5976,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Mike Stumpf",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5919,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Edward Faaloloto",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5914,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Matt Lucas",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5892,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Dustin Neace",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5723,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Chris Tickle",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5724,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Chris Saunders",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5517,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Pedro Nobre",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5504,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Mike Stumpf",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5434,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Adam Cella",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5359,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Eddie Mendez",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5260,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Nandor Guelmino",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5169,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Chris Holdsworth",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5170,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Peggy Morgan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5015,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Chris Indich",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4963,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Chris Holdsworth",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4908,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Chris Indich",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4871,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Matt Van Buren",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4878,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Patrick Walsh",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4855,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Mike King",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4697,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Humberto Brown Morrison",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4660,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Lisa Ellis",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4665,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Emily Kagan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4618,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Matt Van Buren",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4578,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Patrick Walsh",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4479,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Lisa Ellis",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4373,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Hayder Hassan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4325,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Fernando Bruno",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4326,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Dileno Lopes",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4297,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Nazareno Malegarie",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4254,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Bruno Korea",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4219,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Enrique Marin",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4220,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Horacio Gutierrez",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4226,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Vernon Ramos Ho",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4204,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Emily Kagan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4188,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Marcin Wrzosek",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4192,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Abner Lloveras",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4169,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Hayder Hassan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4094,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Martin Svensson",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 3953,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Dileno Lopes",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 3941,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Fernando Bruno",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 3943,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Cory Hendricks",
+        "resolved_fighter_id": 2960
+      },
+      {
+        "fight_id": 3931,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Enrique Marin",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 3886,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Horacio Gutierrez",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 3259,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Melinda Fabian",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 3263,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Karine Gevorgyan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 3008,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Melinda Fabian",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 2785,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Juan Espino",
+        "resolved_fighter_id": 2961
+      },
+      {
+        "fight_id": 2793,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Julija Stoliarenko",
+        "resolved_fighter_id": 2962
+      },
+      {
+        "fight_id": 2793,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Leah Letson",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 1968,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Julija Stoliarenko",
+        "resolved_fighter_id": 2962
+      },
+      {
+        "fight_id": 1900,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Juan Espino",
+        "resolved_fighter_id": 2961
+      },
+      {
+        "fight_id": 1581,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Juan Espino",
+        "resolved_fighter_id": 2961
+      },
+      {
+        "fight_id": 1477,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Julija Stoliarenko",
+        "resolved_fighter_id": 2962
+      },
+      {
+        "fight_id": 1269,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Leah Letson",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 1191,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Julija Stoliarenko",
+        "resolved_fighter_id": 2962
+      },
+      {
+        "fight_id": 959,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Julija Stoliarenko",
+        "resolved_fighter_id": 2962
+      },
+      {
+        "fight_id": 823,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Julija Stoliarenko",
+        "resolved_fighter_id": 2962
+      },
+      {
+        "fight_id": 398,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Julija Stoliarenko",
+        "resolved_fighter_id": 2962
+      }
+    ]
+  }
+}

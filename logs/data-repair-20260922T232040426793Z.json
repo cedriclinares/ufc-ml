@@ -1,0 +1,912 @@
+{
+  "database": "cedriclinares",
+  "applied": true,
+  "odds_corrections": [],
+  "odds_skipped": [],
+  "totals": {
+    "snapshots": 17334,
+    "inserted": 0,
+    "updated": 17334,
+    "relinked_fights": 0,
+    "deleted_pre_snapshots": 0,
+    "identity_issues": [
+      {
+        "fight_id": 7462,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Tyrone Roberts",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7464,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Amaury Bitetti",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7465,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Marcelo Aguiar",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7467,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Nate Schroeder",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7468,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Adrian Serrano",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7460,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Brad Gumm",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7460,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "CJ Fernandes",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7450,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "John Lewis",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7451,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Alex Stiebling",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7452,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Ben Earwood",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7436,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Mark Robinson",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7422,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Paul Rodriguez",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7398,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Keith Rockel",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7339,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "David Abbott",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7323,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "David Abbott",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7307,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "David Abbott",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7311,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Keith Rockel",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7311,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Chris Liguori",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7202,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Sean Gannon",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7207,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Keigo Kunihara",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7142,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Rick Davis",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7096,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Cory Walmsley",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7086,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Mario Neto",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7088,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "David Lee",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7041,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Victor Valimaki",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7045,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Steve Byrnes",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7007,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Rex Holman",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 7010,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jason Gilliam",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6980,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "David Lee",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6981,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Victor Valimaki",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6982,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Jess Liaudin",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6953,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jason Tan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6955,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Stevie Lynch",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6937,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jason Gilliam",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6920,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Jess Liaudin",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6850,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jess Liaudin",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6856,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Per Eklund",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6795,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jason Tan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6784,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jess Liaudin",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6732,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Michael Patt",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6720,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Joe Vedepo",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6711,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Neil Wain",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6712,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jess Liaudin",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6715,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Per Eklund",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6651,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Tom Egan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6654,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Ivan Serati",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6621,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Brian Cobb",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6623,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Per Eklund",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6611,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Ryan Madigan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6614,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Michael Patt",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6601,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jesse Sanders",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6604,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Joe Vedepo",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6513,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jay Silva",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6493,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Chase Gormley",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6424,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Jay Silva",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6397,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Chase Gormley",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6248,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Vinicius Queiroz",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6250,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Curt Warburton",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6227,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Mark Scanlon",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6204,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Aaron Wilkinson",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6206,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Sako Chivitchian",
+        "resolved_fighter_id": 2964
+      },
+      {
+        "fight_id": 6174,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Willamy Freire",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6151,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Tom Blackledge",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6154,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Curt Warburton",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6079,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Chuck O'Neil",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6082,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Ryan McGillivray",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6058,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Curt Warburton",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6062,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Edward Faaloloto",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 6051,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Donny Walker",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5974,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Donny Walker",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5976,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Mike Stumpf",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5919,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Edward Faaloloto",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5914,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Matt Lucas",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5892,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Dustin Neace",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5723,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Chris Tickle",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5724,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Chris Saunders",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5517,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Pedro Nobre",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5504,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Mike Stumpf",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5434,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Adam Cella",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5359,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Eddie Mendez",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5260,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Nandor Guelmino",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5169,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Chris Holdsworth",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5170,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Peggy Morgan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 5015,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Chris Indich",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4963,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Chris Holdsworth",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4908,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Chris Indich",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4871,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Matt Van Buren",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4878,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Patrick Walsh",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4855,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Mike King",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4697,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Humberto Brown Morrison",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4660,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Lisa Ellis",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4665,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Emily Kagan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4618,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Matt Van Buren",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4578,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Patrick Walsh",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4479,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Lisa Ellis",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4373,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Hayder Hassan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4325,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Fernando Bruno",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4326,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Dileno Lopes",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4297,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Nazareno Malegarie",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4254,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Bruno Korea",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4219,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Enrique Marin",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4220,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Horacio Gutierrez",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4226,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Vernon Ramos Ho",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4204,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Emily Kagan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4188,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Marcin Wrzosek",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4192,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Abner Lloveras",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4169,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Hayder Hassan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 4094,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Martin Svensson",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 3953,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Dileno Lopes",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 3941,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Fernando Bruno",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 3943,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Cory Hendricks",
+        "resolved_fighter_id": 2960
+      },
+      {
+        "fight_id": 3931,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Enrique Marin",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 3886,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Horacio Gutierrez",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 3259,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Melinda Fabian",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 3263,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Karine Gevorgyan",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 3008,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Melinda Fabian",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 2785,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Juan Espino",
+        "resolved_fighter_id": 2961
+      },
+      {
+        "fight_id": 2793,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Julija Stoliarenko",
+        "resolved_fighter_id": 2962
+      },
+      {
+        "fight_id": 2793,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Leah Letson",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 1968,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Julija Stoliarenko",
+        "resolved_fighter_id": 2962
+      },
+      {
+        "fight_id": 1900,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Juan Espino",
+        "resolved_fighter_id": 2961
+      },
+      {
+        "fight_id": 1581,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Juan Espino",
+        "resolved_fighter_id": 2961
+      },
+      {
+        "fight_id": 1477,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Julija Stoliarenko",
+        "resolved_fighter_id": 2962
+      },
+      {
+        "fight_id": 1269,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Leah Letson",
+        "resolved_fighter_id": null
+      },
+      {
+        "fight_id": 1191,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Julija Stoliarenko",
+        "resolved_fighter_id": 2962
+      },
+      {
+        "fight_id": 959,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Julija Stoliarenko",
+        "resolved_fighter_id": 2962
+      },
+      {
+        "fight_id": 823,
+        "corner": "r",
+        "reason": "missing_fighter_id",
+        "name": "Julija Stoliarenko",
+        "resolved_fighter_id": 2962
+      },
+      {
+        "fight_id": 398,
+        "corner": "b",
+        "reason": "missing_fighter_id",
+        "name": "Julija Stoliarenko",
+        "resolved_fighter_id": 2962
+      }
+    ]
+  },
+  "backup": "/Users/cedriclinares/Documents/ufc-ml/backups/repairs/before-data-repair-20260922T232040426793Z.json.gz"
+}

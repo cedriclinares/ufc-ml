@@ -1,15 +1,29 @@
 from gazpacho import get, Soup
 import psycopg2
 import time
+from datetime import date
+# import requests
 
 def get_soup_recur(url, count):
     if count > 3:
         print("Soup failed after 3 tries")
         return None
     try:
-        html = get(url)
-    except:
-        print("Error occurred")
+        headers = {
+            "User-Agent": (
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/150.0.0.0 Safari/537.36"
+            )
+        }
+        '''
+            response = requests.get(url, headers=headers)
+            print(response.status_code)
+            print(response.text[:500])
+        '''
+        html = get(url, headers)
+    except Exception as e:
+        print(f"Error occurred: {e}")
         time.sleep(60)
         return get_soup_recur(url, count + 1)
     else:
@@ -57,25 +71,69 @@ def save_odds_data(data):
 
 def scrape_fight_odds():
 
-    ufc_odds_url = f'https://www.tapology.com/fightcenter/promotions/1-ultimate-fighting-championship-ufc'
+    ufc_odds_url = f'https://www.tapology.com/search?term=ufc&commit=Submit&model%5Bevents%5D=eventsSearch'
     soup = get_soup(ufc_odds_url)
-    cards = soup.find('section', {'class': 'fcListing'}, partial=False, mode='all')
+
+    print('soup', soup)
+    # cards = soup.find('section', {'class': 'fcListing'}, partial=False, mode='all')
+    table = soup.find("table", class_="fcLeaderboard")
+    cards = table.find_all("tr")
     webpage_url = 'https://www.tapology.com'
 
-    for card in cards[13:20]:
-        card_date = card.find('span', {'class': 'datetime'}, partial=False, mode='first').text
+    for card in cards[1:]:
+        card_rows=card.find_all("td")
+        card_date = card_rows[2].text
+        card_date_formatted = card_date.split(".").join('-')
+        card_datetime = datetime.strptime(card_date, "%Y.%m.%d").date()
+        curr_datetime = date.today
+        last_scraped_card_datetime = datetime.strptime("2023-12-10", "%Y-%m-%d").date()
+
+        card_name = card_rows[0].text
+        pattern = r"^(UFC \d+|UFC Fight Night)"
+
+        if card_date_formatted > curr_datetime or card_date_formatted < last_scraped_card_datetime:
+            continue
 
         print("card_date {}".format(card_date))
 
-        card_name = card.find('span', {'class': 'name'}, partial=False, mode='first')
-        card_url = card_name.find('a').attrs['href']
+        if not re.match(pattern, card_name):
+            continue
+
+        card_url = card_rows[0].find('a').attrs['href']
         print("card_url: {}".format(card_url))
+        time.sleep(6)
         card_details = get_soup(webpage_url + card_url)
-        fights = card_details.find('li', {'class': 'fightCard'}, partial=False, mode='all')
+        fights = card_details.find_all('div', {'data-bout-wrapper': True})
         # print("fight length: {}".format(len(fights)))
         for fight in fights:
             odds_data = {}
-            fight_url_container = fight.find('span', {'class': 'billing'}, partial=False, mode='first')
+
+            fighter_names_container = fight.find_all('div', recursive=false)[1]
+            left_fighter_name_container = fighter_names_container.find_all('div', recursive=false)[0]
+            left_fighter_name = left_fighter_name_container.find('a', {'class': 'link-primary-red'}).text
+            right_fighter_name_container = fighter_names_container.find_all('div', recursive=false)[2]
+            right_fighter_name = right_fighter_name_container.find('a', {'class': 'link-primary-red'}).text
+
+            fight_weight = fighter_names_container[1].find('span', {'class': 'bg-tap_darkgold'}).text
+
+            details_table = fight.find('table', {'id': 'boutComparisonTable'})
+            details_table_rows = details_table.find_all('tr')
+            fight_odds_row = details_table_rows[1]
+            fight_odds_columns = fight_odds_row.find_all('td')
+            left_odds_text = fight_odds_columns[0].text.split(' ')[0]
+            right_odds_text = fight_odds_columns[4].text.split(' ')[0]
+
+            odds_data['left_name'] = left_fighter_name
+            odds_data['left_odds'] - left_odds_text
+
+            odds_data['right_name'] = right_fighter_name
+            odds_data['right_odds'] - right_odds_text
+
+            odds_data['weight_class'] = fight_weight
+            odds_data['date'] = card_date_formatted
+
+
+            '''fight_url_container = fight.find('span', {'class': 'billing'}, partial=False, mode='first')
             # print('fight_url_container: {}'.format(fight_url_container))
             fight_url = fight_url_container.find('a').attrs['href']
             print("full fight url: {}".format(webpage_url + fight_url))
@@ -106,8 +164,9 @@ def scrape_fight_odds():
             odds_data['date'] = date_ymd
             weight_class_container = bout_info.find('li', mode='all')[9]
             odds_data['weight_class'] = weight_class_container.find('span', mode='first').text.split(' ')[0]
+            '''
 
             print('odds_data: {}'.format(odds_data))
-            save_odds_data(odds_data)
+            # save_odds_data(odds_data)
                 
 scrape_fight_odds()
