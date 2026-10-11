@@ -1,0 +1,2819 @@
+{
+  "live_gbt_all": {
+    "fights": 1588,
+    "excluded": 22,
+    "underdog_wins": 470,
+    "underdog_losses": 1118,
+    "always_loss_accuracy": 0.7040302267002518,
+    "gbt_accuracy": 0.6801007556675063,
+    "predicted_underdog_wins": 210,
+    "upset_precision": 0.4095238095238095,
+    "upset_recall": 0.1829787234042553,
+    "confusion": {
+      "true_underdog_wins": 86,
+      "false_underdog_wins": 124,
+      "missed_underdog_wins": 384,
+      "correct_underdog_losses": 994
+    },
+    "accuracy_difference_interval": {
+      "difference": -0.02392947103274559,
+      "low": -0.04192750865519638,
+      "high": -0.00572155117609663,
+      "fights": 1588,
+      "event_dates": 132
+    },
+    "strategies": {
+      "always_favorite_flat": {
+        "bets": 1588,
+        "wins": 1118,
+        "losses": 470,
+        "wagered": 1588.0,
+        "units": 3.678831196975456,
+        "roi": 0.0023166443305890783,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.0023166443305890783,
+          "low": -0.030518401679023578,
+          "high": 0.034598255536467976,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "always_underdog_flat": {
+        "bets": 1588,
+        "wins": 470,
+        "losses": 1118,
+        "wagered": 1588.0,
+        "units": -237.4385281385281,
+        "roi": -0.14952048371443835,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.14952048371443835,
+          "low": -0.2188765194146061,
+          "high": -0.07722032954331172,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "gbt_winner_flat": {
+        "bets": 1588,
+        "wins": 1080,
+        "losses": 508,
+        "wagered": 1588.0,
+        "units": -4.266680896634536,
+        "roi": -0.0026868267611048716,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.0026868267611048716,
+          "low": -0.0384415890317276,
+          "high": 0.033519429825947925,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "gbt_underdog_winner_flat": {
+        "bets": 210,
+        "wins": 86,
+        "losses": 124,
+        "wagered": 210.0,
+        "units": -12.723809523809525,
+        "roi": -0.06058956916099774,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.008012474511215065,
+          "low": -0.02848379923099441,
+          "high": 0.012526626977422142,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "underdog_ev_0_flat": {
+        "bets": 493,
+        "wins": 175,
+        "losses": 318,
+        "wagered": 493.0,
+        "units": -16.373809523809523,
+        "roi": -0.03321259538298078,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.01031096317620247,
+          "low": -0.0477133064954266,
+          "high": 0.028429520380104708,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "underdog_ev_0_kelly3": {
+        "bets": 493,
+        "wins": 175,
+        "losses": 318,
+        "wagered": 254.9947086223405,
+        "units": 6.267870795280608,
+        "roi": 0.02458039552720142,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.0039470219113857735,
+          "low": -0.018080707569187927,
+          "high": 0.026501837019042344,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "favorite_same_underdog_ev_0_flat": {
+        "bets": 493,
+        "wins": 318,
+        "losses": 175,
+        "wagered": 493.0,
+        "units": -21.49262699134718,
+        "roi": -0.04359559227453789,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.013534399868606536,
+          "low": -0.03265827153966113,
+          "high": 0.005597970244876902,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "favorite_same_underdog_ev_0_kelly3": {
+        "bets": 493,
+        "wins": 318,
+        "losses": 175,
+        "wagered": 254.9947086223405,
+        "units": -21.993057434729685,
+        "roi": -0.08624907376922267,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.013849532389628265,
+          "low": -0.02872608865739086,
+          "high": 0.0007541599982992169,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "all_sides_ev_0_kelly3": {
+        "bets": 1374,
+        "wins": 820,
+        "losses": 554,
+        "wagered": 1058.569755956601,
+        "units": 20.697678309900475,
+        "roi": 0.01955249353520075,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.013033802462153951,
+          "low": -0.020466031226867645,
+          "high": 0.04727947382939931,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "underdog_ev_20_flat": {
+        "bets": 276,
+        "wins": 100,
+        "losses": 176,
+        "wagered": 276.0,
+        "units": 6.616666666666666,
+        "roi": 0.02397342995169082,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.004166666666666667,
+          "low": -0.02608605675138897,
+          "high": 0.03705281181347125,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "underdog_ev_20_kelly3": {
+        "bets": 276,
+        "wins": 100,
+        "losses": 176,
+        "wagered": 218.20232687734273,
+        "units": 12.152578939495966,
+        "roi": 0.05569408499629452,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.0076527575185742856,
+          "low": -0.014332235867538725,
+          "high": 0.030141420505607634,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "favorite_same_underdog_ev_20_flat": {
+        "bets": 276,
+        "wins": 176,
+        "losses": 100,
+        "wagered": 276.0,
+        "units": -17.122554977171937,
+        "roi": -0.06203824267091282,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.01078246535086394,
+          "low": -0.026161649957688927,
+          "high": 0.003750693339306666,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "favorite_same_underdog_ev_20_kelly3": {
+        "bets": 276,
+        "wins": 176,
+        "losses": 100,
+        "wagered": 218.20232687734273,
+        "units": -23.64557073410699,
+        "roi": -0.10836534638514092,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.014890157893014478,
+          "low": -0.02950351757795734,
+          "high": -0.0006375223779259742,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "all_sides_ev_20_kelly3": {
+        "bets": 427,
+        "wins": 204,
+        "losses": 223,
+        "wagered": 446.40519530615484,
+        "units": 29.466994249728078,
+        "roi": 0.06600952354400567,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.018556041718972342,
+          "low": -0.007665519306188634,
+          "high": 0.045539565107842316,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "underdog_ev_40_flat": {
+        "bets": 140,
+        "wins": 54,
+        "losses": 86,
+        "wagered": 140.0,
+        "units": 24.302380952380954,
+        "roi": 0.17358843537414967,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.015303766342809165,
+          "low": -0.009509579313234286,
+          "high": 0.04235818613091715,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "underdog_ev_40_kelly3": {
+        "bets": 140,
+        "wins": 54,
+        "losses": 86,
+        "wagered": 141.56671045590616,
+        "units": 22.478402595642272,
+        "roi": 0.15878311026124767,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.014155165362495134,
+          "low": -0.006042802742701863,
+          "high": 0.034712500291864554,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "favorite_same_underdog_ev_40_flat": {
+        "bets": 140,
+        "wins": 86,
+        "losses": 54,
+        "wagered": 140.0,
+        "units": -19.68438661574626,
+        "roi": -0.1406027615410447,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.012395709455759608,
+          "low": -0.023118969843546125,
+          "high": -0.001899581349176288,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "favorite_same_underdog_ev_40_kelly3": {
+        "bets": 140,
+        "wins": 86,
+        "losses": 54,
+        "wagered": 141.56671045590616,
+        "units": -26.274222728815104,
+        "roi": -0.1855960532260778,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.016545480307818074,
+          "low": -0.029692850114263633,
+          "high": -0.0036409929808189495,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      },
+      "all_sides_ev_40_kelly3": {
+        "bets": 152,
+        "wins": 63,
+        "losses": 89,
+        "wagered": 163.9631915984018,
+        "units": 29.757065638724914,
+        "roi": 0.18148625522982906,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.018738706321615187,
+          "low": -0.0027237897227485926,
+          "high": 0.04056317178719963,
+          "fights": 1588,
+          "event_dates": 132
+        }
+      }
+    },
+    "test_start": "2023-08-05",
+    "test_end": "2026-09-19"
+  },
+  "initial_tree_market_3r": {
+    "fights": 1442,
+    "excluded": 19,
+    "underdog_wins": 417,
+    "underdog_losses": 1025,
+    "always_loss_accuracy": 0.7108183079056866,
+    "gbt_accuracy": 0.7004160887656034,
+    "predicted_underdog_wins": 139,
+    "upset_precision": 0.4460431654676259,
+    "upset_recall": 0.1486810551558753,
+    "confusion": {
+      "true_underdog_wins": 62,
+      "false_underdog_wins": 77,
+      "missed_underdog_wins": 355,
+      "correct_underdog_losses": 948
+    },
+    "accuracy_difference_interval": {
+      "difference": -0.010402219140083218,
+      "low": -0.025992682195528735,
+      "high": 0.004888268156424581,
+      "fights": 1442,
+      "event_dates": 133
+    },
+    "strategies": {
+      "always_favorite_flat": {
+        "bets": 1442,
+        "wins": 1025,
+        "losses": 417,
+        "wagered": 1442.0,
+        "units": 15.643498779194605,
+        "roi": 0.010848473494587105,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.010848473494587105,
+          "low": -0.02154258970455608,
+          "high": 0.04236831195909851,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "always_underdog_flat": {
+        "bets": 1442,
+        "wins": 417,
+        "losses": 1025,
+        "wagered": 1442.0,
+        "units": -240.44329004329003,
+        "roi": -0.1667429195861928,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.1667429195861928,
+          "low": -0.2378222599200108,
+          "high": -0.09246559320403806,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "gbt_winner_flat": {
+        "bets": 1442,
+        "wins": 1010,
+        "losses": 432,
+        "wagered": 1442.0,
+        "units": 23.246453076117177,
+        "roi": 0.016120979941828834,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.016120979941828834,
+          "low": -0.020794848624660033,
+          "high": 0.05272594253215703,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "gbt_underdog_winner_flat": {
+        "bets": 139,
+        "wins": 62,
+        "losses": 77,
+        "wagered": 139.0,
+        "units": -0.21709956709957012,
+        "roi": -0.0015618673892055404,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.00015055448481246194,
+          "low": -0.018487261610777392,
+          "high": 0.01850120761302215,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "underdog_ev_0_flat": {
+        "bets": 716,
+        "wins": 206,
+        "losses": 510,
+        "wagered": 716.0,
+        "units": -96.92619047619048,
+        "roi": -0.13537177440808726,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.06721649824978536,
+          "low": -0.12392160509922572,
+          "high": -0.0047803872792898305,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "underdog_ev_0_kelly3": {
+        "bets": 716,
+        "wins": 206,
+        "losses": 510,
+        "wagered": 242.86902126218337,
+        "units": -6.305114405490126,
+        "roi": -0.025960966008437905,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.004372478783280253,
+          "low": -0.029284047335706068,
+          "high": 0.021609672992688757,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "favorite_same_underdog_ev_0_flat": {
+        "bets": 716,
+        "wins": 510,
+        "losses": 206,
+        "wagered": 716.0,
+        "units": 2.021836631227786,
+        "roi": 0.0028237941776924386,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.0014021058468986034,
+          "low": -0.022541960870937766,
+          "high": 0.024358191189833244,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "favorite_same_underdog_ev_0_kelly3": {
+        "bets": 716,
+        "wins": 510,
+        "losses": 206,
+        "wagered": 242.86902126218337,
+        "units": -12.452822206322566,
+        "roi": -0.0512738188740812,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.008635799033510794,
+          "low": -0.019656466456835414,
+          "high": 0.0021293812498745734,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "all_sides_ev_0_kelly3": {
+        "bets": 1150,
+        "wins": 505,
+        "losses": 645,
+        "wagered": 422.46575726493126,
+        "units": -9.616785060733703,
+        "roi": -0.022763466376525633,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.006669060374988698,
+          "low": -0.03369380025896337,
+          "high": 0.02111968348721303,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "underdog_ev_20_flat": {
+        "bets": 346,
+        "wins": 93,
+        "losses": 253,
+        "wagered": 346.0,
+        "units": -19.640476190476196,
+        "roi": -0.05676438205339941,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.013620302489928014,
+          "low": -0.060798630194085775,
+          "high": 0.03692143346309109,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "underdog_ev_20_kelly3": {
+        "bets": 346,
+        "wins": 93,
+        "losses": 253,
+        "wagered": 177.03718499423252,
+        "units": 6.245953861487858,
+        "roi": 0.03528046303770215,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.004331452053736379,
+          "low": -0.019589228682992177,
+          "high": 0.02960586489876065,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "favorite_same_underdog_ev_20_flat": {
+        "bets": 346,
+        "wins": 253,
+        "losses": 93,
+        "wagered": 346.0,
+        "units": -17.66083553685715,
+        "roi": -0.05104287727415361,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.01224745876342382,
+          "low": -0.0286148894007715,
+          "high": 0.003275346357227724,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "favorite_same_underdog_ev_20_kelly3": {
+        "bets": 346,
+        "wins": 253,
+        "losses": 93,
+        "wagered": 177.03718499423252,
+        "units": -16.39531263334152,
+        "roi": -0.09260942910878096,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.011369842325479555,
+          "low": -0.021752311124451137,
+          "high": -0.0012789000674702225,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "all_sides_ev_20_kelly3": {
+        "bets": 355,
+        "wins": 98,
+        "losses": 257,
+        "wagered": 185.27792210899378,
+        "units": 5.796035909716822,
+        "roi": 0.03128292806688094,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.004019442378444398,
+          "low": -0.019990555766315993,
+          "high": 0.029480744879223763,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "underdog_ev_40_flat": {
+        "bets": 160,
+        "wins": 40,
+        "losses": 120,
+        "wagered": 160.0,
+        "units": 5.402380952380956,
+        "roi": 0.03376488095238098,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.0037464500363252125,
+          "low": -0.03019784060535605,
+          "high": 0.04132442282413996,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "underdog_ev_40_kelly3": {
+        "bets": 160,
+        "wins": 40,
+        "losses": 120,
+        "wagered": 96.49183475208488,
+        "units": 14.341461920563038,
+        "roi": 0.14862876177461393,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.009945535312457031,
+          "low": -0.010538098153203928,
+          "high": 0.0322023571775432,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "favorite_same_underdog_ev_40_flat": {
+        "bets": 160,
+        "wins": 120,
+        "losses": 40,
+        "wagered": 160.0,
+        "units": -14.885761972493986,
+        "roi": -0.09303601232808742,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.01032299720699999,
+          "low": -0.02020605681636465,
+          "high": -0.00092965679390339,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "favorite_same_underdog_ev_40_kelly3": {
+        "bets": 160,
+        "wins": 120,
+        "losses": 40,
+        "wagered": 96.49183475208488,
+        "units": -13.473726944014999,
+        "roi": -0.13963592855947715,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.009343777353685852,
+          "low": -0.01703728965349684,
+          "high": -0.002210581189087729,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "all_sides_ev_40_kelly3": {
+        "bets": 160,
+        "wins": 40,
+        "losses": 120,
+        "wagered": 96.49183475208488,
+        "units": 14.341461920563038,
+        "roi": 0.14862876177461393,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.009945535312457031,
+          "low": -0.010538098153203928,
+          "high": 0.0322023571775432,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      }
+    },
+    "test_start": "2023-07-29",
+    "test_end": "2026-09-19"
+  },
+  "initial_tree_market_5r": {
+    "fights": 146,
+    "excluded": 4,
+    "underdog_wins": 50,
+    "underdog_losses": 96,
+    "always_loss_accuracy": 0.6575342465753424,
+    "gbt_accuracy": 0.6506849315068494,
+    "predicted_underdog_wins": 17,
+    "upset_precision": 0.47058823529411764,
+    "upset_recall": 0.16,
+    "confusion": {
+      "true_underdog_wins": 8,
+      "false_underdog_wins": 9,
+      "missed_underdog_wins": 42,
+      "correct_underdog_losses": 87
+    },
+    "accuracy_difference_interval": {
+      "difference": -0.00684931506849315,
+      "low": -0.06711409395973154,
+      "high": 0.04964539007092199,
+      "fights": 146,
+      "event_dates": 119
+    },
+    "strategies": {
+      "always_favorite_flat": {
+        "bets": 146,
+        "wins": 96,
+        "losses": 50,
+        "wagered": 146.0,
+        "units": -7.290305540751846,
+        "roi": -0.049933599594190727,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.049933599594190727,
+          "low": -0.1748002147373865,
+          "high": 0.07343190855963344,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "always_underdog_flat": {
+        "bets": 146,
+        "wins": 50,
+        "losses": 96,
+        "wagered": 146.0,
+        "units": -8.945238095238096,
+        "roi": -0.06126875407697326,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.06126875407697326,
+          "low": -0.29238965291630437,
+          "high": 0.17981660231660226,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "gbt_winner_flat": {
+        "bets": 146,
+        "wins": 95,
+        "losses": 51,
+        "wagered": 146.0,
+        "units": -4.527421323519801,
+        "roi": -0.031009735092601375,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.031009735092601375,
+          "low": -0.15912403091785232,
+          "high": 0.09796541765010724,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "gbt_underdog_winner_flat": {
+        "bets": 17,
+        "wins": 8,
+        "losses": 9,
+        "wagered": 17.0,
+        "units": 1.25,
+        "roi": 0.07352941176470588,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.008561643835616438,
+          "low": -0.05855404757755314,
+          "high": 0.07447621914509331,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_0_flat": {
+        "bets": 74,
+        "wins": 30,
+        "losses": 44,
+        "wagered": 74.0,
+        "units": 6.399999999999998,
+        "roi": 0.08648648648648645,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.04383561643835615,
+          "low": -0.1082772988505747,
+          "high": 0.20173703457446804,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_0_kelly3": {
+        "bets": 74,
+        "wins": 30,
+        "losses": 44,
+        "wagered": 25.635375632361892,
+        "units": 2.0793544980767305,
+        "roi": 0.08111269863554368,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.014242154096415962,
+          "low": -0.056759371493024055,
+          "high": 0.08488924653000202,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_0_flat": {
+        "bets": 74,
+        "wins": 44,
+        "losses": 30,
+        "wagered": 74.0,
+        "units": -9.780563435743069,
+        "roi": -0.13216977615869013,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.06699016051878814,
+          "low": -0.15807379408324296,
+          "high": 0.021845823813502783,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_0_kelly3": {
+        "bets": 74,
+        "wins": 44,
+        "losses": 30,
+        "wagered": 25.635375632361892,
+        "units": -3.365905721702079,
+        "roi": -0.1312992549815805,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.023054148778781362,
+          "low": -0.06808881457504713,
+          "high": 0.023852733721051768,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_0_kelly3": {
+        "bets": 123,
+        "wins": 65,
+        "losses": 58,
+        "wagered": 41.76727867155229,
+        "units": 1.7906095156589954,
+        "roi": 0.04287110802070474,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.012264448737390379,
+          "low": -0.06389163432708939,
+          "high": 0.08771636900241139,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_20_flat": {
+        "bets": 30,
+        "wins": 14,
+        "losses": 16,
+        "wagered": 30.0,
+        "units": 9.75,
+        "roi": 0.325,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.06678082191780822,
+          "low": -0.04090991436100132,
+          "high": 0.18210257455731582,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_20_kelly3": {
+        "bets": 30,
+        "wins": 14,
+        "losses": 16,
+        "wagered": 18.542214899865336,
+        "units": 4.382224004946952,
+        "roi": 0.23633767748958504,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.030015232910595564,
+          "low": -0.037297622317434075,
+          "high": 0.09797307425148447,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_20_flat": {
+        "bets": 30,
+        "wins": 16,
+        "losses": 14,
+        "wagered": 30.0,
+        "units": -8.543396206265733,
+        "roi": -0.2847798735421911,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.058516412371683105,
+          "low": -0.11646346643779644,
+          "high": -0.003496448091670769,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_20_kelly3": {
+        "bets": 30,
+        "wins": 16,
+        "losses": 14,
+        "wagered": 18.542214899865336,
+        "units": -4.529816543970332,
+        "roi": -0.24429748918524455,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.031026140712125564,
+          "low": -0.07315749286926118,
+          "high": 0.013763257775911636,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_20_kelly3": {
+        "bets": 30,
+        "wins": 14,
+        "losses": 16,
+        "wagered": 18.542214899865336,
+        "units": 4.382224004946952,
+        "roi": 0.23633767748958504,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.030015232910595564,
+          "low": -0.037297622317434075,
+          "high": 0.09797307425148447,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_40_flat": {
+        "bets": 15,
+        "wins": 4,
+        "losses": 11,
+        "wagered": 15.0,
+        "units": -4.15,
+        "roi": -0.27666666666666667,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.028424657534246577,
+          "low": -0.08940663640994767,
+          "high": 0.04021890096618356,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_40_kelly3": {
+        "bets": 15,
+        "wins": 4,
+        "losses": 11,
+        "wagered": 11.261097177172292,
+        "units": -2.2359784008806836,
+        "roi": -0.19855777511744613,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.015314920553977285,
+          "low": -0.06368547985163396,
+          "high": 0.036540232802844984,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_40_flat": {
+        "bets": 15,
+        "wins": 11,
+        "losses": 4,
+        "wagered": 15.0,
+        "units": -0.4217080767234658,
+        "roi": -0.028113871781564385,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.0028884114844073,
+          "low": -0.03625158051648018,
+          "high": 0.027038849565751616,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_40_kelly3": {
+        "bets": 15,
+        "wins": 11,
+        "losses": 4,
+        "wagered": 11.261097177172292,
+        "units": -0.4868553703383738,
+        "roi": -0.043233386825334646,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.0033346258242354368,
+          "low": -0.036133242195038294,
+          "high": 0.027781436023835326,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_40_kelly3": {
+        "bets": 15,
+        "wins": 4,
+        "losses": 11,
+        "wagered": 11.261097177172292,
+        "units": -2.2359784008806836,
+        "roi": -0.19855777511744613,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.015314920553977285,
+          "low": -0.06368547985163396,
+          "high": 0.036540232802844984,
+          "fights": 146,
+          "event_dates": 119
+        }
+      }
+    },
+    "test_start": "2023-10-14",
+    "test_end": "2026-09-19"
+  },
+  "initial_tree_stats_3r": {
+    "fights": 1442,
+    "excluded": 19,
+    "underdog_wins": 417,
+    "underdog_losses": 1025,
+    "always_loss_accuracy": 0.7108183079056866,
+    "gbt_accuracy": 0.6081830790568654,
+    "predicted_underdog_wins": 446,
+    "upset_precision": 0.33408071748878926,
+    "upset_recall": 0.35731414868105515,
+    "confusion": {
+      "true_underdog_wins": 149,
+      "false_underdog_wins": 297,
+      "missed_underdog_wins": 268,
+      "correct_underdog_losses": 728
+    },
+    "accuracy_difference_interval": {
+      "difference": -0.10263522884882108,
+      "low": -0.12808304557355898,
+      "high": -0.07665499100741459,
+      "fights": 1442,
+      "event_dates": 133
+    },
+    "strategies": {
+      "always_favorite_flat": {
+        "bets": 1442,
+        "wins": 1025,
+        "losses": 417,
+        "wagered": 1442.0,
+        "units": 15.643498779194605,
+        "roi": 0.010848473494587105,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.010848473494587105,
+          "low": -0.02154258970455608,
+          "high": 0.04236831195909851,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "always_underdog_flat": {
+        "bets": 1442,
+        "wins": 417,
+        "losses": 1025,
+        "wagered": 1442.0,
+        "units": -240.44329004329003,
+        "roi": -0.1667429195861928,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.1667429195861928,
+          "low": -0.2378222599200108,
+          "high": -0.09246559320403806,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "gbt_winner_flat": {
+        "bets": 1442,
+        "wins": 877,
+        "losses": 565,
+        "wagered": 1442.0,
+        "units": -23.522200824054927,
+        "roi": -0.01631220584192436,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.01631220584192436,
+          "low": -0.06429920393651294,
+          "high": 0.03209078839491144,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "gbt_underdog_winner_flat": {
+        "bets": 446,
+        "wins": 149,
+        "losses": 297,
+        "wagered": 446.0,
+        "units": -42.923809523809524,
+        "roi": -0.09624172538970745,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.029766858199590514,
+          "low": -0.06495028600223263,
+          "high": 0.00704765463763984,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "underdog_ev_0_flat": {
+        "bets": 1055,
+        "wins": 282,
+        "losses": 773,
+        "wagered": 1055.0,
+        "units": -183.6238095238095,
+        "roi": -0.1740510042879711,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.12733967373357108,
+          "low": -0.1935608381558003,
+          "high": -0.05631966714136011,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "underdog_ev_0_kelly3": {
+        "bets": 1055,
+        "wins": 282,
+        "losses": 773,
+        "wagered": 726.1349302774628,
+        "units": -84.50926279199174,
+        "roi": -0.11638231307740558,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.0586055913952786,
+          "low": -0.11428298113231332,
+          "high": 0.0018175588629576198,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "favorite_same_underdog_ev_0_flat": {
+        "bets": 1055,
+        "wins": 773,
+        "losses": 282,
+        "wagered": 1055.0,
+        "units": 5.5842372738468615,
+        "roi": 0.005293115899380911,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.0038725639901850636,
+          "low": -0.023344434692838194,
+          "high": 0.02905923303484322,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "favorite_same_underdog_ev_0_kelly3": {
+        "bets": 1055,
+        "wins": 773,
+        "losses": 282,
+        "wagered": 726.1349302774628,
+        "units": -12.450299902361131,
+        "roi": -0.017145986762548054,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.008634049862941145,
+          "low": -0.031550596626803734,
+          "high": 0.013492628397124846,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "all_sides_ev_0_kelly3": {
+        "bets": 1299,
+        "wins": 436,
+        "losses": 863,
+        "wagered": 846.8959276638499,
+        "units": -80.46066794876577,
+        "roi": -0.0950065590357901,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.05579796667736878,
+          "low": -0.11199393636523897,
+          "high": 0.004759130926621165,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "underdog_ev_20_flat": {
+        "bets": 800,
+        "wins": 200,
+        "losses": 600,
+        "wagered": 800.0,
+        "units": -144.1357142857143,
+        "roi": -0.18016964285714288,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.09995541906082822,
+          "low": -0.1612585668353801,
+          "high": -0.03326959996833158,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "underdog_ev_20_kelly3": {
+        "bets": 800,
+        "wins": 200,
+        "losses": 600,
+        "wagered": 676.0413861324117,
+        "units": -79.38335929586107,
+        "roi": -0.11742381594418064,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.0550508732981006,
+          "low": -0.1111014076771172,
+          "high": 0.006001384945001253,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "favorite_same_underdog_ev_20_flat": {
+        "bets": 800,
+        "wins": 600,
+        "losses": 200,
+        "wagered": 800.0,
+        "units": 1.7908275491464671,
+        "roi": 0.002238534436433084,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.00124190537388798,
+          "low": -0.02213955272311278,
+          "high": 0.02333328738728612,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "favorite_same_underdog_ev_20_kelly3": {
+        "bets": 800,
+        "wins": 600,
+        "losses": 200,
+        "wagered": 676.0413861324117,
+        "units": -12.419450918567257,
+        "roi": -0.01837084411298858,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.008612656670296296,
+          "low": -0.031462231741566225,
+          "high": 0.013516892676634758,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "all_sides_ev_20_kelly3": {
+        "bets": 838,
+        "wins": 224,
+        "losses": 614,
+        "wagered": 717.1379186590282,
+        "units": -74.29678637391045,
+        "roi": -0.10360180997378797,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.05152343021769102,
+          "low": -0.10752726454084231,
+          "high": 0.00912645640671114,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "underdog_ev_40_flat": {
+        "bets": 593,
+        "wins": 135,
+        "losses": 458,
+        "wagered": 593.0,
+        "units": -106.1952380952381,
+        "roi": -0.17908134586043523,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.07364440921999868,
+          "low": -0.13037772710157342,
+          "high": -0.012747726767284638,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "underdog_ev_40_kelly3": {
+        "bets": 593,
+        "wins": 135,
+        "losses": 458,
+        "wagered": 561.7655990484864,
+        "units": -61.958492078716645,
+        "roi": -0.11029242834317622,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.042967054146128045,
+          "low": -0.09764091778187275,
+          "high": 0.01624481983846411,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "favorite_same_underdog_ev_40_flat": {
+        "bets": 593,
+        "wins": 458,
+        "losses": 135,
+        "wagered": 593.0,
+        "units": -2.63422805172728,
+        "roi": -0.004442205820787993,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.0018267878306014425,
+          "low": -0.021056280335480196,
+          "high": 0.016658863446743236,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "favorite_same_underdog_ev_40_kelly3": {
+        "bets": 593,
+        "wins": 458,
+        "losses": 135,
+        "wagered": 561.7655990484864,
+        "units": -14.118489334305046,
+        "roi": -0.025132349432252205,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.009790907998824582,
+          "low": -0.031001010743098387,
+          "high": 0.010860792483938031,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      },
+      "all_sides_ev_40_kelly3": {
+        "bets": 594,
+        "wins": 136,
+        "losses": 458,
+        "wagered": 563.232190849795,
+        "units": -60.73633224429277,
+        "roi": -0.10783533546378953,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.04211950918466905,
+          "low": -0.09664732559498332,
+          "high": 0.016970775442716517,
+          "fights": 1442,
+          "event_dates": 133
+        }
+      }
+    },
+    "test_start": "2023-07-29",
+    "test_end": "2026-09-19"
+  },
+  "initial_tree_stats_5r": {
+    "fights": 146,
+    "excluded": 4,
+    "underdog_wins": 50,
+    "underdog_losses": 96,
+    "always_loss_accuracy": 0.6575342465753424,
+    "gbt_accuracy": 0.6438356164383562,
+    "predicted_underdog_wins": 40,
+    "upset_precision": 0.475,
+    "upset_recall": 0.38,
+    "confusion": {
+      "true_underdog_wins": 19,
+      "false_underdog_wins": 21,
+      "missed_underdog_wins": 31,
+      "correct_underdog_losses": 75
+    },
+    "accuracy_difference_interval": {
+      "difference": -0.0136986301369863,
+      "low": -0.10204081632653061,
+      "high": 0.07482993197278912,
+      "fights": 146,
+      "event_dates": 119
+    },
+    "strategies": {
+      "always_favorite_flat": {
+        "bets": 146,
+        "wins": 96,
+        "losses": 50,
+        "wagered": 146.0,
+        "units": -7.290305540751846,
+        "roi": -0.049933599594190727,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.049933599594190727,
+          "low": -0.1748002147373865,
+          "high": 0.07343190855963344,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "always_underdog_flat": {
+        "bets": 146,
+        "wins": 50,
+        "losses": 96,
+        "wagered": 146.0,
+        "units": -8.945238095238096,
+        "roi": -0.06126875407697326,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.06126875407697326,
+          "low": -0.29238965291630437,
+          "high": 0.17981660231660226,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "gbt_winner_flat": {
+        "bets": 146,
+        "wins": 94,
+        "losses": 52,
+        "wagered": 146.0,
+        "units": 12.360134424731562,
+        "roi": 0.08465845496391482,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.08465845496391482,
+          "low": -0.06700390506469839,
+          "high": 0.2339067110354606,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "gbt_underdog_winner_flat": {
+        "bets": 40,
+        "wins": 19,
+        "losses": 21,
+        "wagered": 40.0,
+        "units": 10.849999999999998,
+        "roi": 0.27124999999999994,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.07431506849315067,
+          "low": -0.04315068493150685,
+          "high": 0.19545533459595957,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_0_flat": {
+        "bets": 100,
+        "wins": 33,
+        "losses": 67,
+        "wagered": 100.0,
+        "units": -3.5000000000000018,
+        "roi": -0.03500000000000002,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.02397260273972604,
+          "low": -0.22465702570921986,
+          "high": 0.18711081053491202,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_0_kelly3": {
+        "bets": 100,
+        "wins": 33,
+        "losses": 67,
+        "wagered": 65.55211799066532,
+        "units": 2.308011163592509,
+        "roi": 0.03520879621191144,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.015808295641044582,
+          "low": -0.13183016489436106,
+          "high": 0.16593396983875303,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_0_flat": {
+        "bets": 100,
+        "wins": 67,
+        "losses": 33,
+        "wagered": 100.0,
+        "units": -7.565285069424554,
+        "roi": -0.07565285069424554,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.05181702102345585,
+          "low": -0.15074685762021214,
+          "high": 0.044423018447873996,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_0_kelly3": {
+        "bets": 100,
+        "wins": 67,
+        "losses": 33,
+        "wagered": 65.55211799066532,
+        "units": -7.425207115502591,
+        "roi": -0.1132718109361462,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.05085758298289446,
+          "low": -0.1266302827355306,
+          "high": 0.02428890455891453,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_0_kelly3": {
+        "bets": 135,
+        "wins": 55,
+        "losses": 80,
+        "wagered": 85.13736453210804,
+        "units": 1.6752318222082527,
+        "roi": 0.01967681089748167,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.011474190563070225,
+          "low": -0.14480597248061475,
+          "high": 0.1686837045149446,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_20_flat": {
+        "bets": 79,
+        "wins": 27,
+        "losses": 52,
+        "wagered": 79.0,
+        "units": 0.8500000000000005,
+        "roi": 0.010759493670886083,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.005821917808219182,
+          "low": -0.17058136050344616,
+          "high": 0.1926258389261744,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_20_kelly3": {
+        "bets": 79,
+        "wins": 27,
+        "losses": 52,
+        "wagered": 61.989324348224294,
+        "units": 2.9692712541837736,
+        "roi": 0.04789971959532786,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.020337474343724477,
+          "low": -0.12655143869288887,
+          "high": 0.16861579636797874,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_20_flat": {
+        "bets": 79,
+        "wins": 52,
+        "losses": 27,
+        "wagered": 79.0,
+        "units": -8.645800947687928,
+        "roi": -0.10944051832516365,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.05921781471019129,
+          "low": -0.14531550729896026,
+          "high": 0.02426582362249279,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_20_kelly3": {
+        "bets": 79,
+        "wins": 52,
+        "losses": 27,
+        "wagered": 61.989324348224294,
+        "units": -7.443896970951636,
+        "roi": -0.12008353130509429,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.05098559569144956,
+          "low": -0.1249987662196735,
+          "high": 0.023686361504413563,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_20_kelly3": {
+        "bets": 89,
+        "wins": 33,
+        "losses": 56,
+        "wagered": 72.30834321049079,
+        "units": 3.0180913117001875,
+        "roi": 0.04173918496396015,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.020671858299316354,
+          "low": -0.13468247988372778,
+          "high": 0.1747035670507281,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_40_flat": {
+        "bets": 50,
+        "wins": 17,
+        "losses": 33,
+        "wagered": 50.0,
+        "units": 4.1,
+        "roi": 0.08199999999999999,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.028082191780821917,
+          "low": -0.11739358467619336,
+          "high": 0.18406418597270702,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_40_kelly3": {
+        "bets": 50,
+        "wins": 17,
+        "losses": 33,
+        "wagered": 47.29570837814214,
+        "units": 2.5825691908673316,
+        "roi": 0.05460472587108716,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.017688830074433778,
+          "low": -0.11476803083221729,
+          "high": 0.15673724943775993,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_40_flat": {
+        "bets": 50,
+        "wins": 33,
+        "losses": 17,
+        "wagered": 50.0,
+        "units": -6.982477408188503,
+        "roi": -0.13964954816377007,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.04782518772731851,
+          "low": -0.11162461987367105,
+          "high": 0.013835084439161847,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_40_kelly3": {
+        "bets": 50,
+        "wins": 33,
+        "losses": 17,
+        "wagered": 47.29570837814214,
+        "units": -6.022749906218002,
+        "roi": -0.127342418852562,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.04125171168642467,
+          "low": -0.10600347596865733,
+          "high": 0.02190895206995503,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_40_kelly3": {
+        "bets": 50,
+        "wins": 17,
+        "losses": 33,
+        "wagered": 47.29570837814214,
+        "units": 2.5825691908673316,
+        "roi": 0.05460472587108716,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.017688830074433778,
+          "low": -0.11476803083221729,
+          "high": 0.15673724943775993,
+          "fights": 146,
+          "event_dates": 119
+        }
+      }
+    },
+    "test_start": "2023-10-14",
+    "test_end": "2026-09-19"
+  },
+  "fuller_tree_calibrated_market_5r": {
+    "fights": 146,
+    "excluded": 4,
+    "underdog_wins": 50,
+    "underdog_losses": 96,
+    "always_loss_accuracy": 0.6575342465753424,
+    "gbt_accuracy": 0.6232876712328768,
+    "predicted_underdog_wins": 23,
+    "upset_precision": 0.391304347826087,
+    "upset_recall": 0.18,
+    "confusion": {
+      "true_underdog_wins": 9,
+      "false_underdog_wins": 14,
+      "missed_underdog_wins": 41,
+      "correct_underdog_losses": 82
+    },
+    "accuracy_difference_interval": {
+      "difference": -0.03424657534246575,
+      "low": -0.10416666666666667,
+      "high": 0.034722222222222224,
+      "fights": 146,
+      "event_dates": 119
+    },
+    "strategies": {
+      "always_favorite_flat": {
+        "bets": 146,
+        "wins": 96,
+        "losses": 50,
+        "wagered": 146.0,
+        "units": -7.290305540751846,
+        "roi": -0.049933599594190727,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.049933599594190727,
+          "low": -0.1748002147373865,
+          "high": 0.07343190855963344,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "always_underdog_flat": {
+        "bets": 146,
+        "wins": 50,
+        "losses": 96,
+        "wagered": 146.0,
+        "units": -8.945238095238096,
+        "roi": -0.06126875407697326,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.06126875407697326,
+          "low": -0.29238965291630437,
+          "high": 0.17981660231660226,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "gbt_winner_flat": {
+        "bets": 146,
+        "wins": 91,
+        "losses": 55,
+        "wagered": 146.0,
+        "units": -9.477625718885486,
+        "roi": -0.06491524464990059,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.06491524464990059,
+          "low": -0.19318440080626836,
+          "high": 0.06755530559931036,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "gbt_underdog_winner_flat": {
+        "bets": 23,
+        "wins": 9,
+        "losses": 14,
+        "wagered": 23.0,
+        "units": -1.9499999999999997,
+        "roi": -0.08478260869565216,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.013356164383561643,
+          "low": -0.09272117649673318,
+          "high": 0.07,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_0_flat": {
+        "bets": 61,
+        "wins": 21,
+        "losses": 40,
+        "wagered": 61.0,
+        "units": -6.150000000000001,
+        "roi": -0.10081967213114756,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.042123287671232884,
+          "low": -0.17370400432900432,
+          "high": 0.09789612676056325,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_0_kelly3": {
+        "bets": 61,
+        "wins": 21,
+        "losses": 40,
+        "wagered": 29.010856570653125,
+        "units": -0.28085063884335715,
+        "roi": -0.009680880609621873,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.001923634512625734,
+          "low": -0.08171262369539273,
+          "high": 0.07925032237251678,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_0_flat": {
+        "bets": 61,
+        "wins": 40,
+        "losses": 21,
+        "wagered": 61.0,
+        "units": -2.833520154264619,
+        "roi": -0.04645115006991179,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.01940767228948369,
+          "low": -0.09962433857582632,
+          "high": 0.05805676942555483,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_0_kelly3": {
+        "bets": 61,
+        "wins": 40,
+        "losses": 21,
+        "wagered": 29.010856570653125,
+        "units": -2.4871891610797654,
+        "roi": -0.08573304807538025,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.017035542199176475,
+          "low": -0.07471654961975886,
+          "high": 0.03973699317678022,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_0_kelly3": {
+        "bets": 121,
+        "wins": 64,
+        "losses": 57,
+        "wagered": 64.01367279132462,
+        "units": -1.922113255800628,
+        "roi": -0.030026604817168373,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.013165159286305671,
+          "low": -0.10860820126906055,
+          "high": 0.08212808230202885,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_20_flat": {
+        "bets": 38,
+        "wins": 14,
+        "losses": 24,
+        "wagered": 38.0,
+        "units": -2.350000000000001,
+        "roi": -0.06184210526315792,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.01609589041095891,
+          "low": -0.12241796440489432,
+          "high": 0.09296373478969044,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_20_kelly3": {
+        "bets": 38,
+        "wins": 14,
+        "losses": 24,
+        "wagered": 24.62140738983973,
+        "units": -0.6420303370600937,
+        "roi": -0.02607610226720971,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.004397468062055436,
+          "low": -0.08235241127036476,
+          "high": 0.07489044209079139,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_20_flat": {
+        "bets": 38,
+        "wins": 24,
+        "losses": 14,
+        "wagered": 38.0,
+        "units": -3.000353847675977,
+        "roi": -0.07895668020199939,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.02055036881969847,
+          "low": -0.08629132197027396,
+          "high": 0.043577579843029415,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_20_kelly3": {
+        "bets": 38,
+        "wins": 24,
+        "losses": 14,
+        "wagered": 24.62140738983973,
+        "units": -2.060109468201093,
+        "roi": -0.08367147480981196,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.01411033882329516,
+          "low": -0.07097832064271953,
+          "high": 0.04123301859494062,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_20_kelly3": {
+        "bets": 44,
+        "wins": 16,
+        "losses": 28,
+        "wagered": 31.044763359000235,
+        "units": -3.492910095539888,
+        "roi": -0.11251205413125667,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.023924041750273208,
+          "low": -0.10634696062866521,
+          "high": 0.06239258777655932,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_40_flat": {
+        "bets": 10,
+        "wins": 2,
+        "losses": 8,
+        "wagered": 10.0,
+        "units": -4.8,
+        "roi": -0.48,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.03287671232876712,
+          "low": -0.08053691275167785,
+          "high": 0.016783344392833445,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_40_kelly3": {
+        "bets": 10,
+        "wins": 2,
+        "losses": 8,
+        "wagered": 9.685488857513873,
+        "units": -2.8634427492432932,
+        "roi": -0.2956425629483712,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.01961262157015954,
+          "low": -0.06852346130899889,
+          "high": 0.03325777971346962,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_40_flat": {
+        "bets": 10,
+        "wins": 8,
+        "losses": 2,
+        "wagered": 10.0,
+        "units": 0.9520743749004617,
+        "roi": 0.09520743749004616,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.0065210573623319295,
+          "low": -0.018936876986202066,
+          "high": 0.030339506114076608,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_40_kelly3": {
+        "bets": 10,
+        "wins": 8,
+        "losses": 2,
+        "wagered": 9.685488857513873,
+        "units": 0.2519923074402388,
+        "roi": 0.026017510437250316,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.0017259747084947864,
+          "low": -0.03567052112646483,
+          "high": 0.03356979837382866,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_40_kelly3": {
+        "bets": 10,
+        "wins": 2,
+        "losses": 8,
+        "wagered": 9.685488857513873,
+        "units": -2.8634427492432932,
+        "roi": -0.2956425629483712,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.01961262157015954,
+          "low": -0.06852346130899889,
+          "high": 0.03325777971346962,
+          "fights": 146,
+          "event_dates": 119
+        }
+      }
+    },
+    "test_start": "2023-10-14",
+    "test_end": "2026-09-19"
+  },
+  "fuller_tree_calibrated_stats_5r": {
+    "fights": 146,
+    "excluded": 4,
+    "underdog_wins": 50,
+    "underdog_losses": 96,
+    "always_loss_accuracy": 0.6575342465753424,
+    "gbt_accuracy": 0.6438356164383562,
+    "predicted_underdog_wins": 38,
+    "upset_precision": 0.47368421052631576,
+    "upset_recall": 0.36,
+    "confusion": {
+      "true_underdog_wins": 18,
+      "false_underdog_wins": 20,
+      "missed_underdog_wins": 32,
+      "correct_underdog_losses": 76
+    },
+    "accuracy_difference_interval": {
+      "difference": -0.0136986301369863,
+      "low": -0.10457516339869281,
+      "high": 0.0738255033557047,
+      "fights": 146,
+      "event_dates": 119
+    },
+    "strategies": {
+      "always_favorite_flat": {
+        "bets": 146,
+        "wins": 96,
+        "losses": 50,
+        "wagered": 146.0,
+        "units": -7.290305540751846,
+        "roi": -0.049933599594190727,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.049933599594190727,
+          "low": -0.1748002147373865,
+          "high": 0.07343190855963344,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "always_underdog_flat": {
+        "bets": 146,
+        "wins": 50,
+        "losses": 96,
+        "wagered": 146.0,
+        "units": -8.945238095238096,
+        "roi": -0.06126875407697326,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.06126875407697326,
+          "low": -0.29238965291630437,
+          "high": 0.17981660231660226,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "gbt_winner_flat": {
+        "bets": 146,
+        "wins": 94,
+        "losses": 52,
+        "wagered": 146.0,
+        "units": 8.717790688919447,
+        "roi": 0.05971089512958525,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.05971089512958525,
+          "low": -0.08838041080258477,
+          "high": 0.21106418075164057,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "gbt_underdog_winner_flat": {
+        "bets": 38,
+        "wins": 18,
+        "losses": 20,
+        "wagered": 38.0,
+        "units": 9.0,
+        "roi": 0.23684210526315788,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.06164383561643835,
+          "low": -0.05575539568345323,
+          "high": 0.18366064133986923,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_0_flat": {
+        "bets": 95,
+        "wins": 31,
+        "losses": 64,
+        "wagered": 95.0,
+        "units": -6.050000000000001,
+        "roi": -0.0636842105263158,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.041438356164383565,
+          "low": -0.22550789509975178,
+          "high": 0.15629139072847686,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_0_kelly3": {
+        "bets": 95,
+        "wins": 31,
+        "losses": 64,
+        "wagered": 57.785280743415065,
+        "units": 5.3820122494553555,
+        "roi": 0.09313811718512181,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.036863097599009284,
+          "low": -0.1049724650612387,
+          "high": 0.18531404601626586,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_0_flat": {
+        "bets": 95,
+        "wins": 64,
+        "losses": 31,
+        "wagered": 95.0,
+        "units": -6.686198214250741,
+        "roi": -0.07038103383421833,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.0457958781797996,
+          "low": -0.13966013248452622,
+          "high": 0.045759942099660715,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_0_kelly3": {
+        "bets": 95,
+        "wins": 64,
+        "losses": 31,
+        "wagered": 57.785280743415065,
+        "units": -8.494396774626965,
+        "roi": -0.14699931652741768,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.05818079982621209,
+          "low": -0.13453213803783393,
+          "high": 0.015188832464174476,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_0_kelly3": {
+        "bets": 131,
+        "wins": 52,
+        "losses": 79,
+        "wagered": 80.82381675760926,
+        "units": 4.527176553606026,
+        "roi": 0.05601290232535088,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.031008058586342643,
+          "low": -0.1165308430020002,
+          "high": 0.18274726338999792,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_20_flat": {
+        "bets": 69,
+        "wins": 25,
+        "losses": 44,
+        "wagered": 69.0,
+        "units": 6.349999999999998,
+        "roi": 0.09202898550724635,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.043493150684931495,
+          "low": -0.12536114532019704,
+          "high": 0.2184795910611128,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_20_kelly3": {
+        "bets": 69,
+        "wins": 25,
+        "losses": 44,
+        "wagered": 52.116073520856006,
+        "units": 8.17278007130251,
+        "roi": 0.15681879925263165,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.05597794569385281,
+          "low": -0.08319826216841839,
+          "high": 0.20039180014913566,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_20_flat": {
+        "bets": 69,
+        "wins": 44,
+        "losses": 25,
+        "wagered": 69.0,
+        "units": -10.811825388540743,
+        "roi": -0.15669312157305426,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.07405359855164893,
+          "low": -0.15128712028875985,
+          "high": 0.0003138100674863422,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_20_kelly3": {
+        "bets": 69,
+        "wins": 44,
+        "losses": 25,
+        "wagered": 52.116073520856006,
+        "units": -9.975692319181386,
+        "roi": -0.1914129681160511,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.06832665972042046,
+          "low": -0.14139553559954157,
+          "high": 0.0010849830233588319,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_20_kelly3": {
+        "bets": 80,
+        "wins": 32,
+        "losses": 48,
+        "wagered": 64.39006593445811,
+        "units": 10.090076389040165,
+        "roi": 0.1567023770298781,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.06911011225369976,
+          "low": -0.07226667105176182,
+          "high": 0.21357390060616396,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_40_flat": {
+        "bets": 48,
+        "wins": 17,
+        "losses": 31,
+        "wagered": 48.0,
+        "units": 5.550000000000001,
+        "roi": 0.11562500000000002,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.03801369863013699,
+          "low": -0.10616449475182353,
+          "high": 0.1983305369127516,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_40_kelly3": {
+        "bets": 48,
+        "wins": 17,
+        "losses": 31,
+        "wagered": 42.37204226341879,
+        "units": 7.325364972990471,
+        "roi": 0.17288203687351422,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.05017373269171555,
+          "low": -0.08115203285747649,
+          "high": 0.1894693339603684,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_40_flat": {
+        "bets": 48,
+        "wins": 31,
+        "losses": 17,
+        "wagered": 48.0,
+        "units": -8.096285636208538,
+        "roi": -0.16867261742101122,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.055454011206907794,
+          "low": -0.1221046337995583,
+          "high": 0.005588824273511641,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_40_kelly3": {
+        "bets": 48,
+        "wins": 31,
+        "losses": 17,
+        "wagered": 42.37204226341879,
+        "units": -8.966059771540158,
+        "roi": -0.21160320089836354,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.061411368298220255,
+          "low": -0.13132610452028143,
+          "high": 0.0015437839044114222,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_40_kelly3": {
+        "bets": 48,
+        "wins": 17,
+        "losses": 31,
+        "wagered": 42.37204226341879,
+        "units": 7.325364972990471,
+        "roi": 0.17288203687351422,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.05017373269171555,
+          "low": -0.08115203285747649,
+          "high": 0.1894693339603684,
+          "fights": 146,
+          "event_dates": 119
+        }
+      }
+    },
+    "test_start": "2023-10-14",
+    "test_end": "2026-09-19"
+  },
+  "fuller_tree_market_5r": {
+    "fights": 146,
+    "excluded": 4,
+    "underdog_wins": 50,
+    "underdog_losses": 96,
+    "always_loss_accuracy": 0.6575342465753424,
+    "gbt_accuracy": 0.6232876712328768,
+    "predicted_underdog_wins": 23,
+    "upset_precision": 0.391304347826087,
+    "upset_recall": 0.18,
+    "confusion": {
+      "true_underdog_wins": 9,
+      "false_underdog_wins": 14,
+      "missed_underdog_wins": 41,
+      "correct_underdog_losses": 82
+    },
+    "accuracy_difference_interval": {
+      "difference": -0.03424657534246575,
+      "low": -0.10416666666666667,
+      "high": 0.034722222222222224,
+      "fights": 146,
+      "event_dates": 119
+    },
+    "strategies": {
+      "always_favorite_flat": {
+        "bets": 146,
+        "wins": 96,
+        "losses": 50,
+        "wagered": 146.0,
+        "units": -7.290305540751843,
+        "roi": -0.049933599594190706,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.049933599594190706,
+          "low": -0.1748002147373865,
+          "high": 0.07343190855963344,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "always_underdog_flat": {
+        "bets": 146,
+        "wins": 50,
+        "losses": 96,
+        "wagered": 146.0,
+        "units": -8.945238095238096,
+        "roi": -0.06126875407697326,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.06126875407697326,
+          "low": -0.29238965291630437,
+          "high": 0.17981660231660226,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "gbt_winner_flat": {
+        "bets": 146,
+        "wins": 91,
+        "losses": 55,
+        "wagered": 146.0,
+        "units": -9.477625718885484,
+        "roi": -0.06491524464990057,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.06491524464990057,
+          "low": -0.19318440080626836,
+          "high": 0.06755530559931036,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "gbt_underdog_winner_flat": {
+        "bets": 23,
+        "wins": 9,
+        "losses": 14,
+        "wagered": 23.0,
+        "units": -1.9499999999999997,
+        "roi": -0.08478260869565216,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.013356164383561643,
+          "low": -0.09272117649673318,
+          "high": 0.07,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_0_flat": {
+        "bets": 53,
+        "wins": 21,
+        "losses": 32,
+        "wagered": 53.0,
+        "units": 1.85,
+        "roi": 0.03490566037735849,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.012671232876712329,
+          "low": -0.11780881789443433,
+          "high": 0.14964794888210378,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_0_kelly3": {
+        "bets": 53,
+        "wins": 21,
+        "losses": 32,
+        "wagered": 27.883510898068877,
+        "units": -0.10867368609156469,
+        "roi": -0.0038974175988394305,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.0007443403156956486,
+          "low": -0.08665531393205886,
+          "high": 0.0855324946396925,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_0_flat": {
+        "bets": 53,
+        "wins": 32,
+        "losses": 21,
+        "wagered": 53.0,
+        "units": -5.552225425601469,
+        "roi": -0.10475897029436733,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.038028941271242934,
+          "low": -0.11641757050672637,
+          "high": 0.03862002234914618,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_0_kelly3": {
+        "bets": 53,
+        "wins": 32,
+        "losses": 21,
+        "wagered": 27.883510898068877,
+        "units": -2.108091206292392,
+        "roi": -0.07560350681801666,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.014438980865016384,
+          "low": -0.07803547408240867,
+          "high": 0.048747161242961676,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_0_kelly3": {
+        "bets": 127,
+        "wins": 74,
+        "losses": 53,
+        "wagered": 86.19023157129325,
+        "units": -1.2419276581898953,
+        "roi": -0.014409146321443867,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.00850635382321846,
+          "low": -0.12513059003427499,
+          "high": 0.1052276613030046,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_20_flat": {
+        "bets": 29,
+        "wins": 10,
+        "losses": 19,
+        "wagered": 29.0,
+        "units": -5.199999999999999,
+        "roi": -0.17931034482758618,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.035616438356164376,
+          "low": -0.1224528235951915,
+          "high": 0.05489772727272723,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_20_kelly3": {
+        "bets": 29,
+        "wins": 10,
+        "losses": 19,
+        "wagered": 23.099726261161468,
+        "units": -1.996618881631279,
+        "roi": -0.08643474208559249,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.013675471791995063,
+          "low": -0.09549313647382449,
+          "high": 0.07090560142101844,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_20_flat": {
+        "bets": 29,
+        "wins": 19,
+        "losses": 10,
+        "wagered": 29.0,
+        "units": -0.42570053488707127,
+        "roi": -0.014679328789209354,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.0029157570882676113,
+          "low": -0.062813546427554,
+          "high": 0.05512486351398734,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_20_kelly3": {
+        "bets": 29,
+        "wins": 19,
+        "losses": 10,
+        "wagered": 23.099726261161468,
+        "units": -0.8096895181099564,
+        "roi": -0.035051909661428376,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.005545818617191482,
+          "low": -0.06848962194086528,
+          "high": 0.05594792258117104,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_20_kelly3": {
+        "bets": 41,
+        "wins": 16,
+        "losses": 25,
+        "wagered": 39.28432281501476,
+        "units": -5.166568663512619,
+        "roi": -0.13151731513462459,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.0353874565994015,
+          "low": -0.13484682217842772,
+          "high": 0.06433730032627703,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_40_flat": {
+        "bets": 10,
+        "wins": 2,
+        "losses": 8,
+        "wagered": 10.0,
+        "units": -4.8,
+        "roi": -0.48,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.03287671232876712,
+          "low": -0.08391608391608392,
+          "high": 0.017568519223448792,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_40_kelly3": {
+        "bets": 10,
+        "wins": 2,
+        "losses": 8,
+        "wagered": 11.346050449854221,
+        "units": -3.8017513017933444,
+        "roi": -0.33507265974145134,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.026039392478036605,
+          "low": -0.09218016966025513,
+          "high": 0.03791168296169275,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_40_flat": {
+        "bets": 10,
+        "wins": 8,
+        "losses": 2,
+        "wagered": 10.0,
+        "units": 1.598228221054308,
+        "roi": 0.1598228221054308,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.010946768637358273,
+          "low": -0.018753930400820105,
+          "high": 0.04333332349090648,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_40_kelly3": {
+        "bets": 10,
+        "wins": 8,
+        "losses": 2,
+        "wagered": 11.346050449854221,
+        "units": 1.3157795415294538,
+        "roi": 0.11596806724461192,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.009012188640612697,
+          "low": -0.039412340737287554,
+          "high": 0.05859153686805099,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_40_kelly3": {
+        "bets": 11,
+        "wins": 2,
+        "losses": 9,
+        "wagered": 12.86095466085461,
+        "units": -5.3166555127937345,
+        "roi": -0.41339509025533283,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.0364154487177653,
+          "low": -0.10380188119961123,
+          "high": 0.030055307786710044,
+          "fights": 146,
+          "event_dates": 119
+        }
+      }
+    },
+    "test_start": "2023-10-14",
+    "test_end": "2026-09-19"
+  },
+  "fuller_tree_stats_5r": {
+    "fights": 146,
+    "excluded": 4,
+    "underdog_wins": 50,
+    "underdog_losses": 96,
+    "always_loss_accuracy": 0.6575342465753424,
+    "gbt_accuracy": 0.6438356164383562,
+    "predicted_underdog_wins": 38,
+    "upset_precision": 0.47368421052631576,
+    "upset_recall": 0.36,
+    "confusion": {
+      "true_underdog_wins": 18,
+      "false_underdog_wins": 20,
+      "missed_underdog_wins": 32,
+      "correct_underdog_losses": 76
+    },
+    "accuracy_difference_interval": {
+      "difference": -0.0136986301369863,
+      "low": -0.10457516339869281,
+      "high": 0.0738255033557047,
+      "fights": 146,
+      "event_dates": 119
+    },
+    "strategies": {
+      "always_favorite_flat": {
+        "bets": 146,
+        "wins": 96,
+        "losses": 50,
+        "wagered": 146.0,
+        "units": -7.290305540751843,
+        "roi": -0.049933599594190706,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.049933599594190706,
+          "low": -0.1748002147373865,
+          "high": 0.07343190855963344,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "always_underdog_flat": {
+        "bets": 146,
+        "wins": 50,
+        "losses": 96,
+        "wagered": 146.0,
+        "units": -8.945238095238096,
+        "roi": -0.06126875407697326,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.06126875407697326,
+          "low": -0.29238965291630437,
+          "high": 0.17981660231660226,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "gbt_winner_flat": {
+        "bets": 146,
+        "wins": 94,
+        "losses": 52,
+        "wagered": 146.0,
+        "units": 8.717790688919447,
+        "roi": 0.05971089512958525,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.05971089512958525,
+          "low": -0.08838041080258477,
+          "high": 0.21106418075164057,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "gbt_underdog_winner_flat": {
+        "bets": 38,
+        "wins": 18,
+        "losses": 20,
+        "wagered": 38.0,
+        "units": 9.0,
+        "roi": 0.23684210526315788,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.06164383561643835,
+          "low": -0.05575539568345323,
+          "high": 0.18366064133986923,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_0_flat": {
+        "bets": 82,
+        "wins": 30,
+        "losses": 52,
+        "wagered": 82.0,
+        "units": 4.649999999999998,
+        "roi": 0.056707317073170706,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.03184931506849314,
+          "low": -0.14778916946525444,
+          "high": 0.2180002569373071,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_0_kelly3": {
+        "bets": 82,
+        "wins": 30,
+        "losses": 52,
+        "wagered": 55.696272646252666,
+        "units": 8.963210908623344,
+        "roi": 0.16093017508643648,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.06139185553851605,
+          "low": -0.0884499461438547,
+          "high": 0.21679175308385282,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_0_flat": {
+        "bets": 82,
+        "wins": 52,
+        "losses": 30,
+        "wagered": 82.0,
+        "units": -9.807886643788532,
+        "roi": -0.11960837370473819,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.0671773057793735,
+          "low": -0.15788195778871625,
+          "high": 0.022084838707925394,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_0_kelly3": {
+        "bets": 82,
+        "wins": 52,
+        "losses": 30,
+        "wagered": 55.696272646252666,
+        "units": -9.575499149584786,
+        "roi": -0.17192351830080754,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.06558561061359443,
+          "low": -0.15270256586166606,
+          "high": 0.017201306000674273,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_0_kelly3": {
+        "bets": 132,
+        "wins": 61,
+        "losses": 71,
+        "wagered": 98.72759082230291,
+        "units": 7.459826844975199,
+        "roi": 0.07555969696862083,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.051094704417638345,
+          "low": -0.11702837742272595,
+          "high": 0.21870654895707967,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_20_flat": {
+        "bets": 60,
+        "wins": 24,
+        "losses": 36,
+        "wagered": 60.0,
+        "units": 12.45,
+        "roi": 0.2075,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.08527397260273972,
+          "low": -0.07887419756635049,
+          "high": 0.25756629990925584,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_20_kelly3": {
+        "bets": 60,
+        "wins": 24,
+        "losses": 36,
+        "wagered": 52.04584822377853,
+        "units": 9.528438796277229,
+        "roi": 0.18307778855497467,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.06526327942655635,
+          "low": -0.08424446634786953,
+          "high": 0.21836598820324463,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_20_flat": {
+        "bets": 60,
+        "wins": 36,
+        "losses": 24,
+        "wagered": 60.0,
+        "units": -10.04128341318572,
+        "roi": -0.16735472355309533,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.0687759137889433,
+          "low": -0.1471666183996875,
+          "high": 0.01025208870933569,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_20_kelly3": {
+        "bets": 60,
+        "wins": 36,
+        "losses": 24,
+        "wagered": 52.04584822377853,
+        "units": -9.329290713626943,
+        "roi": -0.17925139145613173,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.06389925146319823,
+          "low": -0.1504118057002184,
+          "high": 0.017637795914703155,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_20_kelly3": {
+        "bets": 80,
+        "wins": 35,
+        "losses": 45,
+        "wagered": 79.99228102928777,
+        "units": 8.473381446529121,
+        "roi": 0.10592748872140227,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.058036859222802197,
+          "low": -0.10559262539948029,
+          "high": 0.22014815819956166,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_40_flat": {
+        "bets": 40,
+        "wins": 16,
+        "losses": 24,
+        "wagered": 40.0,
+        "units": 9.15,
+        "roi": 0.22875,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.06267123287671234,
+          "low": -0.06946352305412708,
+          "high": 0.20208435547326986,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "underdog_ev_40_kelly3": {
+        "bets": 40,
+        "wins": 16,
+        "losses": 24,
+        "wagered": 42.14335707579278,
+        "units": 8.983833213912954,
+        "roi": 0.2131731745469628,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.06153310420488325,
+          "low": -0.07437008377740784,
+          "high": 0.20631221233167105,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_40_flat": {
+        "bets": 40,
+        "wins": 24,
+        "losses": 16,
+        "wagered": 40.0,
+        "units": -7.829970820105945,
+        "roi": -0.19574927050264862,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.05362993712401332,
+          "low": -0.11622156175601801,
+          "high": 0.005665698491766863,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "favorite_same_underdog_ev_40_kelly3": {
+        "bets": 40,
+        "wins": 24,
+        "losses": 16,
+        "wagered": 42.14335707579278,
+        "units": -8.895901694437333,
+        "roi": -0.21108668866693478,
+        "mean_profit_per_fight_interval": {
+          "difference": -0.06093083352354337,
+          "low": -0.14190699995152065,
+          "high": 0.011544416691416213,
+          "fights": 146,
+          "event_dates": 119
+        }
+      },
+      "all_sides_ev_40_kelly3": {
+        "bets": 44,
+        "wins": 19,
+        "losses": 25,
+        "wagered": 49.43268795931441,
+        "units": 11.092405957611204,
+        "roi": 0.22439414920630682,
+        "mean_profit_per_fight_interval": {
+          "difference": 0.07597538327130962,
+          "low": -0.06497399554938514,
+          "high": 0.22426615418588774,
+          "fights": 146,
+          "event_dates": 119
+        }
+      }
+    },
+    "test_start": "2023-10-14",
+    "test_end": "2026-09-19"
+  }
+}

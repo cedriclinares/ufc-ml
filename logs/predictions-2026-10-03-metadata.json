@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-03",
+  "history_through": "2026-09-19",
+  "source": "https://www.ufc.com/event/ufc-332",
+  "skipped": [
+    {
+      "fight": "Roberto Soldic vs Khaos Williams",
+      "missing_history": [
+        "Roberto Soldic"
+      ]
+    },
+    {
+      "fight": "Marcus McGhee vs Anthony Romero",
+      "missing_history": [
+        "Anthony Romero"
+      ]
+    },
+    {
+      "fight": "Anthony Wint vs Lucas Armand",
+      "missing_history": [
+        "Lucas Armand"
+      ]
+    },
+    {
+      "fight": "Jacobe Smith vs Bruce Whitehead",
+      "missing_history": [
+        "Bruce Whitehead"
+      ]
+    }
+  ],
+  "threshold": null,
+  "models": "Existing saved chronological comparison models, not retrained"
+}

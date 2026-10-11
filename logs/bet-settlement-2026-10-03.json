@@ -1,0 +1,66 @@
+{
+  "source": "https://www.sherdog.com/events/UFC-332-Silva-vs-Wang-114123",
+  "basis": "Original recorded odds; saved full-precision 3x Kelly units, with alternate rounded-stake calculation",
+  "summary": [
+    {
+      "threshold": 0.2,
+      "market": "Moneyline",
+      "bets": 3,
+      "wins": 2,
+      "losses": 1,
+      "stake": 1.921167851465393,
+      "net_units": 1.363473057863812,
+      "rounded_net": 1.3669259259259259
+    },
+    {
+      "threshold": 0.2,
+      "market": "Round totals",
+      "bets": 4,
+      "wins": 2,
+      "losses": 2,
+      "stake": 5.361598694597824,
+      "net_units": -0.055818805911630465,
+      "rounded_net": -0.04520000000000013
+    },
+    {
+      "threshold": 0.2,
+      "market": "Combined",
+      "bets": 7,
+      "wins": 4,
+      "losses": 3,
+      "stake": 7.2827665460632165,
+      "net_units": 1.3076542519521814,
+      "rounded_net": 1.3217259259259262
+    },
+    {
+      "threshold": 0.4,
+      "market": "Moneyline",
+      "bets": 1,
+      "wins": 0,
+      "losses": 1,
+      "stake": 0.2953238282148052,
+      "net_units": -0.2953238282148052,
+      "rounded_net": -0.3
+    },
+    {
+      "threshold": 0.4,
+      "market": "Round totals",
+      "bets": 1,
+      "wins": 1,
+      "losses": 0,
+      "stake": 0.8753647498574488,
+      "net_units": 1.4968737222562374,
+      "rounded_net": 1.5048
+    },
+    {
+      "threshold": 0.4,
+      "market": "Combined",
+      "bets": 2,
+      "wins": 1,
+      "losses": 1,
+      "stake": 1.170688578072254,
+      "net_units": 1.2015498940414322,
+      "rounded_net": 1.2047999999999999
+    }
+  ]
+}

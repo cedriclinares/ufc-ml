@@ -1,0 +1,104 @@
+{
+  "event": "UFC Fight Night: Allen vs Duncan",
+  "date": "2026-10-10",
+  "odds_source": "https://www.betus.com.pa/sportsbook/ufc/fight-night/",
+  "odds_retrieved_at": "2026-10-10T18:49:13.886636+00:00",
+  "fights": [
+    {
+      "red_name": "Brendan Allen",
+      "blue_name": "Christian Leroy Duncan",
+      "weight_class": "Middleweight",
+      "red_odds": -125,
+      "blue_odds": 105,
+      "number_of_rounds": 5
+    },
+    {
+      "red_name": "Matheus Camilo",
+      "blue_name": "Jai Herbert",
+      "weight_class": "Lightweight",
+      "red_odds": -210,
+      "blue_odds": 174,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Loopy Godinez",
+      "blue_name": "Ketlen Souza",
+      "weight_class": "Women's Strawweight",
+      "red_odds": -235,
+      "blue_odds": 194,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Andre Fili",
+      "blue_name": "Kai Kamaka III",
+      "weight_class": "Featherweight",
+      "red_odds": -145,
+      "blue_odds": 122,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Malcolm Wellmaker",
+      "blue_name": "Otari Tanzilovi",
+      "weight_class": "Bantamweight",
+      "red_odds": -200,
+      "blue_odds": 166,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Julius Walker",
+      "blue_name": "Gerald Meerschaert",
+      "weight_class": "Light Heavyweight",
+      "red_odds": -310,
+      "blue_odds": 254,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Francisco Prado",
+      "blue_name": "Ismael Bonfim",
+      "weight_class": "Lightweight",
+      "red_odds": -145,
+      "blue_odds": 122,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Niko Price",
+      "blue_name": "Leon Shahbazyan",
+      "weight_class": "Welterweight",
+      "red_odds": 118,
+      "blue_odds": -140,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Felipe Franco",
+      "blue_name": "Brendson Ribeiro",
+      "weight_class": "Light Heavyweight",
+      "red_odds": -390,
+      "blue_odds": 303,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Allen Frye Jr.",
+      "blue_name": "RJ Harris",
+      "weight_class": "Heavyweight",
+      "red_odds": 288,
+      "blue_odds": -365,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Alice Pereira",
+      "blue_name": "Daria Zhelezniakova",
+      "weight_class": "Women's Bantamweight",
+      "red_odds": -135,
+      "blue_odds": 114,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Ernesta Kareckaite",
+      "blue_name": "Melissa Gatto",
+      "weight_class": "Women's Flyweight",
+      "red_odds": 100,
+      "blue_odds": -120,
+      "number_of_rounds": 3
+    }
+  ]
+}

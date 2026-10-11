@@ -1,0 +1,19 @@
+Live GBT fold 1: 6430 train, 93 test through 2023-09-23
+Live GBT fold 2: 6523 train, 89 test through 2023-12-09
+Live GBT fold 3: 6612 train, 94 test through 2024-03-02
+Live GBT fold 4: 6706 train, 90 test through 2024-04-27
+Live GBT fold 5: 6796 train, 98 test through 2024-06-29
+Live GBT fold 6: 6894 train, 94 test through 2024-09-07
+Live GBT fold 7: 6988 train, 96 test through 2024-11-09
+Live GBT fold 8: 7084 train, 90 test through 2025-02-01
+Live GBT fold 9: 7174 train, 93 test through 2025-03-29
+Live GBT fold 10: 7267 train, 96 test through 2025-06-07
+Live GBT fold 11: 7363 train, 96 test through 2025-08-09
+Live GBT fold 12: 7459 train, 88 test through 2025-10-11
+Live GBT fold 13: 7547 train, 91 test through 2025-12-06
+Live GBT fold 14: 7638 train, 100 test through 2026-03-14
+Live GBT fold 15: 7738 train, 99 test through 2026-05-09
+Live GBT fold 16: 7837 train, 100 test through 2026-07-25
+Live GBT fold 17: 7937 train, 91 test through 2026-09-12
+Live GBT fold 18: 8028 train, 12 test through 2026-09-19
+Saved underdog analysis to /Users/cedriclinares/Documents/ufc-ml/logs/underdog-analysis/report.md

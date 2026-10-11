@@ -1,0 +1,48 @@
+{
+  "run_utc": "2026-10-03T16:32:14.605183+00:00",
+  "branch_commit": "0f60c75e29cd76ac0f176ce694d71cbbfbafb2a3",
+  "model": "gb_med_multielo_odds",
+  "params": {
+    "max_iter": 300,
+    "max_leaf_nodes": 31,
+    "learning_rate": 0.05,
+    "l2_regularization": 2,
+    "min_samples_leaf": 20,
+    "early_stopping": false,
+    "random_state": 0
+  },
+  "training_fights": 8040,
+  "history_through": "2026-09-19",
+  "ev_threshold": 0.4,
+  "kelly_multiplier": 3.0,
+  "odds_source": "https://www.ufc.com/event/ufc-332",
+  "skipped": [
+    {
+      "fight": "Roberto Soldic vs Khaos Williams",
+      "missing_history": [
+        "Roberto Soldic"
+      ]
+    },
+    {
+      "fight": "Marcus McGhee vs Anthony Romero",
+      "missing_history": [
+        "Anthony Romero"
+      ]
+    },
+    {
+      "fight": "Anthony Wint vs Lucas Armand",
+      "missing_history": [
+        "Lucas Armand"
+      ]
+    },
+    {
+      "fight": "Jacobe Smith vs Bruce Whitehead",
+      "missing_history": [
+        "Bruce Whitehead"
+      ]
+    }
+  ],
+  "input_method": "Latest repaired post-fight CSV snapshots, event-date age, verified IDs; branch Elo/streak/experience uses training dataset history.",
+  "dataset_sha256": "26dc6f7982f7eeeb6e49eef154a61c28f374e40ed068c2390c7368d4decc194d",
+  "sizing_note": "Branch linear Kelly multiplier outputs units; no bankroll compounding or bankroll allocation calculated."
+}

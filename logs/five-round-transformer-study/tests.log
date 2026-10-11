@@ -1,0 +1,10 @@
+................................................................................    epoch 1: train 2.1159, validation 1.9781
+../Users/cedriclinares/Documents/ufc-ml/.venv/lib/python3.14/site-packages/sklearn/metrics/_classification.py:614: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/Users/cedriclinares/Documents/ufc-ml/.venv/lib/python3.14/site-packages/sklearn/metrics/_classification.py:614: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+....
+----------------------------------------------------------------------
+Ran 86 tests in 2.897s
+
+OK

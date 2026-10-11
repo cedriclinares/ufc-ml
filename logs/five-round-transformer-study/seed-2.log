@@ -1,0 +1,36 @@
+Reconstructed 8,550 matchups; 117 exclusions. Device: mps.
+history_stats 5r-1: 6,663 train, 40 test, cutoff 2023-10-14
+    epoch 1: train 1.8072, validation 1.7256
+    epoch 5: train 1.6947, validation 1.7155
+    epoch 10: train 1.6587, validation 1.7283
+history_stats 5r-2: 7,055 train, 39 test, cutoff 2024-07-27
+    epoch 1: train 1.8003, validation 1.7427
+    epoch 5: train 1.6998, validation 1.7256
+    epoch 10: train 1.6586, validation 1.7375
+history_stats 5r-3: 7,419 train, 40 test, cutoff 2025-04-12
+    epoch 1: train 1.8002, validation 1.7611
+    epoch 5: train 1.6972, validation 1.7432
+    epoch 10: train 1.6484, validation 1.7739
+history_stats 5r-4: 7,832 train, 31 test, cutoff 2026-02-21
+    epoch 1: train 1.7932, validation 1.7554
+    epoch 5: train 1.6945, validation 1.7344
+    epoch 10: train 1.6515, validation 1.7907
+history_market 5r-1: 6,663 train, 40 test, cutoff 2023-10-14
+    epoch 1: train 1.8155, validation 1.7172
+    epoch 5: train 1.6968, validation 1.7159
+    epoch 10: train 1.6397, validation 1.7231
+    epoch 15: train 1.5964, validation 1.7562
+history_market 5r-2: 7,055 train, 39 test, cutoff 2024-07-27
+    epoch 1: train 1.8125, validation 1.7328
+    epoch 5: train 1.6946, validation 1.7195
+    epoch 10: train 1.6433, validation 1.7362
+history_market 5r-3: 7,419 train, 40 test, cutoff 2025-04-12
+    epoch 1: train 1.8117, validation 1.7418
+    epoch 5: train 1.6905, validation 1.7379
+    epoch 10: train 1.6450, validation 1.7651
+history_market 5r-4: 7,832 train, 31 test, cutoff 2026-02-21
+    epoch 1: train 1.8086, validation 1.7500
+    epoch 5: train 1.6872, validation 1.7321
+    epoch 10: train 1.6471, validation 1.7416
+    epoch 15: train 1.6045, validation 1.7711
+Saved to models/transformers/artifacts/five-round-study/seed-2/walk-forward

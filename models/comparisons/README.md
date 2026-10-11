@@ -25,3 +25,9 @@ Files:
 To predict with a statistics model, build features with `make_features` using chronological history including the new fights, then pass the desired rows to the saved pipeline. Odds-only and majority models expect `red_implied` and `blue_implied` columns normalized to sum to one. There is no serialized estimator for the favorite rule. Only load trusted joblib files.
 
 Historical results are not directly comparable: the new split keeps dates intact, and rest time follows fighters across both corners. Calibration reserves the last 20% of the training period; base models for calibrated variants therefore train on fewer rows. This evaluates held-out calibration performance but does not isolate calibration from reduced base training data. No tuning uses the test period. All settlement uses one-unit stakes on every test fight, with exact prediction ties selecting Red.
+
+For upcoming-event value picks and a table with Kelly sizing, run
+`.venv/bin/python scripts/predict_value_bets.py examples/ufc-332-2026-10-03.json`.
+See `scripts/VALUE_BETTING.md` for live card fetching, input format, thresholds,
+and sizing conventions. This runner uses the `gb_med_multielo_odds` configuration
+from the walk-forward branch rather than the saved baseline comparison models.

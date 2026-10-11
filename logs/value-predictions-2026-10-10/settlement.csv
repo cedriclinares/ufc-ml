@@ -1,0 +1,11 @@
+market,fight,bet,odds,expected_roi,qualifies_20,qualifies_40,stake,result,net_units
+Moneyline,Brendan Allen vs Christian Leroy Duncan,Christian Leroy Duncan,105,0.4627629695836364,True,True,1.322179913096104,Loss,-1.322179913096104
+Moneyline,Matheus Camilo vs Jai Herbert,Matheus Camilo,-210,0.213777623161729,True,False,1.3467990259188922,Loss,-1.3467990259188922
+Moneyline,Julius Walker vs Gerald Meerschaert,Gerald Meerschaert,254,0.2636584096245362,True,False,0.3114075704226806,Loss,-0.3114075704226806
+Moneyline,Allen Frye Jr. vs RJ Harris,Allen Frye Jr.,288,1.0851082174997546,True,True,1.130321059895578,Win,3.2553246524992643
+Moneyline,Alice Pereira vs Daria Zhelezniakova,Alice Pereira,-135,0.3889878398050479,True,False,1.5754007512104442,Win,1.1669635194151438
+Round totals,Brendan Allen vs Christian Leroy Duncan,Brendan Allen vs Christian Leroy Duncan Over 3.5,-125,0.4790279160367727,True,True,1.7963546851378978,Win,1.4370837481103182
+Round totals,Matheus Camilo vs Jai Herbert,Matheus Camilo vs Jai Herbert Over 1.5,-170,0.2016648768146312,True,False,1.0284908717546188,Win,0.6049946304438935
+Round totals,Julius Walker vs Gerald Meerschaert,Julius Walker vs Gerald Meerschaert Over 1.5,100,0.2165852066235039,True,False,0.6497556198705117,Win,0.6497556198705117
+Round totals,Niko Price vs Leon Shahbazyan,Niko Price vs Leon Shahbazyan Over 1.5,190,0.7304004840531173,True,True,1.1532639221891328,Loss,-1.1532639221891328
+Round totals,Ernesta Kareckaite vs Melissa Gatto,Ernesta Kareckaite vs Melissa Gatto Under 2.5,276,0.2774370737623151,True,False,0.3015620366981686,Loss,-0.3015620366981686

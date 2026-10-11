@@ -1,0 +1,76 @@
+{
+  "settled_at": "2026-10-11T16:05:34.820024+00:00",
+  "source": "https://www.mmafighting.com/ufc/514924/ufc-vegas-122-results-allen-vs-duncan",
+  "corroborating_sources": [
+    "https://jp.ufc.com/news/ufc-fight-night-allen-vs-duncan-results",
+    "https://jp.ufc.com/news/ufc-fight-night-allen-vs-duncan-official-scorecards"
+  ],
+  "basis": "Saved full-precision 3\u00d7 Kelly stakes and original odds; model portfolios, actual bets unconfirmed",
+  "inputs_sha256": {
+    "card.json": "5fce3d0cb510fe8ee144af589b8bc94e8bba202202a13dc3e46283f82c014f92",
+    "predictions.csv": "0203dfba9b6e02b104cf28a3f08757098ed59444c79b6fee8f811fa7ea8c5462",
+    "round-bets.csv": "9677188a890f09a84e8b402228828ae936297366620740c02815e8d61ed03f76"
+  },
+  "summary": [
+    {
+      "threshold": 0.2,
+      "market": "Moneyline",
+      "bets": 5,
+      "wins": 2,
+      "losses": 3,
+      "stake": 5.686108320543699,
+      "net_units": 1.441901662476731,
+      "roi": 0.2535832209293646
+    },
+    {
+      "threshold": 0.2,
+      "market": "Round totals",
+      "bets": 5,
+      "wins": 3,
+      "losses": 2,
+      "stake": 4.92942713565033,
+      "net_units": 1.2370080395374219,
+      "roi": 0.2509435692012163
+    },
+    {
+      "threshold": 0.2,
+      "market": "Combined",
+      "bets": 10,
+      "wins": 5,
+      "losses": 5,
+      "stake": 10.615535456194028,
+      "net_units": 2.6789097020141526,
+      "roi": 0.25235747297617883
+    },
+    {
+      "threshold": 0.4,
+      "market": "Moneyline",
+      "bets": 2,
+      "wins": 1,
+      "losses": 1,
+      "stake": 2.452500972991682,
+      "net_units": 1.9331447394031602,
+      "roi": 0.7882340356607543
+    },
+    {
+      "threshold": 0.4,
+      "market": "Round totals",
+      "bets": 2,
+      "wins": 1,
+      "losses": 1,
+      "stake": 2.9496186073270305,
+      "net_units": 0.2838198259211855,
+      "roi": 0.09622255067694511
+    },
+    {
+      "threshold": 0.4,
+      "market": "Combined",
+      "bets": 4,
+      "wins": 2,
+      "losses": 2,
+      "stake": 5.402119580318713,
+      "net_units": 2.2169645653243455,
+      "roi": 0.4103879102197789
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-10-10T18:49:52.712801+00:00",
+  "model": "gb_med_multielo_odds",
+  "training_fights": 8040,
+  "history_through": "2026-09-19",
+  "odds_source": "https://www.betus.com.pa/sportsbook/ufc/fight-night/",
+  "odds_retrieved_at": "2026-10-10T18:49:13.886636+00:00",
+  "kelly_multiplier": 10,
+  "formula_ev": "p * decimal_odds - 1",
+  "formula_units": "max(0, 10 * EV / (decimal_odds - 1))",
+  "units_are_bankroll_percentages": false,
+  "checks": "12 fights; probabilities sum to 1; both-side EV and sizing recomputed; threshold flags use unrounded EV",
+  "files_sha256": {
+    "final-dataset-names-and-ids.csv": "26dc6f7982f7eeeb6e49eef154a61c28f374e40ed068c2390c7368d4decc194d",
+    "fighters.csv": "a0d07e1ae59beec4148ec73d8531597a26fbaf94fa25a3d1fbc27e2e139b753b",
+    "total_fight_stats.csv": "54c71b0d9068addb35964145a79cdf56ffc59e5384bada65f82ec6130a22f1a7",
+    "fights.csv": "5f3a2072f9abb9b7f237edfc2f28efb5f7ff3353d1648175bd55e57959d1641f",
+    "scripts/predict_value_bets.py": "35f758e3ba9363627a434ce8d2ac7abcbe65396906c111a5f8ed12362e93f2cf"
+  }
+}

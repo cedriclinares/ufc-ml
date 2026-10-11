@@ -1,0 +1,138 @@
+{
+  "event": "UFC 332: Silva vs Wang",
+  "date": "2026-10-03",
+  "odds_source": "https://www.ufc.com/event/ufc-332",
+  "fights": [
+    {
+      "red_name": "Natalia Silva",
+      "blue_name": "Wang Cong",
+      "weight_class": "Women's Flyweight",
+      "red_odds": -205,
+      "blue_odds": 170,
+      "number_of_rounds": 5,
+      "total_line": 4.5,
+      "over_odds": -250,
+      "under_odds": 208
+    },
+    {
+      "red_name": "Deiveson Figueiredo",
+      "blue_name": "Payton Talbott",
+      "weight_class": 135,
+      "red_odds": 475,
+      "blue_odds": -650,
+      "number_of_rounds": 3,
+      "total_line": 2.5,
+      "over_odds": -110,
+      "under_odds": -106
+    },
+    {
+      "red_name": "King Green",
+      "blue_name": "Esteban Ribovics",
+      "weight_class": 155,
+      "red_odds": 185,
+      "blue_odds": -225,
+      "number_of_rounds": 3,
+      "total_line": 1.5,
+      "over_odds": -202,
+      "under_odds": 171
+    },
+    {
+      "red_name": "Roberto Soldic",
+      "blue_name": "Khaos Williams",
+      "weight_class": 170,
+      "red_odds": -270,
+      "blue_odds": 220,
+      "number_of_rounds": 3,
+      "total_line": 1.5,
+      "over_odds": -115,
+      "under_odds": -101
+    },
+    {
+      "red_name": "Ateba Gautier",
+      "blue_name": "Roman Kopylov",
+      "weight_class": 185,
+      "red_odds": -240,
+      "blue_odds": 195,
+      "number_of_rounds": 3,
+      "total_line": 1.5,
+      "over_odds": -190,
+      "under_odds": 161
+    },
+    {
+      "red_name": "Imanol Rodriguez",
+      "blue_name": "Alden Coria",
+      "weight_class": 125,
+      "red_odds": -160,
+      "blue_odds": 135,
+      "number_of_rounds": 3,
+      "total_line": 2.5,
+      "over_odds": -140,
+      "under_odds": 120
+    },
+    {
+      "red_name": "Damian Pinas",
+      "blue_name": "Andrey Pulyaev",
+      "weight_class": 185,
+      "red_odds": -550,
+      "blue_odds": 400,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Marcus McGhee",
+      "blue_name": "Anthony Romero",
+      "weight_class": 145,
+      "red_odds": -500,
+      "blue_odds": 375,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Anthony Wint",
+      "blue_name": "Lucas Armand",
+      "weight_class": 265,
+      "red_odds": -600,
+      "blue_odds": 450,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Johnny Walker",
+      "blue_name": "Mick Parkin",
+      "weight_class": 265,
+      "red_odds": -135,
+      "blue_odds": 115,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Jacobe Smith",
+      "blue_name": "Bruce Whitehead",
+      "weight_class": 170,
+      "red_odds": -1300,
+      "blue_odds": 800,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Rafael Dos Anjos",
+      "blue_name": "Alexander Hernandez",
+      "weight_class": 155,
+      "red_odds": 220,
+      "blue_odds": -270,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Marvin Vettori",
+      "blue_name": "Ismail Naurdiev",
+      "weight_class": 185,
+      "red_odds": 115,
+      "blue_odds": -135,
+      "number_of_rounds": 3
+    },
+    {
+      "red_name": "Court McGee",
+      "blue_name": "Eric Nolan",
+      "weight_class": 170,
+      "red_odds": 185,
+      "blue_odds": -225,
+      "number_of_rounds": 3
+    }
+  ],
+  "round_odds_note": "Round totals from the user-provided screenshot; moneylines retain the original recorded card prices."
+}

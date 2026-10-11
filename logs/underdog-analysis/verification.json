@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "archived_commit": "0f60c75e29cd76ac0f176ce694d71cbbfbafb2a3",
+  "full_test_fights": 1610,
+  "archived_accuracy": 0.6763975155279504,
+  "replayed_accuracy": 0.6763975155279504,
+  "archived_flat_units": -9.084862714816357,
+  "replayed_flat_units": -9.08486271481635,
+  "settlement_checks": 171,
+  "equal_odds_excluded": 22
+}

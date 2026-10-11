@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "distance_rule": "finish_round == number_of_rounds and elapsed finish_time == 300 seconds",
+    "evaluation": "Same expanding-window folds and configurations as round-duration evaluation",
+    "probability_threshold": 0.5,
+    "coverage": {
+      "feature_rows": 8040,
+      "matched_outcomes": 8040,
+      "usable_targets": 8040,
+      "excluded_rows": 0
+    },
+    "note": "Distance is defined by elapsed time, not win method. Final duration bin is not used as a decision label."
+  },
+  "results": {
+    "3": {
+      "model": {
+        "accuracy": 0.6078028747433265,
+        "balanced_accuracy": 0.6077548725637181,
+        "distance_precision": 0.6055555555555555,
+        "distance_recall": 0.6013793103448276,
+        "finish_recall": 0.6141304347826086,
+        "brier": 0.23706013338706855,
+        "log_loss": 0.6672966659649916,
+        "confusion_matrix_finish_distance": [
+          [
+            452,
+            284
+          ],
+          [
+            289,
+            436
+          ]
+        ],
+        "fights": 1461
+      },
+      "baseline": {
+        "accuracy": 0.5037645448323066,
+        "balanced_accuracy": 0.5,
+        "distance_precision": 0.0,
+        "distance_recall": 0.0,
+        "finish_recall": 1.0,
+        "brier": 0.25015274509472596,
+        "log_loss": 0.693452817947685,
+        "confusion_matrix_finish_distance": [
+          [
+            736,
+            0
+          ],
+          [
+            725,
+            0
+          ]
+        ],
+        "fights": 1461
+      },
+      "folds": 16
+    },
+    "5": {
+      "model": {
+        "accuracy": 0.6266666666666667,
+        "balanced_accuracy": 0.6199677938808374,
+        "distance_precision": 0.6065573770491803,
+        "distance_recall": 0.5362318840579711,
+        "finish_recall": 0.7037037037037037,
+        "brier": 0.24809547402579427,
+        "log_loss": 0.7286064601322554,
+        "confusion_matrix_finish_distance": [
+          [
+            57,
+            24
+          ],
+          [
+            32,
+            37
+          ]
+        ],
+        "fights": 150
+      },
+      "baseline": {
+        "accuracy": 0.54,
+        "balanced_accuracy": 0.5,
+        "distance_precision": 0.0,
+        "distance_recall": 0.0,
+        "finish_recall": 1.0,
+        "brier": 0.2554686200579749,
+        "log_loss": 0.7046553993366174,
+        "confusion_matrix_finish_distance": [
+          [
+            81,
+            0
+          ],
+          [
+            69,
+            0
+          ]
+        ],
+        "fights": 150
+      },
+      "folds": 4
+    }
+  }
+}

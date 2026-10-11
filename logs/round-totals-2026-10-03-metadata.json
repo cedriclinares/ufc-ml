@@ -1,0 +1,29 @@
+{
+  "run_utc": "2026-10-03T23:40:42.081485+00:00",
+  "model": "classifier_duration",
+  "params": {
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "learning_rate": 0.05,
+    "l2_regularization": 2,
+    "early_stopping": false,
+    "random_state": 0
+  },
+  "odds_source": "User screenshot Screenshot 2026-10-03 at 4.38.12 PM",
+  "event_date": "2026-10-03",
+  "training_through": "2026-09-19",
+  "ev_threshold": 0.4,
+  "kelly_multiplier": 3.0,
+  "cutoff_rule": "Under: ceiling-rounded duration <= line; Over: duration > line",
+  "missing": [
+    {
+      "fight": "Roberto Soldic vs Khaos Williams",
+      "line": 1.5,
+      "over_odds": -115,
+      "under_odds": -101,
+      "reason": "Missing Roberto Soldic fighter history"
+    }
+  ],
+  "sizing": "Project unit convention: 3 * EV / (decimal odds - 1); not bankroll percentages",
+  "threshold_note": "The 40% threshold is carried over from the moneyline strategy, not optimized for totals."
+}

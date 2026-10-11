@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-10-10T20:44:05.930985+00:00",
+  "model": "classifier_duration",
+  "params": {
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "learning_rate": 0.05,
+    "l2_regularization": 2,
+    "early_stopping": false,
+    "random_state": 0
+  },
+  "training_counts": {
+    "3": 7292,
+    "5": 748
+  },
+  "training_through": "2026-09-19",
+  "odds_source": "https://www.betus.com.pa/sportsbook/ufc/fight-night/",
+  "unit_multiplier": 3,
+  "target": "Elapsed duration ceiling to half rounds",
+  "cutoff_rule": "Under: class <= line; Over: class > line. Equality assigned to Under.",
+  "threshold_note": "20% and 40% thresholds carried over from moneylines; not validated for totals.",
+  "prediction_rule": "Most probable half-round category; not expected duration or decision probability",
+  "coverage": {
+    "feature_rows": 8040,
+    "matched_outcomes": 8040,
+    "usable_targets": 8040,
+    "excluded_rows": 0
+  },
+  "input_sha256": {
+    "final-dataset-names-and-ids.csv": "26dc6f7982f7eeeb6e49eef154a61c28f374e40ed068c2390c7368d4decc194d",
+    "fights.csv": "5f3a2072f9abb9b7f237edfc2f28efb5f7ff3353d1648175bd55e57959d1641f",
+    "fighters.csv": "a0d07e1ae59beec4148ec73d8531597a26fbaf94fa25a3d1fbc27e2e139b753b",
+    "total_fight_stats.csv": "54c71b0d9068addb35964145a79cdf56ffc59e5384bada65f82ec6130a22f1a7"
+  }
+}
